@@ -10,5 +10,7 @@
   * [IntServ](2.-tri-modeli-obespecheniya-qos/intserv.md)
   * [DiffServ](2.-tri-modeli-obespecheniya-qos/diffserv.md)
 * [3. Механизмы DiffServ](3.-mekhanizmy-diffserv-1.md)
+* [15. QoS](15.-qos.md)
+* [14. Packet Life](14.-packet-life.md)
 * [Untitled](untitled.md)
 
