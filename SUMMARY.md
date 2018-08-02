@@ -14,4 +14,5 @@
     * [IntServ](15.-qos/2.-tri-modeli-obespecheniya-qos/intserv.md)
     * [DiffServ](15.-qos/2.-tri-modeli-obespecheniya-qos/diffserv.md)
   * [3. Механизмы DiffServ](15.-qos/3.-mekhanizmy-diffserv-1.md)
+  * [4. Классификация и маркировка](15.-qos/4.-klassifikaciya-i-markirovka.md)
 
