@@ -8,7 +8,7 @@
 
 Схема та же:
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 Настройка политик QoS в оборудовании большинства вендоров делится на этапы.
 
@@ -51,13 +51,13 @@
   
 Пускаем обычный пинг на 172.16.2.2 \(Trisolaran2\) с Trisolaran1: 
 
-![](../../.gitbook/assets/image%20%28136%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 И в дампе между Linkmeup\_R1 и Linkmeup\_R2 увидим следующее:
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
-[pcapng](https://yadi.sk/d/h2D-6_WR3ZHWyG)  
+\_\_[_pcapng_](https://yadi.sk/d/h2D-6_WR3ZHWyG)  
   
-[Файл конфигурации Interface-Based классификации.](https://docs.google.com/document/d/e/2PACX-1vSoH4VY5HIuVDeWCk2F7_3xTGMmXcyunODWK9_BHCcCfyoAipQZS4pej-tKNcH_6UOQYeQomDqQ6Jlx/pub)
+[_Файл конфигурации Interface-Based классификации_](https://docs.google.com/document/d/e/2PACX-1vSoH4VY5HIuVDeWCk2F7_3xTGMmXcyunODWK9_BHCcCfyoAipQZS4pej-tKNcH_6UOQYeQomDqQ6Jlx/pub).
 

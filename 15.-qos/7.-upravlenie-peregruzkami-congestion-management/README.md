@@ -15,8 +15,21 @@
   
 Мы рассмотрим большинство существующих сегодня диспетчеров, начиная с самого простого:
 
-* [FIFO](http://linkmeup.ru/blog/365.html#FIFO) — только одна очередь, все в BE, С — несправедливость.
-* [PQ](http://linkmeup.ru/blog/365.html#PQ) — дорогу олигархам, холопы уступают.
-* [FQ](http://linkmeup.ru/blog/365.html#FQ) — все равны.
-* [WFQ](http://linkmeup.ru/blog/365.html#WFQ), [DWRR](http://linkmeup.ru/blog/365.html#DWRR) — все равны, но некоторые ровнее.
+* **FIFO** — только одна очередь, все в BE, С — несправедливость.
+
+  {% page-ref page="fifo-first-in-first-out.md" %}
+
+* **PQ** — дорогу олигархам, холопы уступают.
+
+  {% page-ref page="pq-priority-queuing.md" %}
+
+* **FQ** — все равны.
+
+  {% page-ref page="fq-fair-queuing.md" %}
+
+* **RR -** все равны только на бумаге
+
+  {% page-ref page="rr-round-robin.md" %}
+
+* **WFQ, DWRR** — все равны, но некоторые ровнее.
 

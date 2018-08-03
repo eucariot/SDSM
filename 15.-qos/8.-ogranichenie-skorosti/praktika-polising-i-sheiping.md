@@ -2,13 +2,13 @@
 
 Схема та же:
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 \_\_[_Файл конфигурации._](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)  
   
 Такую картину наблюдаем без применения ограничений:
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 Мы поступим следующим образом:
 
@@ -43,7 +43,7 @@ service-policy output TRISOLARANS_SHAPING
   
 И вот результат:
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 Получается достаточно ровная линия общей пропускной способности и рваные графики по каждому отдельному потоку.  
 Дело в том, что ограничиваем мы шейпером именно общую полосу. Однако в зависимости от платформы отдельные потоки тоже могут шейпиться индивидуально, таким образом получая равные возможности.  
@@ -80,7 +80,7 @@ interface Ethernet0/1
 police cir 10000000 bc 10000 conform-action transmit exceed-action drop 
 ```
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 Общая скорость сразу упала до примерно 2Мб/с.  
 Будьте аккуратнее с настройкой всплесков:\)  
