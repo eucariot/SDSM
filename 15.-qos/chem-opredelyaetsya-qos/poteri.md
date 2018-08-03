@@ -7,14 +7,8 @@
 
 ![](../../.gitbook/assets/image%20%2840%29.png)
 
-Как управлять потерями, если они неизбежны, в главе
-
-{% page-ref page="../7.-upravlenie-peregruzkami-congestion-management/" %}
-
-  
-Как использовать потери во благо в главе
-
-{% page-ref page="../6.-predotvrashenie-peregruzok-congestion-avoidance/" %}
+Как управлять потерями, если они неизбежны, в главе [Управление перегрузками](../7.-upravlenie-peregruzkami-congestion-management/).  
+Как использовать потери во благо в главе [Предотвращение перегрузок](../6.-predotvrashenie-peregruzok-congestion-avoidance/).
 
 
 

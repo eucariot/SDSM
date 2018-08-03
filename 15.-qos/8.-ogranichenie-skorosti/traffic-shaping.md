@@ -23,7 +23,5 @@
   
 Главное достоинство такого подхода — оптимальное использование имеющейся полосы — вместо дропа чрезмерного трафика, мы его откладываем.  
 Главный недостаток — непредсказуемая задержка — при заполнении буфера, пакеты будут томиться в нём долго. Поэтому не для всех типов трафика шейпинг хорошо подходит.  
-Shaping использует механизм Leaky Bucket.
-
-{% page-ref page="mekhanizmy-leaky-bucket-i-token-bucket/algoritm-leaky-bucket.md" %}
+Shaping использует механизм [Leaky Bucket](mekhanizmy-leaky-bucket-i-token-bucket/algoritm-leaky-bucket.md).
 

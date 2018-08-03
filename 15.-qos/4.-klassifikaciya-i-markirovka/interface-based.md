@@ -59,5 +59,5 @@
 
 \_\_[_pcapng_](https://yadi.sk/d/h2D-6_WR3ZHWyG)  
   
-[_Файл конфигурации Interface-Based классификации_](https://docs.google.com/document/d/e/2PACX-1vSoH4VY5HIuVDeWCk2F7_3xTGMmXcyunODWK9_BHCcCfyoAipQZS4pej-tKNcH_6UOQYeQomDqQ6Jlx/pub).
+[_Файл конфигурации Interface-Based классификации_](https://docs.google.com/document/d/e/2PACX-1vSoH4VY5HIuVDeWCk2F7_3xTGMmXcyunODWK9_BHCcCfyoAipQZS4pej-tKNcH_6UOQYeQomDqQ6Jlx/pub)
 

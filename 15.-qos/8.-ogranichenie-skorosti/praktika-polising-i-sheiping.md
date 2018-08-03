@@ -65,7 +65,7 @@ interface Ethernet0/1
 ```
 
 Здесь указываем среднюю разрешённую скорость 10Mб/с и разрешённый всплеск 1 875 000 байтов \(около 14,6 МБ\).  
-Позже, [объясняя, как работает полисер](http://linkmeup.ru/blog/365.html#TOKEN-BUCKET), я расскажу, как эти величины определять.  
+Позже, [объясняя, как работает полисер](mekhanizmy-leaky-bucket-i-token-bucket/algoritm-token-bucket.md), я расскажу, как эти величины определять.  
   
 [_Файл конфигурации полисера._](https://docs.google.com/document/d/e/2PACX-1vTl81fiPO4MFeznoyoCGOF_rHbt7p7jUS0WosHgPVNObZo_WtMwThneBdu1LUUG9A0OFxBtmKOYXOUE/pub)  
   

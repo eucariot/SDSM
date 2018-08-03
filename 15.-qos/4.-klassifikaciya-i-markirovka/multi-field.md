@@ -69,7 +69,7 @@ ICMP-тест с конечного хоста Trisolaran1. Никак созн�
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-[pcapng](https://yadi.sk/d/dT8QCu7n3YkjZ4)  
+[_pcapng_](https://yadi.sk/d/dT8QCu7n3YkjZ4)  
 
 
   
@@ -77,7 +77,7 @@ ICMP-тест с конечного хоста Trisolaran1. Никак созн�
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
-[pcapng](https://yadi.sk/d/3OOzH2Ww3YkjZ9)  
+[_pcapng_](https://yadi.sk/d/3OOzH2Ww3YkjZ9)  
 
 
   
