@@ -1,16 +1,16 @@
 # DiffServ
 
-DiffServ сложный.  
+    _DiffServ сложный._  
   
-Когда в конце 90-х стало понятно, что End-to-End подход IntServ в IP провалился, в IETF созвали в 1997 рабочую группу «Differentiated Services», которая выработала следующие требования к новой модели QoS:
+    Когда в конце 90-х стало понятно, что End-to-End подход IntServ в IP провалился, в IETF созвали в 1997 рабочую группу «Differentiated Services», которая выработала следующие требования к новой модели QoS:
 
 * Никакой сигнализации \(Адьёс, RSVP!\).
 * Основан на агрегированной классификации трафика, вместо акцента на потоках, клиентах итд.
 * Имеет ограниченный и детерминированный набор действий по обработке трафика данных классов.
 
-В результате в 1998 родились эпохальные [RFC 2474](https://tools.ietf.org/html/rfc2474) \(_Definition of the Differentiated Services Field \(DS Field\) in the IPv4 and IPv6 Headers_\) и [RFC 2475](https://tools.ietf.org/html/rfc2475) \(_An Architecture for Differentiated Services_\).  
+    В результате в 1998 родились эпохальные [RFC 2474](https://tools.ietf.org/html/rfc2474) \(_Definition of the Differentiated Services Field \(DS Field\) in the IPv4 and IPv6 Headers_\) и [RFC 2475](https://tools.ietf.org/html/rfc2475) \(_An Architecture for Differentiated Services_\).  
   
-И дальше всю дорогу мы будем говорить только о DiffServ.
+    И дальше всю дорогу мы будем говорить только о DiffServ.
 
 > Стоит обратить внимание, что название DiffServ — это не антитеза IntServ. Оно отражает, что мы дифференцируем сервисы, предоставляемые различным типам трафика, иными словами разделяем/дифференцируем эти типы трафика.  
 > IntServ делает то же самое — он различает типы трафика BE и Real-Time, передающиеся на одной сети. Оба: и IntServ и DiffServ — относятся к способам дифференциации сервисов.
