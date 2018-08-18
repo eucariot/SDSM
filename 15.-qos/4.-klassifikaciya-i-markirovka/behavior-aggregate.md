@@ -20,7 +20,7 @@
     Ещё до появления DiffServ [RFC 791](https://tools.ietf.org/html/rfc791) \(INTERNET PROTOCOL\) описывал поле так:  
 IP Precedence \(IPP\) + DTR + 00.
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/image%20%28145%29.png)
 
   
     То есть идёт приоритет пакета, далее биты требовательности к Delay, Throughput, Reliability \(0 — без требований, 1 — с требованиями\).  
@@ -42,7 +42,7 @@ IP Precedence \(IPP\) + DTR + 00.
 
     Чуть позже в [RFC 1349](https://tools.ietf.org/html/rfc1349) \(_Type of Service in the Internet Protocol Suite_\) поле TOS немного переопределили:
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
     Левые три бита остались IP Precedence, четыре следующих превратились в TOS после добавления бита Cost. 
 
@@ -61,7 +61,7 @@ IP Precedence \(IPP\) + DTR + 00.
   
     Поэтому в контексте DiffServ поле TOS ещё раз переопределили в [RFC 2474](https://tools.ietf.org/html/rfc2474) \(_Definition of the Differentiated Services Field \(DS Field\) in the IPv4 and IPv6 Headers_\):
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
   
     Вместо битов IPP и DTRC ввели шестибитовое поле DSCP — **Differentiated Services Code Point**, два правых бита не были использованы.  
@@ -72,7 +72,7 @@ IP Precedence \(IPP\) + DTR + 00.
 
 То есть, как и в IPP, 3 бита Class Selector позволяют определить 8 классов.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
   
     Однако это всё же не более, чем договорённость, которую в пределах своего DS-домена, администратор может легко игнорировать и использовать все 6 бит по усмотрению.
@@ -105,7 +105,7 @@ ECN является одним из механизмов предотвраще
     Не помешает немного практики.   
 Схема та же.
 
-![](../../.gitbook/assets/image%20%28137%29.png)
+![](../../.gitbook/assets/image%20%28192%29.png)
 
     Для начала просто отправим запрос ICMP:
 
@@ -121,7 +121,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R1. E0/0.**
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](../../.gitbook/assets/image%20%28193%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/qunzFzOZ3YkE3W)  
   
@@ -141,7 +141,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 {% hint style="success" %}
  Таблица стандартных значений TOS для удобных попингушек:
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 {% endhint %}
 
 \_\_[_Подробнее_](https://www.tucny.com/Home/dscp-tos)\_\_
@@ -151,7 +151,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R2. E0/0**
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/dCu1DUFS3YkEA3)  
   
@@ -159,7 +159,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R2. E0/0**
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28177%29.png)
 
 \_\_[_Файл конфигурации DSCP классификации_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
 
@@ -169,7 +169,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
     Да, появился Flow Label. Говорят, что его можно было бы использовать для дополнительной дифференциации классов. Но применения в жизни эта идея пока нигде не нашла.
 
-![](../../.gitbook/assets/image%20%28127%29.png)
+![](../../.gitbook/assets/image%20%28179%29.png)
 
 ## MPLS Traffic Class
 
@@ -179,7 +179,7 @@ DiffServ нельзя было не распространить на него.
     По счастливой случайности в MPLS заложили трёхбитовое поле EXP на всякий экспериментальный случай. И несмотря на то, что уже давным-давно в [RFC 5462](https://tools.ietf.org/html/rfc5462) \(_«EXP» Field Renamed to «Traffic Class» Field_\) официально стало полем Traffic Class, по инерции его называют ИЭксПи.  
 С ним есть одна проблема — его длина три бита, что ограничивает число возможных значений до 9. Это не просто мало, это на 3 двоичных порядка меньше, чем у DSCP.
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
     Учитывая, что часто MPLS Traffic Class наследуется из DSCP IP-пакета, имеем архивацию с потерей. Или же… Нет, вы не хотите этого знать… [L-LSP](http://linkmeup.ru/blog/302.html#MPLS-TE-DIFFSERV). Использует комбинацию Traffic Class + значение метки. 
 
@@ -247,7 +247,7 @@ DiffServ нельзя было не распространить на него.
 
     Схема та же:
 
-![](../../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/image%20%28160%29.png)
 
 \_\_[_Файл конфигурации тот же_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)  
   
@@ -256,7 +256,7 @@ DiffServ нельзя было не распространить на него.
   
 **Linkmeup\_R2. E0/0.**
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28185%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/CN3OUB8y3Ykb3o)  
   
@@ -271,7 +271,7 @@ DiffServ нельзя было не распространить на него.
 По счастью к этому моменту подоспел 802.1q \(VLAN\), в котором выделили 3-битовое \(опять\) поле под приоритеты.  
 В плане DiffServ это поле позволяет определить те же 8 классов трафика.
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%28115%29.png)
 
     При получении пакета сетевое устройство DS-домена в большинстве случаев берёт в рассмотрение тот заголовок, который оно использует для коммутации:
 

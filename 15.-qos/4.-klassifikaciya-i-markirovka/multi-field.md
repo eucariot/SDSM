@@ -8,7 +8,7 @@
 
     Схема та же:
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28157%29.png)
 
     Из практических примеров выше видно, что устройства сети по умолчанию доверяют маркировке приходящих пакетов.  
 Это прекрасно внутри DS-домена, но неприемлемо в точке входа.  
@@ -61,13 +61,13 @@
     ICMP-тест с конечного хоста Trisolaran1. Никак сознательно не указываем класс — по умолчанию 0.  
 **Политику с Linkmeup\_R1 я уже убрал, поэтому трафик приходит с маркировкой CS0, а не CS7.**
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28138%29.png)
 
     Вот два дампа рядом, с Linkmeup\_R1 и с Linkmeup\_R2:  
   
 **Linkmeup\_R1. E0/0.**
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 [_pcapng_](https://yadi.sk/d/dT8QCu7n3YkjZ4)
 
@@ -82,7 +82,7 @@
   
     Аналогичный тест с telnet 172.16.2.2. 80 — так проверим TCP:
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 \*\*\*\*
 
@@ -96,7 +96,7 @@
   
 **Linkmeup\_R2. E0/0.**
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 [_pcapng_](https://yadi.sk/d/GdyZtBI-3YkkZa)  
 
@@ -105,20 +105,20 @@
   
     Следующим тестом проверим UDP, который должен попасть в CS0 согласно нашим классификаторам. Для этого воспользуемся iperf \(привезти его в Linux Tiny Core изи через Apps\). На удалённой стороне **iperf3 -s** — запускаем сервер, на локальной **iperf3 -c -u -t1** — клиент \(**-c**\), протокол UDP \(**-u**\), тест в течение 1 секунды \(**-t1**\).
 
-![](../../.gitbook/assets/image%20%2887%29.png)
+![](../../.gitbook/assets/image%20%28118%29.png)
 
 \*\*\*\*
 
 **Linkmeup\_R1. E0/0.**
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 
 [_pcapng_](https://yadi.sk/d/FG9eNhV93YkoD7)  
 
 
 **Linkmeup\_R2. E0/0**
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
 [_pcapng_](https://yadi.sk/d/t3hRvRMk3YkoDR)  
 
