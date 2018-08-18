@@ -2,13 +2,13 @@
 
     Схема та же:
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 \_\_[_Файл конфигурации._](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)  
   
     Такую картину наблюдаем без применения ограничений:
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
     Мы поступим следующим образом:
 
@@ -43,7 +43,7 @@ service-policy output TRISOLARANS_SHAPING
   
     И вот результат:
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
     Получается достаточно ровная линия общей пропускной способности и рваные графики по каждому отдельному потоку.  
 Дело в том, что ограничиваем мы шейпером именно общую полосу. Однако в зависимости от платформы отдельные потоки тоже могут шейпиться индивидуально, таким образом получая равные возможности.  
@@ -64,8 +64,9 @@ interface Ethernet0/1
  service-policy input TRISOLARANS_ADMISSION_CONTROL
 ```
 
-    Здесь указываем среднюю разрешённую скорость 10Mб/с и разрешённый всплеск 1 875 000 байтов \(около 14,6 МБ\).  
-Позже, [объясняя, как работает полисер](mekhanizmy-leaky-bucket-i-token-bucket/algoritm-token-bucket.md), я расскажу, как эти величины определять.  
+Здесь указываем среднюю разрешённую скорость CIR \(10Mб/с\) и разрешённый всплеск Bc \(1 875 000 байтов или около 14,6 МБ\).
+
+Позже, [объясняя, как работает полисер](mekhanizmy-leaky-bucket-i-token-bucket/algoritm-token-bucket.md), я расскажу, что за CIR да Bc и как эти величины определять.      
   
 [_Файл конфигурации полисера._](https://docs.google.com/document/d/e/2PACX-1vTl81fiPO4MFeznoyoCGOF_rHbt7p7jUS0WosHgPVNObZo_WtMwThneBdu1LUUG9A0OFxBtmKOYXOUE/pub)  
   
@@ -80,7 +81,7 @@ interface Ethernet0/1
 police cir 10000000 bc 10000 conform-action transmit exceed-action drop 
 ```
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
     Общая скорость сразу упала до примерно 2Мб/с.  
 Будьте аккуратнее с настройкой всплесков:\)  

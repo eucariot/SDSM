@@ -8,7 +8,7 @@
 
     Схема та же:
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
     Настройка политик QoS в оборудовании большинства вендоров делится на этапы.
 
@@ -48,14 +48,17 @@
    >
    > Однако политика на самом деле может быть применена на vlanif или на выходной интерфейс, поэтому можно.
 
-  
+{% hint style="warning" %}
+Здесь я забегаю вперёд, используя непонятные CS7, а далее EF, AF. [Ниже](rekomendacii-ietf-kategorii-trafika-klassy-servisa-i-modeli-povedeniya.md) можно прочитать про эти аббревиатуры и принятые договорённости. Пока же достаточно знать, что это разные классы с разным уровнем сервиса.
+{% endhint %}
+
 Пускаем обычный пинг на 172.16.2.2 \(Trisolaran2\) с Trisolaran1: 
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
     И в дампе между Linkmeup\_R1 и Linkmeup\_R2 увидим следующее:
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/h2D-6_WR3ZHWyG)  
   
