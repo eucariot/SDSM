@@ -20,7 +20,7 @@
     Ещё до появления DiffServ [RFC 791](https://tools.ietf.org/html/rfc791) \(INTERNET PROTOCOL\) описывал поле так:  
 IP Precedence \(IPP\) + DTR + 00.
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](../../.gitbook/assets/image%20%28146%29.png)
 
   
     То есть идёт приоритет пакета, далее биты требовательности к Delay, Throughput, Reliability \(0 — без требований, 1 — с требованиями\).  
@@ -105,7 +105,7 @@ ECN является одним из механизмов предотвраще
     Не помешает немного практики.   
 Схема та же.
 
-![](../../.gitbook/assets/image%20%28192%29.png)
+![](../../.gitbook/assets/image%20%28195%29.png)
 
     Для начала просто отправим запрос ICMP:
 
@@ -121,7 +121,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R1. E0/0.**
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28196%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/qunzFzOZ3YkE3W)  
   
@@ -141,7 +141,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 {% hint style="success" %}
  Таблица стандартных значений TOS для удобных попингушек:
 
-![](../../.gitbook/assets/image%20%28141%29.png)
+![](../../.gitbook/assets/image%20%28142%29.png)
 {% endhint %}
 
 \_\_[_Подробнее_](https://www.tucny.com/Home/dscp-tos)\_\_
@@ -151,7 +151,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R2. E0/0**
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28156%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/dCu1DUFS3YkEA3)  
   
@@ -159,7 +159,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
 **Linkmeup\_R2. E0/0**
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](../../.gitbook/assets/image%20%28179%29.png)
 
 \_\_[_Файл конфигурации DSCP классификации_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
 
@@ -169,7 +169,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
   
     Да, появился Flow Label. Говорят, что его можно было бы использовать для дополнительной дифференциации классов. Но применения в жизни эта идея пока нигде не нашла.
 
-![](../../.gitbook/assets/image%20%28179%29.png)
+![](../../.gitbook/assets/image%20%28181%29.png)
 
 ## MPLS Traffic Class
 
@@ -247,7 +247,7 @@ DiffServ нельзя было не распространить на него.
 
     Схема та же:
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 \_\_[_Файл конфигурации тот же_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)  
   
@@ -256,7 +256,7 @@ DiffServ нельзя было не распространить на него.
   
 **Linkmeup\_R2. E0/0.**
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../.gitbook/assets/image%20%28187%29.png)
 
 \_\_[_pcapng_](https://yadi.sk/d/CN3OUB8y3Ykb3o)  
   
@@ -271,7 +271,7 @@ DiffServ нельзя было не распространить на него.
 По счастью к этому моменту подоспел 802.1q \(VLAN\), в котором выделили 3-битовое \(опять\) поле под приоритеты.  
 В плане DiffServ это поле позволяет определить те же 8 классов трафика.
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
     При получении пакета сетевое устройство DS-домена в большинстве случаев берёт в рассмотрение тот заголовок, который оно использует для коммутации:
 
