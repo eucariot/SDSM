@@ -3,6 +3,7 @@
 * [Сети для самых маленьких](README.md)
 * [0. Планирование](0.-planirovanie/README.md)
   * [Документация сети](0.-planirovanie/dokumentaciya-seti.md)
+    * Список VLAN
 * [14. Packet Life](14.-packet-life/README.md)
   * [1. Коротко о судьбе и пути пакета](14.-packet-life/1.-korotko-o-sudbe-i-puti-paketa.md)
   * [2. Уровни и плоскости](14.-packet-life/2.-urovni-i-ploskosti/README.md)
