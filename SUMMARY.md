@@ -77,5 +77,6 @@
   * [9. Аппаратная реализация QoS](15.-qos/9.-apparatnaya-realizaciya-qos.md)
   * [Полезные ссылки](15.-qos/poleznye-ssylki.md)
   * [Спасибы](15.-qos/spasibo.md)
-* [0. Планирование](0.-planirovanie.md)
+* [0. Планирование](0.-planirovanie/README.md)
+  * [Документация сети](0.-planirovanie/dokumentaciya-seti.md)
 
