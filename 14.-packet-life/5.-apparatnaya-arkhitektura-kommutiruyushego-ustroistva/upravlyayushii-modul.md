@@ -13,15 +13,13 @@
 
 Так выглядят управляющие платы разных устройств
 
-![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image%20%28177%29.png)
+![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image%20%28179%29.png)
 
 Та половина, что ближе к нам. Та, что ближе к шине, — это фабрика коммутации.
 
-
-
 ![Huawei NE40E-X8 MPU](../../.gitbook/assets/image%20%2841%29.png)
 
-![Juniper RE100](../../.gitbook/assets/image%20%28150%29.png)
+![Juniper RE100](../../.gitbook/assets/image%20%28152%29.png)
 
 ![RE Juniper 1800](../../.gitbook/assets/image%20%2815%29.png)
 

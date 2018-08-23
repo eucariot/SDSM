@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Сети для самых маленьких](README.md)
 * [0. Планирование](0.-planirovanie/README.md)
