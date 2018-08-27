@@ -12,8 +12,6 @@
 * Про WFQ очень научно, но при должно интеллекте, коим, очевидно, я не обладаю, понятно и в цветах: [Weighted Fair Queueing: a packetized approximation for FFS/GP](http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/11-Fairness/WFQ.html).
 * Есть ещё механизм LFI, который я затрагивать не стал, потому что сложно и в наших реалиях стогигиабитных интерфейсов не очень актуально, однако ознакомиться может быть интересно: [Link Fragmentation and Interleaving](https://www.ccexpert.us/traffic-shaping-2/link-fragmentation-and-interleaving.html).
 
-
-
 Ну и, конечно, набор RFC:
 
 * [tools.ietf.org/html/rfc791](https://tools.ietf.org/html/rfc791) \(_INTERNET PROTOCOL_\)
