@@ -2,7 +2,12 @@
 
 * [Сети для самых маленьких](README.md)
 * [0. Планирование](0.-planirovanie/README.md)
-  * [Документация сети](0.-planirovanie/dokumentaciya-seti.md)
+  * [1. Документация сети](0.-planirovanie/dokumentaciya-seti.md)
+  * [2. Схемы сети](shemi-seti.md)
+  * [3. IP-план](0.-planirovanie/ip-plan.md)
+  * [4. Список VLAN](0.-planirovanie/spisok-vlan.md)
+  * [5. План подключения оборудования по портам](0.-planirovanie/plan-podklyucheniya-oborudovaniya-po-portam.md)
+  * [Заключение](zaklyuchenie.md)
 * [14. Packet Life](14.-packet-life/README.md)
   * [1. Коротко о судьбе и пути пакета](14.-packet-life/1.-korotko-o-sudbe-i-puti-paketa.md)
   * [2. Уровни и плоскости](14.-packet-life/2.-urovni-i-ploskosti/README.md)
