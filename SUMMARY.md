@@ -12,7 +12,7 @@
 * [3. Статическая маршрутизация](3. Статическая маршрутизация.md)
 * [5. ACL и NAT](5. ACL и NAT.md)
 * [6. Динамическая маршрутизация](6. Динамическая маршрутизация)
-* [7. VPN](7. VPN.md)
+* [7. VPN](7.-vpn.md)
 * [14. Packet Life](14.-packet-life/README.md)
   * [1. Коротко о судьбе и пути пакета](14.-packet-life/1.-korotko-o-sudbe-i-puti-paketa.md)
   * [2. Уровни и плоскости](14.-packet-life/2.-urovni-i-ploskosti/README.md)
