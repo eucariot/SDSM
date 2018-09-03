@@ -11,7 +11,7 @@
 * [2. Сети для самых маленьких. Часть вторая. Коммутация](2.-switching.md)
 * [3. Статическая маршрутизация](3.-static_routing.md)
 * [5. ACL и NAT](5.-acl_and_nat.md)
-* [6. Динамическая маршрутизация](6. Динамическая маршрутизация)
+* [6. Динамическая маршрутизация](6.-dynamic_routing.md)
 * [7. VPN](7.-vpn.md)
 * [14. Packet Life](14.-packet-life/README.md)
   * [1. Коротко о судьбе и пути пакета](14.-packet-life/1.-korotko-o-sudbe-i-puti-paketa.md)
