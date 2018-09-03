@@ -10,7 +10,7 @@
   * [Заключение](zaklyuchenie.md)
 * [2. Сети для самых маленьких. Часть вторая. Коммутация](2.-switching.md)
 * [3. Статическая маршрутизация](3.-static_routing.md)
-* [5. ACL и NAT](5. ACL и NAT.md)
+* [5. ACL и NAT](5.-acl_and_nat.md)
 * [6. Динамическая маршрутизация](6. Динамическая маршрутизация)
 * [7. VPN](7.-vpn.md)
 * [14. Packet Life](14.-packet-life/README.md)
