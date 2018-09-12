@@ -20,7 +20,7 @@
 
 Так выглядит Juniper MIC \(Modular Interface Card\), совмещённый с чипом PIC.
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image-40.png)
 
 Обычно чипы PIC — это ASIC.
 
