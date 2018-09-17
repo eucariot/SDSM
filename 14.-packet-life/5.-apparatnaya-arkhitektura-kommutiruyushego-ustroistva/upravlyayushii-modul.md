@@ -1,6 +1,6 @@
 # Управляющий модуль
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image-68.png)
 
 На нём расположены CPU, оперативная память, постоянная память для хранения ПО, конфигурации и логов, интерфейсы для управления.  
 Он отвечает за Management Plane и за Control Plane.  
@@ -13,15 +13,15 @@
 
 Так выглядят управляющие платы разных устройств
 
-![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image%20%28179%29.png)
+![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image-179.png)
 
 Та половина, что ближе к нам. Та, что ближе к шине, — это фабрика коммутации.
 
-![Huawei NE40E-X8 MPU](../../.gitbook/assets/image%20%2841%29.png)
+![Huawei NE40E-X8 MPU](../../.gitbook/assets/image-41.png)
 
-![Juniper RE100](../../.gitbook/assets/image%20%28152%29.png)
+![Juniper RE100](../../.gitbook/assets/image-152.png)
 
-![RE Juniper 1800](../../.gitbook/assets/image%20%2815%29.png)
+![RE Juniper 1800](../../.gitbook/assets/image-15.png)
 
 На всех фотографиях вы можете легко найти CPU, RAM и батарейку BIOS. На некоторых есть HDD, на других Compact Flash. Да, вы правы — это обычный ПК. Причём современные управляющие платы действительно имеют производительность на уровне компьютера 5-6 летнего возраста.
 

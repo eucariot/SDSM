@@ -4,7 +4,7 @@
 Схема та же:
 ```
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image-59.png)
 
 \_\_[_Файл конфигурации._](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
 
@@ -12,7 +12,7 @@
 Такую картину наблюдаем без применения ограничений:
 ```
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image-86.png)
 
 ```text
 Мы поступим следующим образом:
@@ -49,7 +49,7 @@ service-policy output TRISOLARANS_SHAPING
 ```
 
 ```text
-Всё, что должно покинуть \(output\) интерфейс Ethernet0/2, шейпим до 20 Мб/с.  
+Всё, что должно покинуть \(output\) интерфейс Ethernet0/2, шейпим до 20 Мб/с.
 ```
 
 [_Файл конфигурации шейпера._](https://docs.google.com/document/d/e/2PACX-1vQ0FLKJi6_dxwvmvIWKISVSZIurHrw896wEBuXVTbkoo677VFS0S5cZv6FCJrBqhmAsaDChoUvR4172/pub)
@@ -58,16 +58,16 @@ service-policy output TRISOLARANS_SHAPING
 И вот результат:
 ```
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image-133.png)
 
 ```text
-Получается достаточно ровная линия общей пропускной способности и рваные графики по каждому отдельному потоку.  
+Получается достаточно ровная линия общей пропускной способности и рваные графики по каждому отдельному потоку.
 ```
 
 Дело в том, что ограничиваем мы шейпером именно общую полосу. Однако в зависимости от платформы отдельные потоки тоже могут шейпиться индивидуально, таким образом получая равные возможности.
 
 ```text
-Теперь настроим полисинг на Linkmeup\_R2.  
+Теперь настроим полисинг на Linkmeup\_R2.
 ```
 
 К существующей политике добавим полисер.
@@ -97,7 +97,7 @@ interface Ethernet0/1
 Такая картина наблюдается при полисинге. Сразу видно резкие изменения уровня скорости:
 ```
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image-13.png)
 
 ```text
 А вот такая любопытная картина получается, если мы сделаем слишком маленьким допустимый размер всплеска, например, 10 000 байтов.
@@ -107,10 +107,10 @@ interface Ethernet0/1
 police cir 10000000 bc 10000 conform-action transmit exceed-action drop
 ```
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image-83.png)
 
 ```text
-Общая скорость сразу упала до примерно 2Мб/с.  
+Общая скорость сразу упала до примерно 2Мб/с.
 ```
 
 Будьте аккуратнее с настройкой всплесков:\)

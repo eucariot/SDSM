@@ -3,19 +3,19 @@
 Общая шина \(она же Back Plane, она же Midplane\) устройства, связывающая друг с другом все модули.  
 Обычно, это просто батарея медных контактов без каких-либо микросхем.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image-8.png)
 
 Так выглядит задняя часть платы, которая вставляется в шину
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image-67.png)
 
 Так выглядит общая шина Juniper
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image-81.png)
 
 Так выглядит общая шина Huawei
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image-194.png)
 
 Вот эти две полоски посередине, набитые медными контактами — слоты для [фабрик коммутации](fabrika-kommutacii.md).
 

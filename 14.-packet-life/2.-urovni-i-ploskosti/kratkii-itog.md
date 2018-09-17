@@ -7,7 +7,7 @@
 
 Вместе они составляют самодостаточный узел в сети пакетной коммутации.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image-10.png)
 
 Разделение на Control и Forwarding/Data Plane — не абстрактное — их функции действительно выполняют разные чипы на плате.  
 Так Control Plane обычно реализован на связке CPU+RAM+карта памяти, а Forwarding Plane на ASIC, FPGA, CAM, TCAM.  
