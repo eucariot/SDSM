@@ -10,3 +10,4 @@
 [Наш коллега хабраюзер написал несколько статей по особенностям NAT](http://habrahabr.ru/users/ilyapodkopaev/topics/). Особенно интересна может быть [данная статья](http://habrahabr.ru/post/84060/).  
 [Но как бы то ни было, никто не напишет о cisco лучше, чем cisco](http://www.cisco.com/en/US/tech/tk648/tk361/technologies_tech_note09186a0080094831.shtml)  
 [Обратная маска](http://habrahabr.ru/post/131712/)
+[NAT не firewall](https://habr.com/post/134638/)
