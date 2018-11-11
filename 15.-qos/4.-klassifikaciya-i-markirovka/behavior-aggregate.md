@@ -1,8 +1,6 @@
 # Behavior Aggregate
 
-```text
 В BA используется очень простая классификация — вижу цифру — понимаю класс.
-```
 
 Так что же за цифра? И в какое поле она записывается?
 
@@ -17,19 +15,14 @@
 
 ## IPv4 TOS
 
-```text
 Поле QoS сопутствует нам ровно столько же, сколько и IP. Восьмибитовое поле TOS — Type Of Service — по задумке должно было нести приоритет пакета.  
-
 Ещё до появления DiffServ [RFC 791](https://tools.ietf.org/html/rfc791) \(INTERNET PROTOCOL\) описывал поле так:
-```
 
 IP Precedence \(IPP\) + DTR + 00.
 
 ![](../../.gitbook/assets/image-148.png)
 
-```text
 То есть идёт приоритет пакета, далее биты требовательности к Delay, Throughput, Reliability \(0 — без требований, 1 — с требованиями\).
-```
 
 Последние два бита должны быть нулём.
 
@@ -46,26 +39,22 @@ IP Precedence \(IPP\) + DTR + 00.
 000 — Routine
 {% endhint %}
 
-```text
 Чуть позже в [RFC 1349](https://tools.ietf.org/html/rfc1349) \(_Type of Service in the Internet Protocol Suite_\) поле TOS немного переопределили:
-```
 
 ![](../../.gitbook/assets/image-54.png)
 
-```text
 Левые три бита остались IP Precedence, четыре следующих превратились в TOS после добавления бита Cost.
-```
 
 {% hint style="info" %}
-
 Вот как следовало читать единицы в этих битах TOS:
 
-* D — «minimize **d**elay»
-* T — «maximize **t**hroughput»
-* R — «maximize **r**eliability»
-* C — «minimize **c**ost»
+* D — «minimize **d**elay»,
+* T — «maximize **t**hroughput»,
+* R — «maximize **r**eliability»,
+* C — «minimize **c**ost».
+{% endhint %}
 
-  Туманные описания не способствовали популярности этого подхода.
+* Туманные описания не способствовали популярности этого подхода.
 
   Системный подход к QoS на всём протяжении пути отсутствовал, чётких рекомендаций, как использовать поле приоритета тоже не было, описание битов Delay, Throughput и Reliability было крайне туманным.
 
@@ -73,9 +62,7 @@ IP Precedence \(IPP\) + DTR + 00.
 
 ![](../../.gitbook/assets/image-35.png)
 
-```text
 Вместо битов IPP и DTRC ввели шестибитовое поле DSCP — **Differentiated Services Code Point**, два правых бита не были использованы.
-```
 
 С этого момента именно поле DSCP должно было стать главной маркировкой DiffServ: в него записывается определённое значение \(код\), которое в пределах данного DS-домена характеризует конкретный класс сервиса, необходимый пакету и его приоритет отбрасывания. Это та самая цифра.
 
@@ -86,9 +73,7 @@ IP Precedence \(IPP\) + DTR + 00.
 
 ![](../../.gitbook/assets/image-38.png)
 
-```text
 Однако это всё же не более, чем договорённость, которую в пределах своего DS-домена, администратор может легко игнорировать и использовать все 6 бит по усмотрению.
-```
 
 [Далее](rekomendacii-ietf-kategorii-trafika-klassy-servisa-i-modeli-povedeniya.md) также замечу, что согласно рекомендациям IETF, чем выше значение, записанное в CS, тем требовательнее этот трафик к сервису.
 
@@ -115,17 +100,13 @@ ECN является одним из механизмов предотвраще
 
 ### Практика по классификации DSCP
 
-```text
 Не помешает немного практики.
-```
 
 Схема та же.
 
 ![](../../.gitbook/assets/image-197.png)
 
-```text
 Для начала просто отправим запрос ICMP:
-```
 
 ```text
 Linkmeup_R1#ping ip 172.16.2.2 source 172.16.1.1
@@ -140,11 +121,9 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 
 ![](../../.gitbook/assets/image-198.png)
 
-\_\_[_pcapng_](https://yadi.sk/d/qunzFzOZ3YkE3W)
+[_pcapng_](https://yadi.sk/d/qunzFzOZ3YkE3W)
 
-```text
 А теперь с установленным значением DSCP:
-```
 
 ```text
 Linkmeup_R1#ping ip 172.16.2.2 source 172.16.1.1 tos 184
@@ -155,9 +134,7 @@ Packet sent with a source address of 172.16.1.1
 Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 ```
 
-```text
 Значение 184 — это десятичное представление двоичного 10111000. Из них первые 6 бит — это 101110, то есть десятичные 46, а это класс EF.
-```
 
 {% hint style="success" %}
 Таблица стандартных значений TOS для удобных попингушек:
@@ -165,77 +142,57 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 ![](../../.gitbook/assets/image-144.png)
 {% endhint %}
 
-\_\_[_Подробнее_](https://www.tucny.com/Home/dscp-tos)\_\_
+[_Подробнее_](https://www.tucny.com/Home/dscp-tos)
 
-```text
 Ниже по тексту в главе Рекомендации IETF я расскажу, откуда взялись и эти цифры и названия.
-```
 
 **Linkmeup\_R2. E0/0**
 
 ![](../../.gitbook/assets/image-158.png)
 
-\_\_[_pcapng_](https://yadi.sk/d/dCu1DUFS3YkEA3)
+[_pcapng_](https://yadi.sk/d/dCu1DUFS3YkEA3)
 
-```text
 Любопытное замечание: адресат попингушек в ICMP Echo reply устанавливает такое же значение класса, как было в Echo Request. Это логично — если отправитель послал пакет с определённым уровнем важности, то, очевидно, он хочет получить его гарантировано назад.
-```
 
 **Linkmeup\_R2. E0/0**
 
 ![](../../.gitbook/assets/image-181.png)
 
-\_\_[_Файл конфигурации DSCP классификации_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
+[_Файл конфигурации DSCP классификации_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
 
 ## IPv6 Traffic Class
 
-```text
 IPv6 мало чем в вопросе QoS отличается от IPv4. Восьмибитовое поле, называемое Traffic Class, также разбито на две части. Первые 6 бит — DSCP — играют ровно ту же роль.  
-
 Да, появился Flow Label. Говорят, что его можно было бы использовать для дополнительной дифференциации классов. Но применения в жизни эта идея пока нигде не нашла.
-```
 
 ![](../../.gitbook/assets/image-183.png)
 
 ## MPLS Traffic Class
 
-```text
 Концепция DiffServ была ориентирована на IP-сети с маршрутизацией на основе IP-заголовка. Вот только незадача — через 3 года опубликовали [RFC 3031](https://tools.ietf.org/html/rfc3031) \(_Multiprotocol Label Switching Architecture_\). И MPLS начал захватывать сети провайдеров.
-```
 
 DiffServ нельзя было не распространить на него.
 
-```text
 По счастливой случайности в MPLS заложили трёхбитовое поле EXP на всякий экспериментальный случай. И несмотря на то, что уже давным-давно в [RFC 5462](https://tools.ietf.org/html/rfc5462) \(_«EXP» Field Renamed to «Traffic Class» Field_\) официально стало полем Traffic Class, по инерции его называют ИЭксПи.
-```
 
 С ним есть одна проблема — его длина три бита, что ограничивает число возможных значений до 9. Это не просто мало, это на 3 двоичных порядка меньше, чем у DSCP.
 
 ![](../../.gitbook/assets/image-52.png)
 
-```text
 Учитывая, что часто MPLS Traffic Class наследуется из DSCP IP-пакета, имеем архивацию с потерей. Или же… Нет, вы не хотите этого знать… [L-LSP](http://linkmeup.ru/blog/302.html#MPLS-TE-DIFFSERV). Использует комбинацию Traffic Class + значение метки.
-```
 
 > Вообще согласитесь, ситуация странная — MPLS разрабатывался как помощь IP для быстрого принятия решения — метка MPLS мгновенно обнаруживается в CAM по Full Match, вместо традиционного Longest Prefix Match. То есть и про IP знали, и в коммутации участие принимает, а нормальное поле приоритета не предусмотрели.
 
-```text
 На самом деле выше мы уже увидели, что для определения класса трафика используется только первые три бита DSCP, а три другие — Drop Precedence \(или PLP — Packet Loss Priority\).
-```
 
 Поэтому в плане классов сервиса всё же имеем соответствие 1:1, теряя только информацию о Drop Precedence.
 
-```text
 В случае MPLS классификация так же как и в IP может быть на основе интерфейса, MF, значения DSCP IP или Traffic Class MPLS.
-```
 
 Маркировка означает запись значения в поле Traffic Class заголовка MPLS.
 
-```text
 Пакет может содержать несколько заголовков MPLS. Для целей DiffServ используется только верхний.  
-
 Существуют три разных сценария перемаркировки при продвижении пакета из одного чистого IP-сегмента в другой через MPLS-домен:
-```
 
 \(это просто выдержка из [статьи](http://linkmeup.ru/blog/302.html#MPLS-QOS-MODES)\).
 
@@ -284,17 +241,13 @@ DiffServ нельзя было не распространить на него.
 
 ### **Практика классификации MPLS Traffic Class**
 
-```text
 Схема та же:
-```
 
 ![](../../.gitbook/assets/image-163.png)
 
-\_\_[_Файл конфигурации тот же_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
+[_Файл конфигурации тот же_](https://docs.google.com/document/d/e/2PACX-1vTrtK-fnUH8KO8UjTlScnv4xT-5FAsp7mDITqtDjtFHDZXJYg4UPvQnhQ5B9JqydfNuY_1-Ho9_RjIH/pub)
 
-```text
 В схеме сети linkmeup есть переход из IP в MPLS на Linkmeup\_R2.
-```
 
 Посмотрим, что происходит с маркировкой при пинге **ping ip 172.16.2.2 source 172.16.1.1 tos 184**.
 
@@ -302,19 +255,15 @@ DiffServ нельзя было не распространить на него.
 
 ![](../../.gitbook/assets/image-189.png)
 
-\_\_[_pcapng_](https://yadi.sk/d/CN3OUB8y3Ykb3o)
+[_pcapng_](https://yadi.sk/d/CN3OUB8y3Ykb3o)
 
-```text
 Итак, мы видим, что изначальная метка EF в IP DSCP трансформировалась в значение 5 поля EXP MPLS \(оно же Traffic Class, помним это\) как VPN-заголовка, так и транспортного.
-```
 
 Тут мы являемся свидетелями режима работы Uniform.
 
 ## Ethernet 802.1p
 
-```text
 Отсутствие поля приоритета в 802.3 \(Ethernet\) находит своё объяснение в том, что Ethernet изначально планировался исключительно как решение для LAN-сегмента. За скромные деньги можно получить избыточную пропускную способность, и узким местом всегда будет аплинк — не за чем беспокоиться о приоритизации.
-```
 
 Однако очень скоро стало ясно, что финансовая привлекательность Ethernet+IP выводит эту связку на уровень магистрали и WAN. Да и сожительство в одном LAN-сегменте торрентов и телефонии нужно разруливать.  
 По счастью к этому моменту подоспел 802.1q \(VLAN\), в котором выделили 3-битовое \(опять\) поле под приоритеты.  
@@ -322,9 +271,7 @@ DiffServ нельзя было не распространить на него.
 
 ![](../../.gitbook/assets/image-117.png)
 
-```text
 При получении пакета сетевое устройство DS-домена в большинстве случаев берёт в рассмотрение тот заголовок, который оно использует для коммутации:
-```
 
 * Ethernet-коммутатор — 802.1p
 * MPLS-узел — MPLS Traffic Class

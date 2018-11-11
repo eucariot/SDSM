@@ -1,22 +1,16 @@
 # Interface-based
 
-```text
 Это наиболее простой способ классифицировать пакеты в лоб. Всё, что насыпалось в указанный интерфейс, помечается определённым классом.
-```
 
 В большинстве случае такой гранулярности не хватает. Поэтому Interface-based классификация не сказать, что часто встречается в чистом виде.
 
 ## **Практика по Interface-based классификации**
 
-```text
 Схема та же:
-```
 
 ![](../../.gitbook/assets/image-140.png)
 
-```text
 Настройка политик QoS в оборудовании большинства вендоров делится на этапы.
-```
 
 1. Сначала определяется классификатор:
 
@@ -61,13 +55,11 @@
 
 ![](../../.gitbook/assets/image-203.png)
 
-```text
 И в дампе между Linkmeup\_R1 и Linkmeup\_R2 увидим следующее:
-```
 
 ![](../../.gitbook/assets/image-79.png)
 
-\_\_[_pcapng_](https://yadi.sk/d/h2D-6_WR3ZHWyG)
+[_pcapng_](https://yadi.sk/d/h2D-6_WR3ZHWyG)
 
 [_Файл конфигурации Interface-Based классификации_](https://docs.google.com/document/d/e/2PACX-1vSoH4VY5HIuVDeWCk2F7_3xTGMmXcyunODWK9_BHCcCfyoAipQZS4pej-tKNcH_6UOQYeQomDqQ6Jlx/pub)
 
