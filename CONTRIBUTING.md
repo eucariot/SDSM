@@ -1,7 +1,7 @@
 # Инструкция для контрибьютеров.
 
 - [Pull Request Guidelines](#pull-request-guidelines)
-- [Структура проекта](#Структура%20проекта)
+- [Структура проекта](#Структура-проекта)
 - [Регламент](#Регламент)
 - [StyleGuide](#StyleGuide)
 - [ToDoList](#ToDoList)
