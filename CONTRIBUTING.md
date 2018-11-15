@@ -3,8 +3,8 @@
 - [Pull Request Guidelines](#pull-request-guidelines)
 - [Структура проекта](#Структура-проекта)
 - [Регламент (TBD)](#Регламент)
-- [StyleGuide](#StyleGuide)
-- [ToDoList (TBD)](#ToDoList)
+- [StyleGuide (TBD)](#StyleGuide)
+- [ToDoList](#ToDoList)
 
 ## Pull Request Guidelines
 
