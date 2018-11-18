@@ -107,7 +107,7 @@
       * [QoS или TM — Traffic Management](14.-packet-life/4.-apparatnaya-arkhitektura-kommutiruyushego-ustroistva/interfeisnyi-modul-ili-lineinaya-karta/qos-ili-tm-traffic-management.md)
       * [SerDes — Serializer, Deserializer](14.-packet-life/4.-apparatnaya-arkhitektura-kommutiruyushego-ustroistva/interfeisnyi-modul-ili-lineinaya-karta/serdes-serializer-deserializer.md)
       * [Распределённая плоскость упраления \(Distributed Control Plane\)](14.-packet-life/4.-apparatnaya-arkhitektura-kommutiruyushego-ustroistva/interfeisnyi-modul-ili-lineinaya-karta/raspredelyonnaya-ploskost-upraleniya-distributed-control-plane.md)
-    * [Фабрика коммутации](14.-packet-life/5.-apparatnaya-arkhitektura-kommutiruyushego-ustroistva/fabrika-kommutacii.md)
+    * [Фабрика коммутации](14.-packet-life/4.-apparatnaya-arkhitektura-kommutiruyushego-ustroistva/fabrika-kommutacii.md)
   * [5. Путешествие длиною в жизнь](14.-packet-life/5.-puteshestvie-dlinoyu-v-zhizn/README.md)
     * [Транзитные пакеты](14.-packet-life/5.-puteshestvie-dlinoyu-v-zhizn/tranzitnye-pakety.md)
     * [Локальные пакеты](14.-packet-life/5.-puteshestvie-dlinoyu-v-zhizn/lokalnye-pakety.md)
