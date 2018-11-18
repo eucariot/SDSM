@@ -53,10 +53,10 @@
 > Картинки лучше вставлять из интерфейса [GitBook](https://gitbook.com) простым копипастом. В таком случае они будут масштабируемыми.
 
 * После внесения изменений залейте изменения в свой **Fork** проекта. 
-Из консоли для этого необходимо выполнить следующие команды:
-`git add .` - команда, которая добавит изменные файлы. [Подробнее](https://git-scm.com/docs/git-add)
-`git commit` - коммит изменений. [Подробнее]()
-`git push origin master` - push в master ветку вашего репозитория. [Подробнее](https://guides.github.com/introduction/git-handbook/) о `git push`, ветках и т. п. 
+  Из консоли для этого необходимо выполнить следующие команды:
+  * `git add .` - команда, которая добавит изменные файлы. [Подробнее](https://git-scm.com/docs/git-add)
+  * `git commit` - коммит изменений. [Подробнее]()
+  * `git push origin master` - push в master ветку вашего репозитория. [Подробнее](https://guides.github.com/introduction/git-handbook/) о `git push`, ветках и т. п. 
 
 Ну и в целом рекомендуется хотя бы пролистать [инструкцию](https://git-scm.com/book/en/v2) или пройти небольшой интерактивный курс - [раз](https://try.github.io/), [два](https://githowto.com/ru)
 
