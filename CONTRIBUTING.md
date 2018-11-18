@@ -73,7 +73,7 @@
     * `git commit` - коммит изменений. [Подробнее]()
     * `git push origin master` - push в master ветку своего репозитория. [Подробнее](https://guides.github.com/introduction/git-handbook/) о `git push`, ветках и т. п. 
 
-    Ну и в целом рекомендуется хотя бы пролистать [инструкцию](https://git-scm.com/book/en/v2) или пройти небольшой интерактивный курс - [раз](https://try.github.io/), [два](https://githowto.com/ru)
+    Ну и в целом рекомендуется хотя бы пролистать [инструкцию](https://git-scm.com/book/en/v2) или пройти небольшой интерактивный курс - [раз](https://try.github.io/), [два](https://githowto.com/ru).
 
 6. Создай pull request своих изменений в основной репозиторий [SDSM](https://github.com/eucariot/SDSM.git).  
     Для этого так же из интерфейса гита выбери **New pull request**, в качестве источника выбери ветку в своём репозитории в которой лежат измения, в качестве получателя - master проекта eucariot/SDSM. Подтверди изменения. В качестве комментария укажи какие изменения ты внёс. 
