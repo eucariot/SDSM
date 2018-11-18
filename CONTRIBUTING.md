@@ -10,7 +10,7 @@
 
 Подробная инструкция последовательности действий, если вы хотите стать контрибьютером
 
-* Установить git.
+0. Установить git.
 
 > Для **Debian/Ubuntu** от пользователя выполнить в командной строке `sudo apt-get install git`.
 > В случае **Fedora** `yum install git-core`.
@@ -25,7 +25,7 @@
 > Cкачайте [exe-файл инсталлятора](http://msysgit.github.com/) со страницы проекта на GitHub'е и запустите его.
 > После установки у вас будет как консольная, так и графическая версии Git.
 
-* Если вы еще не зарегистрированы на GitHub - регистрируйтесь на [github.com](https://github.com/join?source=login).
+1. Если вы еще не зарегистрированы на GitHub - регистрируйтесь на [github.com](https://github.com/join?source=login).
 
 * Создайте **fork** проекта [SDSM](https://github.com/eucariot/SDSM.git).
 Для этого, зайдите на страницу проекта [SDSM](https://github.com/eucariot/SDSM.git) и нажмите кнопку “Fork”, которая расположена в правом верхнем углу.
