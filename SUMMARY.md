@@ -7,7 +7,7 @@
   * [2. IP-план](0.-planirovanie/2.-ip-plan.md)
   * [3. Список VLAN](0.-planirovanie/3.-spisok-vlan.md)
   * [4. План подключения оборудования по портам](0.-planirovanie/4.-plan-podklyucheniya-oborudovaniya-po-portam.md)
-  * [5. Заключение](0-planirovanie/5.-zaklyuchenie.md)
+  * [5. Заключение](0.-planirovanie/5.-zaklyuchenie.md)
 * [1. Подключение к оборудованию cisco](1.-podklyuchenie-k-oborudovaniyu-cisco/README.md)
   * [Среда](1.-podklyuchenie-k-oborudovaniyu-cisco/00-sreda.md)
   * [Способы подключения](1.-podklyuchenie-k-oborudovaniyu-cisco/01-sposoby-podklyucheniya.md)
