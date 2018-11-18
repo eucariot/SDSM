@@ -47,10 +47,10 @@
 
 3. Создайте [GitBook](https://gitbook.com) для вашего **Fork**. Для этого зайдите на [GitBook.com](https://gitbook.com), зарегистрируйтесь и импортируйте проект.
 
-    Вы так же можете склонировать проект локально. Для этого создайте и/или перейдите в каталог, где вы собираетесь хранить проект. 
-    Для *nix `mkdir myDir` и `cd /home/user/myDir` соответственно. И выполните `git clone https://github.com/eucariot/SDSM.git`
-    В этом случае проект будет сохранен в каталог SDSM.
-    Вы так же можете сохранить в каталог, который вам будет удобнее. Например, в каталог **SetyForSmallers** `git clone https://github.com/eucariot/SDSM.git SetyForSmallers`
+    Вы так же можете склонировать проект локально. Для этого создайте и/или перейдите в каталог, где вы собираетесь хранить проект.  
+    Для *nix `mkdir myDir` и `cd /home/user/myDir` соответственно. И выполните `git clone https://github.com/eucariot/SDSM.git` . 
+    В этом случае проект будет сохранен в каталог SDSM.  
+    Вы так же можете сохранить в каталог, который вам будет удобнее. Например, в каталог **SetyForSmallers** `git clone https://github.com/eucariot/SDSM.git SetyForSmallers` . 
 
 4. Правьте!
 
