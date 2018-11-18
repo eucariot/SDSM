@@ -88,8 +88,8 @@
     * 00-routing.md 
     * 01-zaclucheniye.md
   * README.md
-  * SUMMARY.md - _Jглавление_
-  * TODO.md - _Cписок дел_
+  * SUMMARY.md - _Оглавление_
+  * TODO.md - _Список дел_
 
 ## ToDoList
 
