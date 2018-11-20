@@ -37,5 +37,5 @@
 Так появилась память **CAM — Content Addressable Memory**. Её адреса — это хэши значений. В своей ячейке CAM содержит или ответное значение \(номер порта, например\) или чаще адрес ячейки в обычной RAM.
 
 То есть пришёл Ethernet-кадр, ASIC'и его разорвали на заголовки, вытащили [DMAC](http://lookmeup.linkmeup.ru/#term606) — прогнали его через CAM и получили вожделенный исходящий интерфейс.  
-Подробнее о CAM [дальше](../4.-tipov-chipov/cam-content-addressable-memory.md).
+Подробнее о CAM [дальше](https://github.com/eucariot/SDSM/tree/1d5f03278435529d2eac1288795e66939d0e8cc7/14.-packet-life/4.-tipov-chipov/cam-content-addressable-memory.md).
 
