@@ -1,4 +1,4 @@
-# Сети для самых маленьких. Часть четвертая. STP
+# 4. STP
 
 ```text
 *I think that I shall never see
