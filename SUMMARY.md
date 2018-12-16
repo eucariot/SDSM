@@ -140,6 +140,7 @@
       * [Route Map](8.-bgp-i-ip-sla/2.-bgp/3.-upravlenie-marshrutami/2.-route-map.md)
       * [Задача 4](8.-bgp-i-ip-sla/2.-bgp/3.-upravlenie-marshrutami/zadacha-4.md)
     * [Балансировка и распределение нагрузки](8.-bgp-i-ip-sla/2.-bgp/4.-balansirovka-nagruzki/README.md)
+      * [Балансировка нагрузки](8.-bgp-i-ip-sla/2.-bgp/4.-balansirovka-nagruzki/0.-balansirovka-nagruzki.md)
 * [8.1 IBGP](8.1-ibgp/README.md)
 * [9. Мультикаст](9.-multicast/README.md)
 * [10. Базовый MPLS](10.-base-mpls/README.md)
