@@ -9,6 +9,6 @@
 
 Другие механизмы AQM, которые подходят к вопросу более интеллектуально:
 
-* [RED - Random Early Detection](red-random-early-detection.md)
-* [WRED - Weighted Random Early Detection](wred-weighted-random-early-detection.md)
+* [RED - Random Early Detection](1-red-random-early-detection.md)
+* [WRED - Weighted Random Early Detection](2-wred-weighted-random-early-detection.md)
 

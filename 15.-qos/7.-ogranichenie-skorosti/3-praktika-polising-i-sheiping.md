@@ -69,7 +69,7 @@ interface Ethernet0/1
 
 Здесь указываем среднюю разрешённую скорость CIR \(10Mб/с\) и разрешённый всплеск Bc \(1 875 000 байтов или около 14,6 МБ\).
 
-Позже, [объясняя, как работает полисер](mekhanizmy-leaky-bucket-i-token-bucket/algoritm-token-bucket.md), я расскажу, что за CIR да Bc и как эти величины определять.
+Позже, [объясняя, как работает полисер](4-mekhanizmy-leaky-bucket-i-token-bucket/1-algoritm-token-bucket.md), я расскажу, что за CIR да Bc и как эти величины определять.
 
 [_Файл конфигурации полисера._](https://docs.google.com/document/d/e/2PACX-1vTl81fiPO4MFeznoyoCGOF_rHbt7p7jUS0WosHgPVNObZo_WtMwThneBdu1LUUG9A0OFxBtmKOYXOUE/pub)
 
