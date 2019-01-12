@@ -27,9 +27,9 @@
       * [Практика](10.-base-mpls.md#LDP_PRACTICE)
     * [Применение чистого MPLS в связке с BGP](10.-base-mpls.md#MPLS-BGP)
     * [RSVP-TE](10.-base-mpls.md#RSVP-TE)
-      * [Практика](10.-base-mpls.md#RSVP_PRACTICE)
-* [ВиО](10.-base-mpls.md#FAQ)
-* [Полезные ссылки](10.-base-mpls.md#USEFUL)
+      * [Практика](14-rsvp_practice.md)
+* [ВиО](15-faq.md)
+* [Полезные ссылки](16-useful.md)
 
 А начнём мы с вопроса: «Что не так с IP?»
 
