@@ -32,4 +32,4 @@
 
 А начнём мы с вопроса: «Что не так с IP?»
 
-[_Традиционное видео_](https://www.youtube.com/embed/hZyfM4UZDac)
+[_Традиционное видео_](https://youtu.be/hZyfM4UZDac)
