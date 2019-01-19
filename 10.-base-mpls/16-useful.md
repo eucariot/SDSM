@@ -1,0 +1,21 @@
+## Полезные ссылки
+
+* Замечательнейший документ для тех, кто в общих чертах представляет, что такое MPLS: [MPLS for Dummies](http://www.nanog.org/meetings/nanog49/presentations/Sunday/mpls-nanog49.pdf).
+* Набор русских переводов RFC, весьма не плох:
+* [Введение в MPLS, TE и QoS](http://book.itep.ru/4/4/mpls17.htm)
+* [Архитектура MPLS](http://book.itep.ru/4/4/mpls18.htm)
+* [Кодирование меток в MPLS](http://book.itep.ru/4/4/label.htm)
+* [LDP](http://book.itep.ru/4/4/rfc3036.htm)
+* [RSVP-TE](http://book.itep.ru/4/4/rfc3209.htm)
+* Отчаянно рекомендую к чтению все публикации [Джефа Дойла](http://www.networkworld.com/blog/jeff-doyle-on-ip-routing). Я искренне завидую его способности настолько просто даже на английском языке объяснять сложные вещи.
+  * [Understanding the Role of FECs in MPLS](http://www.networkworld.com/article/2350449/cisco-subnet/understanding-the-role-of-fecs-in-mpls.html)
+  * [Understanding MPLS Label Stacking](http://www.networkworld.com/article/2350577/cisco-subnet/understanding-mpls-label-stacking.html)
+  * [Understanding Signaling in MPLS Networks](http://www.networkworld.com/article/2343494/cisco-subnet/understanding-signaling-in-mpls-networks.html)
+  * [Understanding MPLS Label Distribution](http://www.networkworld.com/article/2237487/cisco-subnet/understanding-mpls-label-distribution.html)
+  * [Understanding MPLS Explicit and Implicit Null Labels](http://www.networkworld.com/article/2350466/cisco-subnet/understanding-mpls-explicit-and-implicit-null-labels.html)
+  * [Understanding MPLS CSPF](http://www.networkworld.com/article/2343657/cisco-subnet/understanding-mpls-cspf.html)
+
+За финальные штрихи к статье спасибо [JDima](http://habrahabr.ru/users/jdima/).  
+За задачки и помощь в написании статьи спасибо [Наташе Самойленко](http://xgu.ru/wiki/Категория:Автор_Наташа_Самойленко).  
+КДПВ нарисована [Ниной Долгополовой](http://www.nina-dolgopolova.com/) — замечательным художником и другом проекта.  
+Проверку ошибок и поиск неточностей провёл [Максим the gluck](http://habrahabr.ru/users/thegluck/)
