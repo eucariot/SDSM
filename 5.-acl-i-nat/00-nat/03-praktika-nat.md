@@ -1,4 +1,4 @@
-# Практика NAT
+# Практика
 
 Чего от нас требует реальность?  
 1\) Сеть управления не имеет доступа в интернет вообще  
@@ -143,7 +143,7 @@ msk-arbat-gw1(config-subif)# ip nat inside
 msk-arbat-gw1(config)# int fa0/0.104
 msk-arbat-gw1(config-subif)# ip nat inside 
 msk-arbat-gw1(config)# int fa0/1.6
-msk-arbat-gw1(config-subif)# ip nat outside 
+msk-arbat-gw1(config-subif)# ip nat outside
 ```
 
 Это позволит маршрутизатору понять откуда ждать пакеты, которые нужно будет обработать и куда их потом слать.
@@ -190,7 +190,7 @@ msk-arbat-gw1(config)# ip nat inside source static tcp 172.16.0.2 80 198.51.100.
 
 ```text
 msk-arbat-gw1(config)# int fa0/0.3
-msk-arbat-gw1(config-subif)# ip nat inside 
+msk-arbat-gw1(config-subif)# ip nat inside
 ```
 
 А теперь:  
@@ -238,3 +238,4 @@ msk-arbat-gw1(config)# ip nat inside source static tcp 172.16.0.4 110 198.51.100
 msk-arbat-gw1(config)# ip nat inside source static tcp 172.16.6.61 3389 198.51.100.10 3389
 msk-arbat-gw1(config)# ip nat inside source static tcp 172.16.6.66 3389 198.51.100.10 3398
 ```
+

@@ -210,3 +210,4 @@ msk-arbat-gw1(config-subif)#ip access-group Management-out out
 ## 8\) Более никаких ограничений
 
 Готово
+
