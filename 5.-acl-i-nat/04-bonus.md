@@ -42,10 +42,3 @@ Router(config-if)# rate-limit output access-group 100 1544000 64000 64000 confor
 Router(config-if)# rate-limit output access-group 101 64000 16000 16000 conform-action transmit exceed-action drop
 ```
 
-## Авторы:
-
-Марат eucariot  
-Максим aka gluck
-
-Отдельная благодарность за помощь в подготовке статьи Дмитрию JDima.
-
