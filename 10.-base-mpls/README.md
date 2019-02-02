@@ -32,5 +32,5 @@
 
 А начнём мы с вопроса: «Что не так с IP?»
 
-[_Традиционное видео_](https://youtu.be/hZyfM4UZDac)
+{% embed url="https://youtu.be/hZyfM4UZDac" caption="Традиционное видео" %}
 

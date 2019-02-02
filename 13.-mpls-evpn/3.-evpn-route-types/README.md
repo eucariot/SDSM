@@ -41,3 +41,4 @@ AS path: I, validation-state: unverified
 * 5 — IP Prefix Route\*
 
 > Примечание: маршрут 5-го типа в настоящее время еще не утвержден в статуте RFC, и пока что описан только в [драфте](https://tools.ietf.org/html/draft-rabadan-l2vpn-evpn-prefix-advertisement-00) и поэтому в данной статье мы его рассматривать не будем.
+

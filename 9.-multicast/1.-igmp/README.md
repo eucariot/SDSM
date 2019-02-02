@@ -8,3 +8,4 @@
 **IGMP — Internet Group Management Protocol** — это сетевой протокол взаимодействия клиентов мультикастового трафика и ближайшего к ним маршрутизатора.
 
 > В IPv6 используется [MLD](http://lookmeup.linkmeup.ru/#term286) \(Multicast Listener Discovery\) вместо IGMP. Принцип работы у них абсолютно одинаковый, поэтому далее везде вы смело можете менять IGMP на MLD, а IP на IPv6.
+

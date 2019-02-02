@@ -9,19 +9,19 @@
 
 В этой статье сосредоточимся на следующем:
 
-* [Общее понимание Multicast](9.-multicast.md#Multicast_Basics)
-* [Протокол IGMP](9.-multicast.md#IGMP)
-* [Протокол PIM](9.-multicast.md#PIM)
-* [PIM Dense Mode](9.-multicast.md#PIM-DM)
-* [Pim Sparse Mode](9.-multicast.md#PIM-SM)
-* [SPT Switchover — переключение RPT-SPT](9.-multicast.md#SPT_Switchover)
-* [DR, Assert, Forwarder](9.-multicast.md#DR_Assert_Forwarder)
-* [Автоматический выбор RP](9.-multicast.md#Bootstrap)
-* [SSM](9.-multicast.md#SSM)
-* [BIDIR PIM](9.-multicast.md#BIDIR_PIM)
-* [Мультикаст на канальном уровне](9.-multicast.md#L2_Multicast)
-* [IGMP Snooping](9.-multicast.md#IGMP_Snooping)
-* [MVR](9.-multicast.md#MVR)
+* [Общее понимание Multicast](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#Multicast_Basics)
+* [Протокол IGMP](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#IGMP)
+* [Протокол PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM)
+* [PIM Dense Mode](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM-DM)
+* [Pim Sparse Mode](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM-SM)
+* [SPT Switchover — переключение RPT-SPT](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#SPT_Switchover)
+* [DR, Assert, Forwarder](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#DR_Assert_Forwarder)
+* [Автоматический выбор RP](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#Bootstrap)
+* [SSM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#SSM)
+* [BIDIR PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#BIDIR_PIM)
+* [Мультикаст на канальном уровне](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#L2_Multicast)
+* [IGMP Snooping](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#IGMP_Snooping)
+* [MVR](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#MVR)
 
 [![&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;&#x43A;&#x430;&#x441;&#x442;](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_XL.jpg)](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_orig.jpg)
 
@@ -40,3 +40,4 @@
 > И теперь с высоты оттраблшученных кейсов я понимаю, что там не могло быть никаких проблем с настройкой сетевой части — глючило конечное оборудование.
 
 Сохраняйте спокойствие и доверьтесь мне. После этой статьи такие вещи вас пугать не будут.
+
