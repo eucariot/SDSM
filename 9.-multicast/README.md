@@ -9,23 +9,25 @@
 
 В этой статье сосредоточимся на следующем:
 
-* [Общее понимание Multicast](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#Multicast_Basics)
-* [Протокол IGMP](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#IGMP)
+* [Общее понимание Multicast](0.-obchee-ponatie-multicast/)
+* [Протокол IGMP](1.-igmp/)
 * [Протокол PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM)
-* [PIM Dense Mode](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM-DM)
-* [Pim Sparse Mode](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM-SM)
-* [SPT Switchover — переключение RPT-SPT](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#SPT_Switchover)
-* [DR, Assert, Forwarder](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#DR_Assert_Forwarder)
-* [Автоматический выбор RP](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#Bootstrap)
-* [SSM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#SSM)
-* [BIDIR PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#BIDIR_PIM)
-* [Мультикаст на канальном уровне](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#L2_Multicast)
-* [IGMP Snooping](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#IGMP_Snooping)
-* [MVR](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#MVR)
+  * [PIM Dense Mode](2.-pim/0.-pim-dense-mode.md)
+  * [Pim Sparse Mode](2.-pim/1.-pim-sparse-mode.md)
+  * [SPT Switchover — переключение RPT-SPT](2.-pim/razbor-polyotov/spt-switchover-pereklyuchenie-rpt-spt.md)
+  * [DR, Assert, Forwarder](2.-pim/dr-assert-forwarder.md)
+  * [Автоматический выбор RP](2.-pim/vybor-rp.md)
+  * [SSM](3.-ssm.md)
+  * [BIDIR PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#BIDIR_PIM)
+* [Мультикаст на канальном уровне](5.-multicast-na-kanalnom-urovne/)
+  * [IGMP Snooping](5.-multicast-na-kanalnom-urovne/1.-igmp-snooping.md)
+  * [MVR](5.-multicast-na-kanalnom-urovne/3.-multicast-vlan-replication.md)
 
-[![&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;&#x43A;&#x430;&#x441;&#x442;](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_XL.jpg)](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_orig.jpg)
+![](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_XL.jpg)
 
-[Традиционный видеоурок](https://www.youtube.com/embed/uYnC6yU6Apo)
+
+
+{% embed url="https://youtu.be/uYnC6yU6Apo" caption="Традиционное видео" %}
 
 > На заре моего становления, как инженера, тема мультикаста меня неимоверно пугала, и я связываю это с психотравмой моего первого опыта с ним.  
 > «_Так, Марат, срочно, до полудня нужно пробросить видеопоток до нашего нового здания в центре города — провайдер отдаст его нам тут на втором этаже_» — услышал я одним чудесным утром. Всё, что я тогда знал о мультикасте, так это то, что отправитель один, получателей много, ну и, кажется, протокол IGMP там как-то задействован.  
