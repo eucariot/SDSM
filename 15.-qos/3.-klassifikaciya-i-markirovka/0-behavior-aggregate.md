@@ -46,18 +46,19 @@ IP Precedence \(IPP\) + DTR + 00.
 Левые три бита остались IP Precedence, четыре следующих превратились в TOS после добавления бита Cost.
 
 {% hint style="info" %}
-
 Вот как следовало читать единицы в этих битах TOS:
 
 * D — «minimize **d**elay»,
 * T — «maximize **t**hroughput»,
 * R — «maximize **r**eliability»,
 * C — «minimize **c**ost».
-* Туманные описания не способствовали популярности этого подхода.
+{% endhint %}
 
-  Системный подход к QoS на всём протяжении пути отсутствовал, чётких рекомендаций, как использовать поле приоритета тоже не было, описание битов Delay, Throughput и Reliability было крайне туманным.
+Туманные описания не способствовали популярности этого подхода.
 
-  Поэтому в контексте DiffServ поле TOS ещё раз переопределили в [RFC 2474](https://tools.ietf.org/html/rfc2474) \(_Definition of the Differentiated Services Field \(DS Field\) in the IPv4 and IPv6 Headers_\):
+Системный подход к QoS на всём протяжении пути отсутствовал, чётких рекомендаций, как использовать поле приоритета тоже не было, описание битов Delay, Throughput и Reliability было крайне туманным.
+
+Поэтому в контексте DiffServ поле TOS ещё раз переопределили в [RFC 2474](https://tools.ietf.org/html/rfc2474) \(_Definition of the Differentiated Services Field \(DS Field\) in the IPv4 and IPv6 Headers_\):
 
 ![](../../.gitbook/assets/image-35.png)
 
