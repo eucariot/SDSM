@@ -12,5 +12,3 @@
 
 {% embed url="https://youtu.be/OHSmt\_TS2j8" caption="Традиционное видео" %}
 
-
-

@@ -46,13 +46,13 @@ IP Precedence \(IPP\) + DTR + 00.
 Левые три бита остались IP Precedence, четыре следующих превратились в TOS после добавления бита Cost.
 
 {% hint style="info" %}
+
 Вот как следовало читать единицы в этих битах TOS:
 
 * D — «minimize **d**elay»,
 * T — «maximize **t**hroughput»,
 * R — «maximize **r**eliability»,
 * C — «minimize **c**ost».
-{% endhint %}
 
 Туманные описания не способствовали популярности этого подхода.
 

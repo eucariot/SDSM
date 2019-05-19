@@ -36,5 +36,3 @@ _**TTL**_ — Time To Live — полный аналог [IP TTL](http://lookmeu
 
 ![](https://img-fotki.yandex.ru/get/15486/83739833.48/0_10096e_c5cd901c_orig.png)
 
-## 
-
