@@ -7,7 +7,7 @@
 
 Для этого на сетевых устройствах есть букет разнообразных чипов.
 
-![&#x42D;&#x442;&#x43E; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x43D;&#x43E;&#x439; &#x43F;&#x43B;&#x430;&#x442;&#x44B; Cisco](../../.gitbook/assets/image-170.png)
+![Это пример интерфейсной платы Cisco](../../.gitbook/assets/image-170.png)
 
 Так, например, микросхемы \([ASIC](http://linkmeup.ru/blog/312.html#ASIC), [FPGA](http://linkmeup.ru/blog/312.html#FPGA)\) выполняют простые операции, вроде [АЦП](http://lookmeup.linkmeup.ru/#term573)/[ЦАП](http://lookmeup.linkmeup.ru/#term572), подсчёта контрольных сум, буферизации пакетов.
 
@@ -38,4 +38,3 @@
 
 То есть пришёл Ethernet-кадр, ASIC'и его разорвали на заголовки, вытащили [DMAC](http://lookmeup.linkmeup.ru/#term606) — прогнали его через CAM и получили вожделенный исходящий интерфейс.  
 Подробнее о CAM [дальше](https://github.com/eucariot/SDSM/tree/1d5f03278435529d2eac1288795e66939d0e8cc7/14.-packet-life/4.-tipov-chipov/cam-content-addressable-memory.md).
-
