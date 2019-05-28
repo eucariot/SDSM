@@ -13,7 +13,7 @@
 
 Так выглядят управляющие платы разных устройств
 
-![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image-179.png)
+![Cisco ASR9000 RSP \(Routing and Switching\)](../../.gitbook/assets/image-179%20%281%29.png)
 
 Та половина, что ближе к нам. Та, что ближе к шине, — это фабрика коммутации.
 

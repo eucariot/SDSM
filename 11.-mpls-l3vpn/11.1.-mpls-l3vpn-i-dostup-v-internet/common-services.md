@@ -3,12 +3,12 @@
 До сих пор мы обсуждали задачу передачи трафика из VPN в публичные сети и обратно.  
 Ещё один подход к предоставлению доступа в Интернет — вывести его в отдельный VRF.  
 Строго говоря — он наиболее масштабируемый, потому что нет необходимости настраивать что-то индивидуально для каждого клиентского VRF.  
-Важное условие — NAT происходит в сети клиента и в VRF Internet импортируются только маршруты к публичным префиксам клиента.  
-  
-Common Services, который часто называют Shared Services — это продолжение вопроса о взаимодействии между VRF, который мы рассмотрели [ранее](https://habrahabr.ru/post/273679/#VRF_INTERCONNECTION). Основная идея в том, что экспорт/импорт совершается засчёт особой настройки route-target. Только на этот раз нужно ограничить список передаваемых префиксов, чтобы избежать пересечения адресных пространств и разрешить только публичные маршруты.  
-  
-Рассмотрим задачу снова на примере TARS, потому что у них уже есть публичные сети.  
-  
+Важное условие — NAT происходит в сети клиента и в VRF Internet импортируются только маршруты к публичным префиксам клиента.
+
+Common Services, который часто называют Shared Services — это продолжение вопроса о взаимодействии между VRF, который мы рассмотрели [ранее](https://habrahabr.ru/post/273679/#VRF_INTERCONNECTION). Основная идея в том, что экспорт/импорт совершается засчёт особой настройки route-target. Только на этот раз нужно ограничить список передаваемых префиксов, чтобы избежать пересечения адресных пространств и разрешить только публичные маршруты.
+
+Рассмотрим задачу снова на примере TARS, потому что у них уже есть публичные сети.
+
 На шлюзе мы создаём VRF Internet.
 
 ```text
@@ -27,8 +27,7 @@ Linkmeup_R1(config-if)#ip vrf forwarding Internet
 Linkmeup_R1(config-if)#ip address 101.0.0.2 255.255.255.252
 ```
 
-3\) Перенести BGP-соседство с маршрутизатором в Интернете в address-family ipv4 vrf Internet:  
-
+3\) Перенести BGP-соседство с маршрутизатором в Интернете в address-family ipv4 vrf Internet:
 
 ```text
 Linkmeup_R1(config-router)#router bgp 64500
@@ -75,8 +74,8 @@ Linkmeup_R1(config-vrf)# route-target import 64500:22
 
 ![](https://habrastorage.org/getpro/habr/post_images/487/7c2/a4f/4877c2a4f1cced935eca18389ffc88fe.png)
 
-На TARS\_2 всё в порядке.  
-  
+На TARS\_2 всё в порядке.
+
 На Linkmeup\_R1 есть маршрут до сети 100.0.0.0/30, но есть и лишние маршруты до частных сетей:
 
 ![](https://habrastorage.org/getpro/habr/post_images/a10/430/415/a10430415d1e67b81e0f645ab773398c.png)
@@ -85,8 +84,8 @@ Linkmeup_R1(config-vrf)# route-target import 64500:22
 
 ![](https://habrastorage.org/getpro/habr/post_images/50a/b2a/576/50ab2a576330e527931e4042dd45515a.png)
 
-Но что делать с этими лишними маршрутами в VRF Internet? Ведь если мы подключим ещё один VRF так же, у нас и от него появятся ненужные серые подсети.  
-  
+Но что делать с этими лишними маршрутами в VRF Internet? Ведь если мы подключим ещё один VRF так же, у нас и от него появятся ненужные серые подсети.
+
 Тут как обычно поможет фильтрация. А если конкретно, то воспользуемся prefix-list + route-map:
 
 ```text
@@ -113,7 +112,6 @@ Linkmeup_R1(config)#ip vrf TARS
 Linkmeup_R1(config-vrf)#export map To_Internet
 ```
 
-  
 После обновления маршрутов BGP \(можно форсировать командой **clear ip bgp all 64500**\) видим, что в VRF Internet остался только публичный маршрут:
 
 ![](https://habrastorage.org/getpro/habr/post_images/961/de1/431/961de143107c0d8a46ada0194df08b27.png)
@@ -122,14 +120,11 @@ Linkmeup_R1(config-vrf)#export map To_Internet
 
 ![](https://habrastorage.org/getpro/habr/post_images/f69/34a/194/f6934a1944842188f3b3b6511f6580df.png)
 
-Уважаемые читатели, вы только что ознакомились с другим подходом к **Route Leaking**'у.  
+Уважаемые читатели, вы только что ознакомились с другим подходом к **Route Leaking**'у.
 
+[Полная конфигурация всех узлов для Common Services.](https://docs.google.com/document/d/1LgWutlcWs30v6gs3z_17cDq7ZJEckGPFT6ABJaHTpCc/pub)
 
-[Полная конфигурация всех узлов для Common Services.](https://docs.google.com/document/d/1LgWutlcWs30v6gs3z_17cDq7ZJEckGPFT6ABJaHTpCc/pub)  
-  
 Наиболее доступно тема Common Services описана [Jeremy Stretch](http://packetlife.net/blog/2011/may/19/mpls-vpn-common-services/). Но у него нет указания на то, что префиксы нужно фильтровать.  
 Вообще, у них там в ихних америках, все друг друга знают и уважают. Поэтому Джереми охотно ссылается на Ивана Пепельняка, а точнее его [заметку о Common Services](http://blog.ipspace.net/2011/05/mplsvpn-common-services-design.html), а Иван в свою очередь на Джереми. Статьи их дополняют друг друга, но опять же до конца тему не раскрывают.  
-А вот и [третья ссылка](https://supportforums.cisco.com/discussion/11567421/route-leaking-between-vrfs-shared-services), которая в купе с первыми двумя позволяет сложить какое-то представление о том, как работает Common Services.  
-  
-
+А вот и [третья ссылка](https://supportforums.cisco.com/discussion/11567421/route-leaking-between-vrfs-shared-services), которая в купе с первыми двумя позволяет сложить какое-то представление о том, как работает Common Services.
 

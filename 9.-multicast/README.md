@@ -9,8 +9,8 @@
 
 В этой статье сосредоточимся на следующем:
 
-* [Общее понимание Multicast](0.-obchee-ponatie-multicast/)
-* [Протокол IGMP](1.-igmp/)
+* [Общее понимание Multicast](https://github.com/djvnsk/SDSM/tree/f818dc762fe07ac77e90acf6b35cdea232ea4428/9.-multicast/0.-obchee-ponatie-multicast)
+* [Протокол IGMP](https://github.com/djvnsk/SDSM/tree/f818dc762fe07ac77e90acf6b35cdea232ea4428/9.-multicast/1.-igmp)
 * [Протокол PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM)
   * [PIM Dense Mode](2.-pim/0.-pim-dense-mode.md)
   * [Pim Sparse Mode](2.-pim/1.-pim-sparse-mode.md)
@@ -19,13 +19,11 @@
   * [Автоматический выбор RP](2.-pim/vybor-rp.md)
   * [SSM](3.-ssm.md)
   * [BIDIR PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#BIDIR_PIM)
-* [Мультикаст на канальном уровне](5.-multicast-na-kanalnom-urovne/)
+* [Мультикаст на канальном уровне](https://github.com/djvnsk/SDSM/tree/f818dc762fe07ac77e90acf6b35cdea232ea4428/9.-multicast/5.-multicast-na-kanalnom-urovne)
   * [IGMP Snooping](5.-multicast-na-kanalnom-urovne/1.-igmp-snooping.md)
   * [MVR](5.-multicast-na-kanalnom-urovne/3.-multicast-vlan-replication.md)
 
 ![](https://img-fotki.yandex.ru/get/9810/83739833.39/0_de148_8fc00820_XL.jpg)
-
-
 
 {% embed url="https://youtu.be/uYnC6yU6Apo" caption="Традиционное видео" %}
 
