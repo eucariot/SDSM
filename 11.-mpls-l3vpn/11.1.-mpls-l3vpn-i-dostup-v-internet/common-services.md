@@ -53,7 +53,7 @@ Linkmeup_R1(config)#ip route vrf Internet 0.0.0.0 0.0.0.0 101.0.0.1
 
 ```text
 Linkmeup_R1(config-vrf)#ip vrf TARS
-Linkmeup_R(config-vrf)# route-target both 64500:200
+Linkmeup_R1(config-vrf)# route-target both 64500:200
 Linkmeup_R1(config-vrf)# route-target export 64500:11
 Linkmeup_R1(config-vrf)# route-target import 64500:22
 ```
@@ -89,10 +89,10 @@ Linkmeup_R1(config-vrf)# route-target import 64500:22
 Тут как обычно поможет фильтрация. А если конкретно, то воспользуемся prefix-list + route-map:
 
 ```text
-Linkmeup_R1(config)#ip prefix-list 1 deny 172.16.0.0/12 le 32
-Linkmeup_R1(config)#ip prefix-list 1 deny 192.168.0.0/16 le 32
-Linkmeup_R1(config)#ip prefix-list 1 deny 10.0.0.0/8 le 32
-Linkmeup_R1(config)#ip prefix-list 1 permit 0.0.0.0/0 le 32
+Linkmeup_R3(config)#ip prefix-list 1 deny 172.16.0.0/12 le 32
+Linkmeup_R3(config)#ip prefix-list 1 deny 192.168.0.0/16 le 32
+Linkmeup_R3(config)#ip prefix-list 1 deny 10.0.0.0/8 le 32
+Linkmeup_R3(config)#ip prefix-list 1 permit 0.0.0.0/0 le 32
 ```
 
 Первые три строки запрещают анонсы всех частных сетей. Четвёртая разрешает все остальные.  
@@ -100,16 +100,16 @@ Linkmeup_R1(config)#ip prefix-list 1 permit 0.0.0.0/0 le 32
 Следующая конструкция применяет расширенное community к тем префиксам, что попали в prefix-list 1, иными словами устанавливает RT:
 
 ```text
-Linkmeup_R1(config-map)#route-map To_Internet permit 10
-Linkmeup_R1(config-map)#match ip address prefix-list 1
-Linkmeup_R1(config-map)#set extcommunity rt 64500:11
+Linkmeup_R3(config-map)#route-map To_Internet permit 10
+Linkmeup_R3(config-map)#match ip address prefix-list 1
+Linkmeup_R3(config-map)#set extcommunity rt 64500:11
 ```
 
 Осталось дело за малым — применить route-map к VRF:
 
 ```text
-Linkmeup_R1(config)#ip vrf TARS
-Linkmeup_R1(config-vrf)#export map To_Internet
+Linkmeup_R3(config)#ip vrf TARS
+Linkmeup_R3(config-vrf)#export map To_Internet
 ```
 
 После обновления маршрутов BGP \(можно форсировать командой **clear ip bgp all 64500**\) видим, что в VRF Internet остался только публичный маршрут:
