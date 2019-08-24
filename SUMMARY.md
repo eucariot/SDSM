@@ -416,5 +416,5 @@
   * [8. Аппаратная реализация QoS](15.-qos/8.-apparatnaya-realizaciya-qos.md)
   * [Полезные ссылки](15.-qos/9.-poleznye-ssylki.md)
   * [Спасибы](15.-qos/10.-spasibo.md)
-* [Инструкция для контрибьютеров](contributing.md)
+* [Инструкция для контрибьютеров](CONTRIBUTING.md)
 
