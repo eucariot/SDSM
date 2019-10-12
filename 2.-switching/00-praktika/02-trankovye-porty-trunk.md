@@ -40,6 +40,7 @@ msk-arbat-dsw1(config-if)#switchport mode trunk
 
 ```text
 msk-rubl-asw1(config)interface FastEthernet0/24
+msk-rubl-asw1(config-if)#description msk-arbat-dsw1
 msk-rubl-asw1(config-if)switchport trunk allowed vlan 2,101,104
 msk-rubl-asw1(config-if)switchport mode trunk
 msk-rubl-asw1(config)#int FastEthernet0/1
