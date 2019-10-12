@@ -8,9 +8,9 @@
 
 Вспомним, как мы её планировали:
 
-* [VLAN](https://almukhametov.gitbook.io/sdsm/~/edit/drafts/-LMaX_uMcqX5LWxO0DS6/0.-planirovanie/spisok-vlan)
-* [IP-план](https://almukhametov.gitbook.io/sdsm/~/edit/drafts/-LMaX_uMcqX5LWxO0DS6/0.-planirovanie/ip-plan)
-* [план коммутации](https://almukhametov.gitbook.io/sdsm/~/edit/drafts/-LMaX_uMcqX5LWxO0DS6/0.-planirovanie/plan-podklyucheniya-oborudovaniya-po-portam)
+* [VLAN](https://linkmeup.gitbook.io/sdsm/0.-planirovanie/3.-spisok-vlan)
+* [IP-план](https://linkmeup.gitbook.io/sdsm/0.-planirovanie/2.-ip-plan)
+* [план коммутации](https://linkmeup.gitbook.io/sdsm/0.-planirovanie/4.-plan-podklyucheniya-oborudovaniya-po-portam)
 
 Советуем на дополнительной вкладке отрыть их, потому что мы будем обращаться туда периодически.
 
