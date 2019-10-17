@@ -21,8 +21,6 @@ _Все настройки делаем сразу в соответствии �
 msk-arbat-asw3#configure terminal    
 msk-arbat-asw3(config)#vlan 2    
 msk-arbat-asw3(config-vlan)#name Management    
-msk-arbat-asw3(config-vlan)#vlan 3    
-msk-arbat-asw3(config-vlan)#name Servers    
 msk-arbat-asw3(config-vlan)#vlan 101    
 msk-arbat-asw3(config-vlan)#name PTO    
 msk-arbat-asw3(config-vlan)#vlan 102    
