@@ -5,12 +5,12 @@
 
 Для её осуществления нам нужна хотя бы одна точка стыка, где будут запущены одновременно два протокола. Это может быть msk-arbat-gw1 или klgr-balt-gw1. Выберем второй.
 
-Из в EIGRP в OSPF:
+Из EIGRP в OSPF:
 ```text
-klgr-gw1(config)#router ospf 1
-klgr-gw1(config-router)#redistribute eigrp 1 subnets 
+klgr-balt-gw1(config)#router ospf 1
+klgr-balt-gw1(config-router)#router-id 172.16.255.64
+klgr-balt-gw1(config-router)#redistribute eigrp 1 subnets
 ```
-
 
 Смотрим маршруты на msk-arbat-gw1:
 ```text
@@ -69,17 +69,23 @@ S* 0.0.0.0/0 [1/0] via 198.51.100.1
 
 Вот те, что с меткой Е2 — новые импортированные маршруты. Е2 — означает, что это внешние маршруты 2-го типа ([External](http://habrahabr.ru/post/117099/)), то есть они были введены в процесс OSPF извне.
 
+Предполагается, что где-то уже была выполнена комнада "network", чтобы вообще было что редистрибьютить:
+```text
+klgr-balt-gw1(config-router)#network 172.16.0.0 0.0.255.255 area 0
+```
+
+
 Теперь из OSPF в EIGRP. Это чуточку сложнее:
 ```
-klgr-gw1(config)#router eigrp 1
-klgr-gw1(config-router)#redistribute ospf 1 metric 100000 20 255 1 1500 
+klgr-balt-gw1(config)#router eigrp 1
+klgr-balt-gw1(config-router)#redistribute ospf 1 metric 100000 20 255 1 1500 
 ```
 
 Без указания метрики (вот этого длинного набора цифр) команда выполнится, но редистрибуции не произойдёт.
 
 Импортированные маршруты получают метку EX в таблице маршрутизации и административную дистанцию 170, вместо 90 для внутренних:
 ```
-klgr-gw2#sh ip route
+klgr-center-gw1#sh ip route
 
 Gateway of last resort is not set
 
