@@ -35,8 +35,8 @@
         var DIR_WEB_ROOT            = 'https://linkmeup.ru';
         var DIR_STATIC_SKIN         = 'https://linkmeup.ru/templates/skin/synio';
         var DIR_ROOT_ENGINE_LIB     = 'https://linkmeup.ru/engine/lib';
-        var LIVESTREET_SECURITY_KEY = 'b10812bec84cc6db98edc03cbcf69ca0';
-        var SESSION_ID              = 'gopgei64c228vhmgs64ac22ti0';
+        var LIVESTREET_SECURITY_KEY = 'f817799f01ea5e36885aa32b1b1483e9';
+        var SESSION_ID              = '9qbkbjvd208htcdvsgq5slmb07';
         var BLOG_USE_TINYMCE        = '';
 
         var TINYMCE_LANG = 'en';
@@ -132,7 +132,7 @@
         <a href="#" class="close jqmClose"></a>
     </header>
     
-    <div class="modal-content"><ul class="write-list"><li class="write-item-type-draft"><a href="https://linkmeup.ru/topic/saved/" class="write-item-image"></a><a href="https://linkmeup.ru/topic/saved/" class="write-item-link">33 черновика</a></li><li class="write-item-type-topic"><a href="https://linkmeup.ru/topic/add" class="write-item-image"></a><a href="https://linkmeup.ru/topic/add" class="write-item-link">Топик</a></li></ul></div>
+    <div class="modal-content"><ul class="write-list"><li class="write-item-type-draft"><a href="https://linkmeup.ru/topic/saved/" class="write-item-image"></a><a href="https://linkmeup.ru/topic/saved/" class="write-item-link">34 черновика</a></li><li class="write-item-type-topic"><a href="https://linkmeup.ru/topic/add" class="write-item-image"></a><a href="https://linkmeup.ru/topic/add" class="write-item-link">Топик</a></li></ul></div>
 </div>
     
             <div id="favourite-form-tags" class="modal">
@@ -197,8 +197,8 @@
             
             <ul class="dropdown-user-menu" id="dropdown-user-menu" style="display: none">
                 <li class="item-stat">
-                    <span class="strength" title="Сила"><i class="icon-synio-star-green"></i> 22.50</span>
-                    <span class="rating " title="Рейтинг"><i class="icon-synio-rating"></i> 9.42</span>
+                    <span class="strength" title="Сила"><i class="icon-synio-star-green"></i> 22.60</span>
+                    <span class="rating " title="Рейтинг"><i class="icon-synio-rating"></i> 9.46</span>
                     
                 </li>
                 
@@ -212,7 +212,7 @@
                 <li class="item-profile"><i class="item-icon"></i><a href="https://linkmeup.ru/profile/admin/">Мой профиль</a></li>
                 <li class="item-settings"><i class="item-icon"></i><a href="https://linkmeup.ru/settings/profile/">Настройки</a></li>
                 <li class="item-create"><i class="item-icon"></i><a href="https://linkmeup.ru/topic/add/">Создать</a></li>              
-                <li class="item-signout"><i class="item-icon"></i><a href="https://linkmeup.ru/login/exit/?security_ls_key=b10812bec84cc6db98edc03cbcf69ca0">Выход</a></li>
+                <li class="item-signout"><i class="item-icon"></i><a href="https://linkmeup.ru/login/exit/?security_ls_key=f817799f01ea5e36885aa32b1b1483e9">Выход</a></li>
             </ul>
         </div>
         </div>
@@ -330,7 +330,7 @@
                     <ul class="topic-actions">                                 
                                     <li class="edit"><i class="icon-synio-actions-edit"></i><a href="https://linkmeup.ru/topic/edit/537/" title="Редактировать" class="actions-edit">Редактировать</a></li>
                                 
-                                    <li class="delete"><i class="icon-synio-actions-delete"></i><a href="https://linkmeup.ru/topic/delete/537/?security_ls_key=b10812bec84cc6db98edc03cbcf69ca0" title="Удалить" onclick="return confirm('Вы действительно хотите удалить топик?');" class="actions-delete">Удалить</a></li>
+                                    <li class="delete"><i class="icon-synio-actions-delete"></i><a href="https://linkmeup.ru/topic/delete/537/?security_ls_key=f817799f01ea5e36885aa32b1b1483e9" title="Удалить" onclick="return confirm('Вы действительно хотите удалить топик?');" class="actions-delete">Удалить</a></li>
                             </ul>
             </header>
    
@@ -345,20 +345,23 @@
 <br/>
 В этой статье будет запредельно много сленга, англицизмов и слов на английском, потому что переводить их на русский неблагодарно, а порой и кощунственно. <br/>
 <br/>
+<a href="https://fs.linkmeup.ru/images/articles/buffers/kdpv_buffers.jpg" target="_blank" rel="nofollow"><img src="https://fs.linkmeup.ru/images/articles/buffers/kdpv_buffers_s.jpg" width="800" alt="Network Boobs" title="Network Buffers"/></a><br/>
+<br/>
+Но знаете, какая мысль действительно не даёт мне покоя всю дорогу? Как вся эта сложнейшая конструкция: миллиарды транзисторов, размером около десятка нанометров, напечатанных на пластине размером с большую печеньку, которая полдюжиной тысяч ног припаяна к многослойной плате, напичканной мириадами других микрочипов, сопротивлений и конденсаторов и являющейся частью многоюнитовой модульной коробки, управляемой операционной системой, состоящей из сотен прошивок для разных чипов, инструкций по работе с ними, реализаций стандартизированных и проприетарных протоколов и механизмов поддержания жизнедеятельности многочисленных вентиляторов, блоков питания, линейных карт, фабрик коммутации, интерфейсов, процессоров, памяти — вообще хоть как-то работает, а тем более работает настолько стабильно в течение многих лет.<br/>
+<br/>
 Настоятельно рекомендую ознакомиться с <a href="https://linkmeup.ru/blog/312.html" rel="nofollow">14-м выпуском СДСМ</a> перед тем, как приступить к чтению.<br/>
-Но знаете, какая мысль не даёт мне покоя всю дорогу? Как вся эта сложнейшая конструкция: миллиарды транзисторов, размером около десятка нанометров, напечатанных на пластине размером с пачку сигарет, которая полдюжиной тысяч ног припаяна к многослойной плате, напичканной мириадами других микрочипов, сопротивлений и конденсаторов и являющейся частью многоюнитовой модульной коробки, управляемой операционной системой, состоящей из сотен прошивок для разных чипов, инструкций по работе с ними, реализаций стандартизированных и проприетарных протоколов и механизмов поддержания жизнедеятельности многочисленных вентиляторов, блоков питания, линейных карт, фабрик коммутации, интерфейсов, процессоров, памяти — вообще хоть как-то работает, а тем более работает настолько стабильно в течение многих лет.<br/>
 <hr/><br/>
 <br/>
 <h1>Содержание</h1><br/>
 <ul><li><b><a href="#TERMINOLOGY" rel="nofollow">Терминология</a></b></li><li><b><a href="#DEVICE_ARCHITECTURE" rel="nofollow">Архитектура сетевого устройства</a></b></li><li><b><a href="#CHIPSET_TYPES" rel="nofollow">Типы чипов</a></b><br/>
-<ul><li><a href="#TRADEOFFS" rel="nofollow">Компромиссы: скорость, функциональность, гибкость.</a></li><li><a href="#CPU" rel="nofollow">CPU</a></li><li><a href="#ASIC" rel="nofollow">ASIC</a></li><li><a href="#FPGA" rel="nofollow">FPGA</a></li><li><a href="#NP" rel="nofollow">NP</a></li><li><a href="#PROGRAMMABLE_ASIC" rel="nofollow">Programmable ASIC</a></li><li><a href="#DC_CHIPS" rel="nofollow">Чипы для датацентровых коммутаторов</a></li></ul></li><li><b><a href="#ASIC_ARCHITECTURE" rel="nofollow">Архитектура ASIC</a></b><br/>
+<ul><li><a href="#TRADEOFFS" rel="nofollow">Компромиссы: скорость, функциональность, гибкость, цена</a></li><li><a href="#CPU" rel="nofollow">CPU</a></li><li><a href="#ASIC" rel="nofollow">ASIC</a></li><li><a href="#FPGA" rel="nofollow">FPGA</a></li><li><a href="#NP" rel="nofollow">NP</a></li><li><a href="#PROGRAMMABLE_ASIC" rel="nofollow">Programmable ASIC</a></li><li><a href="#DC_CHIPS" rel="nofollow">Чипы для датацентровых коммутаторов</a></li></ul></li><li><b><a href="#ASIC_ARCHITECTURE" rel="nofollow">Архитектура ASIC</a></b><br/>
 <ul><li><a href="#PHYSICAL_ARCHITECTURE" rel="nofollow">Физическое устройство</a></li><ul><li><i><a href="#SERDES" rel="nofollow">SerDes</a></i></li><li><i><a href="#PHY" rel="nofollow">PHY, Silicon Photonics</a></i></li></ul><li><a href="#LOGICAL_ARCHITECTURE" rel="nofollow">Логическое устройство</a><br/>
-<ul><li><i><a href="#PARSER" rel="nofollow">Parser</a></i></li><li><i><a href="#IMOCHACTION" rel="nofollow">Ingress Match-Action</a></i></li><li><i><a href="#TM" rel="nofollow">Traffic Manager</a></i></li><li><i><a href="#EMOCHACTION" rel="nofollow">Egress Match-Action</a></i></li><li><i><a href="#DEPARSER" rel="nofollow">Deparser</a></i></li></ul></li><li><a href="#PIPELINE" rel="nofollow">Pipeline</a></li><li><a href="#PROGRAMMABLE_PIPELINE" rel="nofollow">Programmable Pipeline</a></li></ul></li><li><b><a href="#BUFERA" rel="nofollow">Память и буферы</a></b><br/>
+<ul><li><i><a href="#PREINGRESS_ANGINE" rel="nofollow">Pre-Ingress processing</a></i></li><li><i><a href="#PARSER" rel="nofollow">Parser</a></i></li><li><i><a href="#IMOCHACTION" rel="nofollow">Ingress Match-Action</a></i></li><li><i><a href="#TM" rel="nofollow">Traffic Manager + MMU</a></i></li><li><i><a href="#EMOCHACTION" rel="nofollow">Egress Match-Action</a></i></li><li><i><a href="#DEPARSER" rel="nofollow">Deparser</a></i></li></ul></li><li><a href="#PIPELINE" rel="nofollow">Pipeline</a></li><li><a href="#PROGRAMMABLE_PIPELINE" rel="nofollow">Programmable Pipeline</a></li></ul></li><li><b><a href="#BUFERA" rel="nofollow">Память и буферы</a></b><br/>
 <ul><li><a href="#SFVSCT" rel="nofollow">Store-n-Forward vs Cut-Through</a></li><li><a href="#CONGESTIONS" rel="nofollow">Перегрузки: причины и места</a><br/>
 <ul><li><i><a href="#CONGESTION_REASONS" rel="nofollow">Причины перегрузок</a></i></li><li><i><a href="#CONGESTION_POINTS" rel="nofollow">Места образования перегрузок</a></i></li></ul></li><li><a href="#BUFFER_ARCHITECTURE" rel="nofollow">Архитектура памяти</a><br/>
-<ul><li><i><a href="#CROSSBAR" rel="nofollow">Crossbar</a></i></li><li><i><a href="#SHARED_BUFFER" rel="nofollow">Shared Buffers</a></i></li><li><i><a href="#OQ" rel="nofollow">Output queuing </a></i></li><li><i><a href="#IQ" rel="nofollow">Input queuing </a></i></li><li><i><a href="#CIOQ" rel="nofollow">Combined Input and Output queuing </a></i></li><li><i><a href="#VOQ" rel="nofollow">Virtual Output Queueing</a></i></li></ul></li><li><a href="#SHALLOW_VS_DIPPER" rel="nofollow">Shallow vs Deep buffers</a><br/>
+<ul><li><i><a href="#CROSSBAR" rel="nofollow">Crossbar</a></i></li><li><i><a href="#SHARED_BUFFER" rel="nofollow">Shared Buffers</a></i></li><ul><li><i><a href="#DEDICATED" rel="nofollow">Dedicated + Shared buffers</a></i></li><li><i><a href="#HEADROOM" rel="nofollow">Headroom buffers</a></i></li><li><i><a href="#ADMISSION_CONTROL" rel="nofollow">Admission Control</a></i></li><li><i><a href="#ALPHA" rel="nofollow">Alpha</a></i></li></ul><li><i><a href="#OQ" rel="nofollow">Output queuing </a></i></li><li><i><a href="#IQ" rel="nofollow">Input queuing </a></i></li><li><i><a href="#CIOQ" rel="nofollow">Combined Input and Output queuing </a></i></li><li><i><a href="#VOQ" rel="nofollow">Virtual Output Queueing</a></i></li></ul></li><li><a href="#SHALLOW_VS_DIPPER" rel="nofollow">Shallow vs Deep buffers</a><br/>
 <ul><li><i><a href="#HYBRID_BUFFERING" rel="nofollow">Hybrid Buffering</a></i></li><li><i><a href="#TRUE_EVIL" rel="nofollow">Большие буферы — это зло?</a></i></li></ul></li></ul></li><li><b><a href="#LLLL" rel="nofollow">Lossless Low-Latency сети</a></b></li><li><b><a href="#CHIPS_AND_DALES" rel="nofollow">Существующие чипы</a></b><br/>
-<ul><li><a href="#MERCHANT_SILICON" rel="nofollow">Commodity/Merchant</a></li><li><a href="#CUSTOM_SILICON" rel="nofollow">Custom</a></li><li><a href="#MERCHANTS_VS_CUSTOMERS" rel="nofollow">Merchant vs Commodity</a></li></ul></li><li><b><a href="#LINKS" rel="nofollow">Полезные ссылки</a></b></li></ul><br/>
+<ul><li><a href="#MERCHANT_SILICON" rel="nofollow">Commodity/Merchant</a></li><li><a href="#CUSTOM_SILICON" rel="nofollow">Custom</a></li><li><a href="#MERCHANTS_VS_CUSTOMERS" rel="nofollow">Merchant vs Custom</a></li></ul></li><li><b><a href="#LINKS" rel="nofollow">Полезные ссылки</a></b></li></ul><br/>
 TL;DR<br/>
 <a name="cut" rel="nofollow"></a> <br/>
 <br/>
@@ -366,19 +369,19 @@ TL;DR<br/>
 <a name="TERMINOLOGY" rel="nofollow"></a><br/>
 <h1>Терминология</h1><br/>
 Задача этого параграфа не объять все непонятные слова, употребляемые в статье, а лишь внести некую ясность в неразбериху русско-английских терминов.<br/>
-<b>Чип коммутации</b>, <b>сетевой процессор</b>, <b>(Packet) Forwarding Engine</b>, <b>PFE</b> — микросхема, способная коммутировать пакет из входа в нужный выход с нужным набором заголовком.<br/>
+<b>Чип коммутации</b>, <b>сетевой процессор</b>, <b>(Packet) Forwarding Engine</b>, <b>PFE</b> — микросхема, способная коммутировать пакет из входа в нужный выход с нужным набором заголовков.<br/>
 <b>Pins</b>, <b>пины</b>, <b>ножки</b> — металлические контакты на микросхеме для соединения с основанием.<br/>
 <b>Data Path</b> — путь внутри устройства (или чипа), по которому передвигается пользовательский трафик.<br/>
 <b>Lookup</b> или <b>лукап</b> или <b>поиск</b> — поиск адресата в таблицах (FIB, LFIB, ARP Adjacencies, IPv6 ND Table итд.)<br/>
 <b>Pipeline</b> или <b>конвейер</b> — набор действий, которые происходят с пакетом по мере его продвижения от входа в чип до выхода из него.<br/>
-<b>Single-chip</b>, <b>одночиповый</b> — коммутатор, внутри которого только один чип.<br/>
+<b>Single-chip</b>, <b>одночиповый</b> — устройство, внутри которого только один чип.<br/>
 <b>Fixed</b>, <b>фиксированный</b>, <b>pizza-box</b> — немодульный коммутатор. Обычно внутри него нет фабрик коммутации. Часто эти термины используются как синоним Single-chip, хотя это не совсем верно — внутри может стоять два (back-to-back) чипа или даже больше.<br/>
 <b>Сериализация/Десериализация</b> — процесс перевода данных из параллельного низкоскоростного интерфейса (МГц) в<br/>
-последовательный высокоскоростной (ГГц) и наоборот. Например, из чипа в интерфейс.<br/>
+последовательный высокоскоростной (ГГц) и наоборот. Например, из чипа в интерфейс или из чипа в фабрику.<br/>
 <b>Память</b> — физическая микросхема для хранения.<br/>
 <b>Буфер</b> — некий участок памяти, выделенный для хранения пакетов. <i>Здесь и далее в производных словах, таких как «буферов», ударение на «У»</i>.<br/>
 <b>Очередь</b> — абстракция над буфером, позволяющая <b>виртуально</b> выстраивать пакеты в упорядоченную очередь. Фактически в памяти они, конечно, хранятся «как попало».<br/>
-<b>OCB</b> — On-Chip Buffer. Память, встроенная в чип.<br/>
+<b>OCB</b> — On-Chip Buffer — память, встроенная в чип.<br/>
 <b>Programmable ASIC</b> — ASIC, логику работы которого можно изменить путём перепрошивки.<br/>
 <b>Programmable Pipeline</b> — чип с возможностью для сторонних компаний программировать конкретные части ASIC в ограниченных пределах с помощью предоставляемого вендором компилятора.<br/>
 <br/>
@@ -399,11 +402,13 @@ TL;DR<br/>
 Это компоненты, которые присутствуют всегда и во всех сетевых устройствах.<br/>
 <br/>
 Реализация же этих функций уже зависит от того, о чём именно мы говорим.<br/>
-Например, на обычном x86 всю работу, кроме физики могут взять на себя CPU и оперативка. А можно в них доставить SmartNIC'и, которые аппаратно могут делать, например, туннелирование и TCP Offload. <br/>
+Например, на обычном x86 всю работу, кроме PHY могут взять на себя CPU и оперативка. <br/>
+Более типично, что функции канального уровня заберёт на себя NIC — Ethernet, проверка контрольных сумм.<br/>
+А можно в компьютер доставить SmartNIC'и, которые аппаратно могут делать, например, туннелирование.<br/>
 Но мы не будем сегодня про программные реализации сетевых функций. Поговорим о старых добрых материальных коробках, которым всё равно никуда никогда не деться.<br/>
 <br/>
 <hr/><br/>
-Вообще об этом я уже <a href="https://linkmeup.ru/blog/312.html" rel="nofollow">писал</a>, поэтому повторяться я не буду. Точнее буду, но не сильно. Точнее сильно, но я добавлю здесь ещё смысла.<br/>
+Вообще об этом я уже <a href="https://linkmeup.ru/blog/312.html" rel="nofollow">писал</a>, поэтому повторяться не буду. Точнее буду, но не сильно. Точнее сильно, но я добавлю здесь ещё смысла.<br/>
 <br/>
 Обычно на каждый блок задач выделяется специализированный чип.<br/>
 Так, всем Control Plane'ом занимается всё тот же CPU+память.<br/>
@@ -420,10 +425,10 @@ Traffic Manager — если вынесен отдельно, то опять ж
 <br/>
 <a name="CHIPSET_TYPES" rel="nofollow"></a><br/>
 <h1>Типов-Чипов</h1><br/>
-Было очень страшно начинать эту статью, потому что чипов чудовищное многообразие и простого короткого ответа на вопрос, какой выбрать — нет. Речь и про типы и про изготовителей и про серии, и про характеристики.<br/>
-Ниже мы попытаемся разложить все эти шутки на составляющие детали.<br/>
+Было очень страшно начинать эту статью, потому что чипов чудовищное многообразие и простого короткого ответа на вопрос, какой выбрать — нет. Речь и про типы, и про изготовителей, и про серии, и про характеристики.<br/>
+Ниже я попытаюсь разложить все эти штуки на составляющие детали.<br/>
 <br/>
-А начнём с типов чипов. Дальнейшая часть этой главы в большой степени повторит материал <a href="https://linkmeup.ru/blog/312.html#CHIPS" rel="nofollow">одной из статей цикла СДСМ</a>.<br/>
+А начнём с типов чипов. Дальнейшая часть этой главы в некоторой степени повторит материал упомянутой выше <a href="https://linkmeup.ru/blog/312.html#CHIPS" rel="nofollow">статьи из цикла СДСМ</a>.<br/>
 <br/>
 <a name="TRADEOFFS" rel="nofollow"></a><br/>
 <h2>Компромиссы: скорость, функциональность, гибкость, цена</h2><br/>
@@ -436,12 +441,12 @@ Traffic Manager — если вынесен отдельно, то опять ж
 <br/>
 Вендоры всегда балансируют в периметре этого треугольника. <br/>
 <br/>
-Нельзя сделать CPU, проворачивающий через себя 25,6 Тб/с.<br/>
-Нельзя сделать универсальный ASIC — зачастую они могут быть аппаратно ограничены условием (например, <b>или</b> VXLAN Lookup <b>или</b> IP).<br/>
+Нельзя сделать CPU, проворачивающий через себя 25 Тб/с.<br/>
+Нельзя сделать универсальный ASIC — зачастую они могут быть аппаратно ограничены по функциям (например, <b>или</b> VXLAN Lookup <b>или</b> IP).<br/>
 Нельзя сделать дешёвый FPGA.<br/>
 <br/>
 Кроме того при таком количестве портов, сегодня вступают в игру энергопотребление, место в стойке, тепловыделение и, конечно, цена. <br/>
-<br/>
+<hr/><br/>
 Итак, на сегодняшний день существуют следующие типы чипов, которые могут быть использованы в качестве пакетных процессоров:<br/>
 <br/>
 <a name="CPU" rel="nofollow"></a><br/>
@@ -451,23 +456,27 @@ Traffic Manager — если вынесен отдельно, то опять ж
 <br/>
 <ul><li>Неограниченная гибкость</li><li>Неограниченная функциональность</li><li>Приемлемая цена</li><li>Полный провал по производительности</li></ul><br/>
 Идея в том, что всё управляется кодом. Инструкции записываются в оперативную память. Для обработки каждого пакета потребуется сходить много раз из CPU в RAM.<br/>
-Для изменения логики работы достаточно переписать программу. Обновления CPU не требуется.<br/>
+С другой стороны для изменения логики работы достаточно переписать программу. Обновления CPU не требуется.<br/>
 <br/>
 Область применения: домашние и SOHO маршрутизаторы, устройства уровня доступа, файрволы, DPI итд. <br/>
 Например, абсолютно все рутеры Mikrotik используют CPU для маршрутизации пакетов.<br/>
 Иными словами CPU годится там, где не гонимся за ультраскоростями, а важен широкий набор функций и невысокая цена.<br/>
 <blockquote>Впрочем, не без исключений: бывают, что и большие штуки коммутируют в CPU.<br/>
 </blockquote><br/>
-Для последнего десятилетия характерна тенденция к маршрутизации в софте. Для всех сетевых функций предлагаются программные альтернативы. Отсюда и DMA, DPDK, VPP, SR-IOV, которые и правда позволяют творить невиданные прежде вещи. <br/>
-Более того, современные CPU обладают дополнительными блоками инструкций. У Intel это <b>SSE</b> — <a href="https://ru.wikipedia.org/wiki/SSE" rel="nofollow">Streaming SIMD Extensions</a>, позволяюшие значительно ускорить обработку трафика.<br/>
+<b>Важное замечание</b>: CPU является необходимой частью любого сетевого устройства, потому что берёт на себя задачи Control Plane. А это автоматически означает, что ему придётся работать с протокольным трафиком: OSPF, BGP, LDP, LLDP итд. Кроме того, есть exception трафик — когда у пакета TTL истёк или когда у него стоит бит Router Alert. Ещё CPU нужно самому генерировать трафик тех же протоколов — Self-generated.<br/>
+Можно ли считать это участием в коммутации? Скорее да, чем нет.<br/>
+<br/>
+<h5>Программная маршрутизация на CPU</h5>Для последнего десятилетия характерна тенденция к маршрутизации в софте. Для всех сетевых функций предлагаются программные альтернативы. Отсюда и DMA, DPDK, VPP, SR-IOV, которые и правда позволяют творить невиданные прежде вещи. <br/>
+Более того, современные CPU обладают дополнительными блоками инструкций. У Intel это <b>SSE</b> — <a href="https://ru.wikipedia.org/wiki/SSE" rel="nofollow">Streaming SIMD Extensions</a>, позволяющие значительно ускорить обработку трафика.<br/>
 Тут обычные CPU уже заходят в зону NP (Network Processor) — процессоров, которые можно программировать на языках высокого уровня вроде C, и обладающих большим набором спец. инструкций для работы с сетевым трафиком.<br/>
-Одним из узких мест современных процессоров еще является шина доступа — PCIe. В один процессорв сейчас более-менее можно загнать 100 с небольшим Гбит/с.<br/>
+Одним из узких мест современных процессоров ещё является шина доступа — PCIe. В один процессор сейчас более-менее можно загнать 100 с небольшим Гбит/с.<br/>
 <br/>
 Но как бы производители программных решений ни продвигали идею, что «все можно сделать в софте», однако скорости выше 500 Гбит/с пока что можно достигать только с помощью специализированных асиков.<br/>
 <br/>
+И давайте ещё прикинем.<br/>
 Выдержка с сайта про VPP:<br/>
 <blockquote>Recent testing of FD.io release 17.04 shows impressive gains in performance on Intel’s newest platform when switching and routing layer 2⁄3 traffic. With the prior generation Intel® Xeon® Processor E7-8890v3, FD.io testing showed aggregate forwarding rate of 480 Gbps (200 Mpps) for 4-Socket machine (using 4 of E7-8890v3 CPU configuration); however, the same FD.io tests run on two 2-Socket blades (e.g. a modern 2RU server) with the new Intel® Xeon® Platinum 8168 CPUs (using four of 8168 CPUs in two by two-socket configuration), within the same power budget, show increase of forwarding rate to 948 Gbps (400 Mpps) benefiting from the PCIe bandwidth increase of the new CPUs, and the overall decrease in cycles-per-packet due to CPU micro-architecture improvements.<br/>
-</blockquote>А теперь посчитаем:<br/>
+</blockquote><br/>
 Xeon E7-8890v3: Рекомендуемая цена $7174.<br/>
 4 проца по 18 ядер = 72 ядра = 480 Gbps (200 Mpps)<br/>
 $28696 только за процы<br/>
@@ -484,23 +493,28 @@ $11780 только за процы<br/>
 <br/>
 <ul><li>Околонулевая гибкость</li><li>Ограниченная функциональность</li><li>Низкая цена</li><li>Ультравысокая производительность</li></ul><br/>
 Идея в том, что инструкции закодированы аппаратно в виде транзисторов. <br/>
-Сначала очень долго пишется код, реализующий логику, на специальном языке программирования, вроде Verilog, далее он преобразуется в интегральную схему, отлаживается, проверяется и отправляется в тираж. После этого поменять что-то в логике чипа можно только, произведя новый чип.<br/>
-Каждый пакет обрабатывается, просто прогоняясь по конвейеру из транзисторов, совершающих заранее предопределённые действия. Это называется Pipeline.<br/>
+Сначала очень долго пишется код, реализующий логику, на специальном языке программирования, вроде Verilog, далее он преобразуется в интегральную схему, отлаживается, проверяется и отправляется в тираж. После этого поменять что-то в логике чипа можно, только произведя новый чип.<br/>
+Каждый пакет обрабатывается, просто прогоняясь по конвейеру из транзисторов, совершающих заранее определённые действия. Это называется Pipeline.<br/>
 <br/>
 Область применения: почти любые коммутаторы и многие маршрутизаторы.<br/>
-<blockquote>Впрочем, не без исключений: Juniper в своей линейке маршрутизаторов MX использует <a href="https://habr.com/post/307696/" target="_blank" rel="nofollow">блок ASIC'ов Trio</a>.<br/>
-</blockquote><br/>
+<blockquote>Впрочем, не без исключений: Juniper в своей линейке маршрутизаторов MX многие годы использует <a href="https://habr.com/post/307696/" target="_blank" rel="nofollow">ASIC Trio</a>.<br/>
+<br/>
+Вообще по книге об MX: PFE это блок ASIC'ов:<br/>
+PFEs are made of several ASICs, which may be grouped into four categories:<br/>
+<ul><li>Routing ASICs: LU or XL Chips. LU stands for Lookup Unit and XL is a more powerful (X) version.</li><li>Forwarding ASICs: MQ or XM Chips. MQ stands for Memory and Queuing, and XM is a more powerful (X) version.</li><li>Enhanced Class of Service (CoS) ASICs: QX or XQ Chips. Again, XQ is a more powerful version.</li><li>Interface Adaptation ASICs: IX (only on certain low-speed GE MICs) and XF (only on MPC3E) </li></ul></blockquote><br/>
+Речь здесь о классических ASIC — <b>Applicaton Specific</b> Integrated Circuit — статических кусках кремния с аппаратной логикой.<br/>
+Последние лет 10 в области сетевых микросхем произошёл сдвиг в направлении программируемых ASIC'ов, о которых <a href="#PROGRAMMABLE_ASIC" rel="nofollow">чуть ниже</a>.<br/>
+<br/>
 <a name="FPGA" rel="nofollow"></a><br/>
 <h2>FPGA</h2><br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/chips_fpga.png" width="500"/><br/>
 <br/>
-Русский термин — ПЛИС — Программируемая логическая интегральная схема.<br/>
+Русский термин — ПЛИС — Программируемая Логическая Интегральная Схема.<br/>
 <ul><li>Вполне удовлетворительная гибкость</li><li>Вполне удовлетворительная функциональность</li><li>Цена успешного полёта Апполона до Луны и обратно</li><li>Отличная производительность</li></ul><br/>
-<br/>
 В отличие от ASIC'ов, где на транзисторах реализованы сами функциональные блоки, в FPGA транзисторами реализуются базовые строительные блоки — регистры, память, LUTы. Из которых потом <b>можно</b> создавать нужные функциональные блоки.<br/>
 Что это даёт?<br/>
 А то, что FPGA полностью программируемый — логику работы блоков, из которых он состоит, можно поменять. Для этого потребуется обновить прошивку чипа, что менее удобно, чем с CPU, но гораздо удобнее, чем ASIC.<br/>
-Так, если поддержка какой-то функции (условный VXLAN) не была заложена изначально, её всегда можно добавить потом новой прошивкой.<br/>
+Так, если поддержка какой-то функции (условный Geneve) не была заложена изначально, её всегда можно добавить потом новой прошивкой.<br/>
 <br/>
 Однако за такую программируемость приходится дорого платить.<br/>
 <br/>
@@ -509,7 +523,7 @@ $11780 только за процы<br/>
 <blockquote>Впрочем, не без исключений: собеседовался я как-то раз в контору, в которой модульную коробку для операторов собирали полностью на FPGA, включая фабрику.<br/>
 <br/>
 У этого даже есть основания: задолго до появления Programmable ASIC'ов на FPGA можно было делать любую обработку пакетов. И даже через несколько лет после производства плисину легко перепрошить и получить поддержку новой функции.<br/>
-Авторам неизвестны вендоры, которые бы на ПЛИС сделали PFE на скорости более 100 Гбит/с, по всей видимости, потому что частная компания не обладает для этого достаточным капиталом.<br/>
+Автору неизвестны вендоры, которые бы на ПЛИС сделали PFE на скорости более 100 Гбит/с, по всей видимости, потому что частная компания не обладает для этого достаточным капиталом.<br/>
 Но для рынка энтерпрайз такие решения могут <a href="https://www.ethernitynet.com/products/socs/network-co-processors/" target="_blank" rel="nofollow">вполне</a> <a href="https://www.arrivetechnologies.com/ipcorecarrierethernet" target="_blank" rel="nofollow">подойти</a>.<br/>
 <br/>
 Однако, я слышал, что в процессе разработки ASIC возможен такой подход, когда сначала разрабатывается FPGA, программируется нужным образом, тестируется, а потом с неё делают слепок для производства ASIC. Но пруфов нет.<br/>
@@ -519,6 +533,8 @@ $11780 только за процы<br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/chip_np.png" width="500"/><br/>
 <br/>
 <ul><li>Отличная гибкость</li><li>Отличная функциональность</li><li>Цена весьма высокая</li><li>Производительность весьма высокая</li></ul><br/>
+NP или <b>NPU</b> — Network Processor Unit.<br/>
+<br/>
 Идея в том, что это почти CPU, который однако заточен под сетевые задачи и изготавливается специально под них.<br/>
 Он, как и CPU, обычно состоит из нескольких ядер, каждое из которых отвечает за свой сегмент. Для изменения логики так же достаточно переписать код приложения.<br/>
 NP позволяет делать более сложные штуки — например выполнять циклы (чего лишены ASIC и FPGA), делать NAT, почти любые инкапсуляции, пушить и попать условно произвольное число меток итд.<br/>
@@ -528,7 +544,7 @@ NP позволяет делать более сложные штуки — на
 Большим преимуществом является то, что писать программы для NP можно на С. Это значительно ускоряет процесс, кроме того, где-то можно переиспользовать код.<br/>
 <br/>
 Область применения: маршрутизаторы агрегации и ядра. <br/>
-<blockquote>Впрочем, не без исключений: а нет, не припомню исключений.<br/>
+<blockquote>Впрочем, не без исключений: например Smart-NIC Netronome в начале своего пути <a href="https://www.netronome.com/timeline/" target="_blank" rel="nofollow">испльзовал Intel IXP</a>.<br/>
 </blockquote><br/>
 <a name="PROGRAMMABLE_ASIC" rel="nofollow"></a><br/>
 <h2>Programmable ASIC</h2><br/>
@@ -546,12 +562,12 @@ NP позволяет делать более сложные штуки — на
 <br/>
 <a name="DC_CHIPS" rel="nofollow"></a><br/>
 <h2>Чипы для датацентровых коммутаторов</h2><br/>
-Чтобы упростить себе жизнь, я продолжу далее разговор только об ASIC'ах под датацентровые коммутаторы, не пытаясь объять Джабба Хатта.<br/>
+Чтобы упростить себе жизнь, я продолжу далее разговор только об ASIC'ах под датацентровые коммутаторы, не пытаясь обнять Джабба Хатта.<br/>
 <br/>
 До недавних пор на этой ниве пахал только Broadcom со своей оружейной палатой: Tomahawk и Trident — и израильскими городами: Qumran, Jericho итд.<br/>
 Выбор — особо не разбежишься — ну или разрабатывать своё (как делают Huawei, Juniper и Cisco)<br/>
 <br/>
-Сегодня конкуренцию ему пытаются составляют Mellanox со своими собственными чипами Spectrum (ныне уже Nvidia), Innovium Teralynx, Barefoot Tophino (ныне Intel). Своим появлением эти компании раскачивают рынок и провоцируют среди вендоров тренд на переход к готовым чипам их производства от внутренних разработок.<br/>
+Сегодня конкуренцию ему пытаются составить Mellanox со своими собственными чипами Spectrum (ныне уже Nvidia), Innovium Teralynx, Barefoot Tophino (ныне Intel). Своим появлением эти компании раскачивают рынок и провоцируют среди вендоров тренд на переход от внутренних разработок к готовым чипам их производства.<br/>
 <br/>
 Мы в конце <a href="#CHIPS_AND_DALES" rel="nofollow">статьи</a> взглянем на их модельные ряды, но пока давайте обсудим, чем же чипы характеризуются и могут отличаться друг от друга.<br/>
 <br/>
@@ -559,9 +575,9 @@ NP позволяет делать более сложные штуки — на
 <hr/><br/>
 <br/>
 В <a href="https://linkmeup.ru/blog/480.html" rel="nofollow">датацентровых сетях</a> есть три основных типа устройств:<br/>
-<b>Spine</b> — сравнительно простая железка, требующая самый минимум функций — её задача просто молотить трафик. Очень много и очень быстро. Зачастую это просто IP-маршрутизация.<br/>
-<b>Leaf</b> — чуть более требователен к функциям. Может терминировать на себе VXLAN или другие оверлеи. Здесь могут реализовываться политики QoS и ACL. Зато не нужна такая большая пропускная способность, как для спайнов.<br/>
-<b>Edge-leaf</b> — это устройства границы сети ДЦ и здесь уже фантазия ограничивается только свободой мысли сетевых архитекторов — MPLS, Segment Routing, всевозможные VPN'ы. При этом наименее требовательны к производительности.<br/>
+<b>Spine</b> — сравнительно простая железка, требующая самый минимум функций — её задача просто молотить трафик. Очень много и очень быстро. Зачастую это просто IP-маршрутизация. Но бывают и топологии, в которых Spine играет чуть более важную роль (VXLAN anycast gateway). Но обычная практика — держать конфигурацию спайнов максимально простой. <br/>
+<b>Leaf</b> — чуть более требователен к функциям. Может терминировать на себе VXLAN или другие оверлеи. Здесь могут реализовываться политики QoS и ACL. Зато не нужна такая большая пропускная способность, как для спайнов. Кроме того, в некоторых сценариях (VXLAN) leaf знает о сервисах за подключенными машинами (клиентских сетях, контейнерах), соответственно, ему нужно больше ресурсов FIB для хранения этой инфорации.<br/>
+<b>Edge-leaf</b> — это устройства границы сети ДЦ и здесь уже фантазия ограничивается только свободой мысли сетевых архитекторов — MPLS, RSVP-TE, Segment Routing, всевозможные VPN'ы. При этом наименее требовательны к производительности.<br/>
 <br/>
 На каждом устройстве, соответственно, разные требования к возможностям чипов — как по пропускной способности, так и по набору функций и по количеству ресурсов для хранения чего-либо.<br/>
 <br/>
@@ -588,11 +604,11 @@ NP позволяет делать более сложные штуки — на
 Это, например, <b>телеметрия</b> в реальном времени: наблюдать за утилизацией буферов, видеть бёрсты, дампы отброшенных пакетов, профиль трафика по размерам и типам пакетов.<br/>
 Кроме того, сегодня набирает популярность <b>INT</b> — <a href="https://www.opencompute.org/files/INT-In-Band-Network-Telemetry-A-Powerful-Analytics-Framework-for-your-Data-Center-OCP-Final3.pdf" rel="nofollow">Inband Network Telemetry</a>.<br/>
 <br/>
-Для многих незаметно, но уже почти жизненно важно, начинает работать <b>динамическая балансировка трафика</b>: чип отслеживает потоки (flows) и дробит их на флоулеты — короткие куски трафика, разделённые между собой паузой в несколько микросекунд. Эти флоулеты он может динамически распределять по разным путям (ECMP или членам LAG), чтобы обеспечить более равномерную балансировку. Особенно важно это для Elephant Flows, оккупирующих один интерфейс.<br/>
+Для многих незаметно, но уже почти жизненно важно, начинает работать <b>динамическая балансировка трафика</b>: чип отслеживает потоки (flows) и дробит их на флоулеты (flowlets) — короткие куски трафика одного потока, разделённые между собой паузой в несколько миллисекунд. Эти флоулеты он может динамически распределять по разным путям (ECMP или членам LAG), чтобы обеспечить более равномерную балансировку. Особенно важно это для Elephant Flows, оккупирующих один интерфейс.<br/>
 <br/>
 Пользователям всё чаще хочется иметь возможность <b>управлять распределением буфера</b>, ну а <b>перераспределение</b> ресурсов FIB — это уже функциональность, отсутствие которой будет вызывать вопросы. <br/>
 <br/>
-В условиях датацентров ECMP и балансировка силами сети — это воздух, вендорам нужно обеспечить нужное количество как <b>ECMP-групп</b>, так и общее <b>количество Next-hop'ов</b>.<br/>
+В условиях датацентров <a href="https://linkmeup.ru/blog/482.html" target="_blank" rel="nofollow">ECMP и балансировка силами сети</a> — это воздух, вендорам нужно обеспечить нужное количество как <b>ECMP-групп</b>, так и общее <b>количество Next-hop'ов</b>.<br/>
 <br/>
 Поэтому нет одного чипа или тем более SoC, решающего сразу все задачи. <br/>
 Под каждую роль разработаны свои чипы. Одни из них ориентированы на пропускную способность, другие на широкую функциональность, третьи на низкие задержки. <br/>
@@ -608,13 +624,14 @@ NP позволяет делать более сложные штуки — на
 <a name="PHYSICAL_ARCHITECTURE" rel="nofollow"></a><br/>
 <h2>Физическое устройство</h2><br/>
 Итак, для успешной коммутации пакета нужны следующие блоки: <br/>
-<ul><li>Парсер заголовков (Parser)</li><li>Лукап (Match)</li><li>Блоки преобразований (Action)</li><li>Блок управления памятью (TM/MMU)</li><li>Сборщик пакета (Deparser)</li><li>SerDes</li><li>FIB/LFIB</li><li>Другие таблицы: Nexthop-группы, ARP Adjacencies, IPv6 ND Tables, ACL</li><li>Память для буферизации пакетов</li><li>Блок, реализующий MAC</li><li>Чип PHY</li><li>Физические порты/трансиверы</li></ul><br/>
+<ul><li>Парсер заголовков (Parser)</li><li>Лукап (Match): FIB/LFIB, Nexthop-группы, ARP Adjacencies, IPv6 ND Tables, ACL итд</li><li>Блоки преобразований (Action)</li><li>Блок управления памятью (TM/MMU)</li><li>Сборщик пакета (Deparser)</li><li>SerDes</li><li>Память для буферизации пакетов</li><li>Блок, реализующий MAC</li><li>Чип PHY</li><li>Физические порты/трансиверы</li></ul><br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/device_architecture_full.svg" width="800"/><br/>
-Крупными мазками: оптический или электрический сигнал попадает на <b>порт</b> (Rx), тот его передаёт на <b>PHY</b>. Модуль PHY реализует функции физического уровня и передаёт биты на входные пины PFE, где сигнал блоками <b>SerDes</b> преобразуется в удобоваримый для чипа вид. Блок <b>MAC</b> из потока битов восстанавливает Ethernet кадр и передаёт его <b>парсеру</b>. Парсер отделяет необходимые ему заголовки и передаёт их на анализ следующему блоку <b>Match/Action</b>. Тот их исследует и применяет нужные действия — отправить на правильный порт, на CPU, энкапсулировать, дропнуть итд. Далее пакет помещается в <b>Traffic Manager</b>, которые проводит все обряды QoS. И потом процесс раскручивается в обратную сторону. Снова <b>Match/Action</b>. Потом собрать пакет с новыми заголовками (<b>Deparser</b>), преобразовать кадр в поток битов (<b>MAC</b>), сериализовать (<b>SerDes</b>), осуществить действия физического уровня (<b>PHY</b>) и передать через <b>трансивер</b> (Tx) в среду.<br/>
+Крупными мазками: оптический или электрический сигнал попадает на порт (<b>Rx</b>), тот его передаёт на <b>PHY</b>. Модуль PHY реализует функции физического уровня и передаёт биты на входные пины PFE, где сигнал блоками <b>SerDes</b> преобразуется в удобоваримый для чипа вид. Блок <b>MAC</b> из потока битов восстанавливает Ethernet-кадр и передаёт его <b>парсеру</b>. Парсер отделяет необходимые ему заголовки и передаёт их на анализ следующему блоку <b>Match/Action</b>. Тот их исследует и применяет нужные действия — отправить на правильный порт, на CPU, энкапсулировать, дропнуть итд. Тело пакета всё это время хранилось в <b>буферах</b>, управляемых <b>MMU</b>, и теперь пришло время <b>Traffic Manager'у</b> проводить все обряды QoS. И потом процесс раскручивается в обратную сторону. Снова <b>Match/Action</b>. Потом собрать пакет с новыми заголовками (<b>Deparser</b>), преобразовать кадр в поток битов (<b>MAC</b>), сериализовать (<b>SerDes</b>), осуществить действия физического уровня (<b>PHY</b>) и передать через выходной порт (<b>Tx</b>) в среду.<br/>
 <hr/><br/>
 <br/>
 В простейшем случае вообще почти все блоки являются частью одного монолитного кристалла кремния. То есть они — продукт одного процесса печати на вафле.<br/>
-Каждый такой блок — это, так называемый самостоятельный IP-блок или <a href="https://ru.wikipedia.org/wiki/IP-cores" target="_blank" rel="nofollow">IP-core</a> (не тот, что ты мог подумать, сетевой инженер!)<br/>
+<br/>
+Отдельные, составляющие чип компоненты, реализующие законченный набор функций, называются <a href="https://ru.wikipedia.org/wiki/IP-cores" target="_blank" rel="nofollow">IP-core</a> (не тот, что ты мог подумать, сетевой инженер!). То есть SerDes, MAC, TM — это всё отдельные IP-core. Зачастую они производятся сторонними компаниями, специализирующимися конкретно на данных компонентах, а потом встраиваются в микросхему. Особенно это касается SerDes — сложнейшей детали, в которую вендоры сетевых чипов не готовы вкладывать силы R&D. Один из крупных производителей SerDes — <a href="https://www.inphi.com/products/optical-phy/" target="_blank" rel="nofollow">Inphi</a>.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/rosetta.png" width="500"/><br/>
 <i>Монолитный чип Rosetta. <a href="https://fuse.wikichip.org/news/3293/inside-rosetta-the-engine-behind-crays-slingshot-exascale-era-interconnect/" target="_blank" rel="nofollow">Источник</a>.</i><br/>
@@ -654,20 +671,22 @@ NP позволяет делать более сложные штуки — на
 <br/>
 Теперь пришло время разобраться с тем, что же такое загадочный SerDes. Нет, это не ножки на микросхеме.<br/>
 <hr/><br/>
-<br/>
 <a name="SERDES" rel="nofollow"></a><br/>
 <h3>SerDes</h3><br/>
 Если коротко — то это блоки (<a href="https://ru.wikipedia.org/wiki/IP-cores" target="_blank" rel="nofollow">IP-core</a>) сетевого ASIC'а, которые позволяют получить сигнал с пинов и, наоборот, передать его туда.<br/>
 <br/>
 Теперь с этимологией. Аналогично «модему» и «кодеку», ставшим уже такими родными в кириллическом написании, SerDes составлен из двух слов: <b>Serializer-Deserializer</b>. Так чего же он сериализует и десериализует?<br/>
 <br/>
-Всё дело в скорости работы сетевых чипов. Независимо от их типа (ASIC, NP, CPU) — их частота находится в пределах сотен Мгц — единиц 1Ггц. А частота передачи данных с порта 10Гб/с — 10 Ггц (100 Гбит/с = 4х25ГГц). Соответственно, каким-то образом нужно понизить частоту внутри чипа. И как раз это достигается тем, что сигнал из пары вводных пинов распараллеливается на множество внутренних линий — десериализация.<br/>
+Всё дело в скорости работы сетевых чипов. Независимо от их типа (ASIC, NP, CPU) — их частота находится в пределах сотен Мгц — единиц 1Ггц. А частота передачи данных с порта 10Гб/с — 10 Ггц (100 Гбит/с = 4х25ГГц). Соответственно, каким-то образом нужно понизить частоту внутри чипа. И как раз это достигается тем, что сигнал из пары вводных пинов распараллеливается на множество внутренних линий — десериализуется.<br/>
 В обратную сторону — сигнал с нескольких линий нужно сериализовать в пару пинов.<br/>
 <br/>
-Блоки SerDes обычно являются составными частями кристалла сетевого чипа.<br/>
+Блоки SerDes всегда являются составными частями кристалла сетевого чипа.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/serdeses.jpg" width="400"/><br/>
 <i><a href="https://www.design-reuse.com/news/44362/esilicon-7nm-ip-networking-platform.html" target="_blank" rel="nofollow">Источник</a>.</i><br/>
+<br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/serdes_inside.png" width="500"/><br/>
+<i><a href="http://www.trex.fi/2017/Ralf-Korschner-The-March-of-Merchant-Silicon.pdf" target="_blank" rel="nofollow">Источник</a>.</i><br/>
 <br/>
 Один SerDes — это 4 пина на пузике асика — два для Tx, два для Rx.<br/>
 Скорость одного SerDes'а — величина скачкообразно растущая с годами. Наиболее распространённые сегодня — это 10Гб/с и 28Гб/с. Но в скором будущем датацентровый масс-маркет начнут заполонять устройства с 56Гб/с SerDes и даже со 112Гб/с.<br/>
@@ -683,7 +702,7 @@ NP позволяет делать более сложные штуки — на
 На смену переферийным параллельным портам пришли серийные (USB на смену параллельному)<br/>
 На смену IDE — SATA (Serial ATA)<br/>
 На смену SCSI — SAS (Serial SCSI)<br/>
-На смену PIC — PCI Express<br/>
+На смену PCI — PCI Express<br/>
 <br/>
 Это жжж неспроста. Ведь казалось бы, чем больше проводов, тем больше данных можно передать за единицу времени?<br/>
 На самом деле нет — при параллельной передаче с повышением скорости всё острее и острее встают вопросы синхронизации между этими самым проводами. Схемотехники даже связанные дорожки на платах <a href="https://linkmeup.ru/blog/401.html#DIFFPAIRS" target="_blank" rel="nofollow">проектируют так</a>, чтобы они были максимально одинаковой длины.<br/>
@@ -703,8 +722,10 @@ NP позволяет делать более сложные штуки — на
 <br/>
 <h4>GearBox'ы</h4>Сложности с переходом на новые методы модуляции заключаются в том, что устройства на разных сторонах должны использовать одинаковые, либо нужно ставить дополнительные конвертеры. То есть просто подключить сотками коммутатор с PAM4 к NRZ не получится.<br/>
 <br/>
-Но когда индустрия бросала своих участников, не предлагая им решений? Для того, чтобы устройства с разными модуляциями могли взаимодействовать друг с другом, изобрели — коробки передач, которые из малого количество высокоскоростных линий делают много помедленее и наоборот.<br/>
-Так, в новейшие коммутаторы, выпускаемые сегодня, <a href="https://www.marketwatch.com/press-release/broadcoms-industry-leading-pam-4-phy-shipments-surpass-1-million-ports-2018-09-20" target="_blank" rel="nofollow">ставят дополнительные чипы</a>, чтобы их можно было ставить в сети с более старым оборудованием.<br/>
+Но когда индустрия бросала своих участников, не предлагая им решений? Для того, чтобы устройства с разными модуляциями могли взаимодействовать друг с другом, изобрели коробки передач, которые из малого количество высокоскоростных линий делают много помедленнее и наоборот.<br/>
+Так, в новейшие коммутаторы, выпускаемые сегодня, <a href="https://www.marketwatch.com/press-release/broadcoms-industry-leading-pam-4-phy-shipments-surpass-1-million-ports-2018-09-20" target="_blank" rel="nofollow">ставят дополнительные чипы</a>, чтобы их можно было использовать в сети с более старым оборудованием.<br/>
+<br/>
+Использование гирбоксов также упростит вендорам и переход на 400G — не придётся менять ASIC — достаточно заменить/убрать гирбокс.<br/>
 <hr/><br/>
 <br/>
 <a name="PHY" rel="nofollow"></a><br/>
@@ -721,24 +742,33 @@ NP позволяет делать более сложные штуки — на
 Если порт оптический, то в подавляющем большинстве случаев эти функции возьмёт на себя DSP PHY, встроенный в трансивер (та самая штука, называемая нами модулем и вставляемая в дырку в коммутаторе).<br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/dsp_phy.png" width="500"/><br/>
 <i><a href="https://www.inphi.com/products/optical-phy/" target="_blank" rel="nofollow">Источник</a>.</i><br/>
-<br/>
+<a name="SILICON_PHOTONICS" rel="nofollow"></a><br/>
 Однако тенденции последних лет — это <b>Silicon Photonics</b>. <br/>
-В этом случае в кристалл «встраиваются» фотонные порты, позволяющие осуществлять коммуникации между чипами на скорости света через оптическую среду. <br/>
+<br/>
+Самый производительный коммерческий чип сегодня выдаёт 25,6 Тб/с. Это серьёзнейший инженерный вызов разработчиками. И нет никаких оснований полагать, что гиперскейлеры и экзаскейлеры умерят свои аппетиты и решат остановиться на этом. Скорость будет расти.<br/>
+Чип PHY находится на трансиверах, а SerDes — на кристалле сетевой микросехмы. Сигнал между ними идёт по электропроводящей среде — по металлической дорожке. С увеличением скоростей растёт и конструктивная сложность и потребляемое электричество. Рано или поздно (скорее, рано) мы во что-нибудь упрёмся.<br/>
+<br/>
+В случае silicon photonics микросхема PHY переносится внутрь самого чипа коммутации. В кристалл «встраиваются» фотонные порты, позволяющие осуществлять коммуникации между чипами на скорости света через оптическую среду. <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/sip.jpg" width="600"/><br/>
 <i><a href="https://seekingalpha.com/article/4276568-important-development-of-this-century" target="_blank" rel="nofollow">Источник</a>.</i><br/>
 <br/>
 Идея не новая, и только ожидавшая своего времени, а именно, когда технологии достигнут нужного уровня зрелости.<br/>
 Проблема была в том, что материалы и процессы, используемые для производства фотонных чипов, были фундаментально несовместимы с процессом производства кремниевых чипов — <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%9C%D0%9E%D0%9F" target="_blank" rel="nofollow">CMOS</a>.<br/>
 <br/>
-Из возможных решений: установка на плату отдельного чипа, преобразующего электрический сигнал в оптический или его установка сетевого чипа, но не на сам кристалл (всё ещё требует конвертации среды).<br/>
-<br/>
-Но эта технологическая плотина смыта упорными разработками в этом направлении, и в скором будущем микроэлектронику ждут большие изменения. <br/>
+Из возможных альтернативных решений: установка на плату отдельного чипа, преобразующего электрический сигнал в оптический, или его установка внутрь сетевого чипа, но не на сам кристалл (всё ещё требует конвертации среды).<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/sip_options.jpg" width="500"/><br/>
 <br/>
+Но эта технологическая плотина смыта упорными разработками в этом направлении, и в скором будущем микроэлектронику ждут большие изменения. <br/>
+<br/>
 Весьма <a href="https://seekingalpha.com/article/4276568-important-development-of-this-century" target="_blank" rel="nofollow">занимательная статья</a> с историей вопроса и сегодняшними реалиями.<br/>
 <br/>
-<blockquote>Кстати, был у нас в <a href="https://linkmeup.ru/blog/164.html" rel="nofollow">гостях Compass EOS</a>, которые разработали оптические SerDes ещё до того, как это стало модным. Но, увы, они настолько опередили своё время, что оказались в тот момент никому не нужны. И постигла их ужасающе печальная судьба быть купленным не то Ростелекомом, не то Роснано. Впрочем, возможно, история звучала совсем иначе :).<br/>
+<blockquote>Кстати, был у нас в <a href="https://linkmeup.ru/blog/164.html" rel="nofollow">гостях Compass EOS</a>, которые разработали co-packaged optics ещё до того, как это стало модным. Но, увы, они настолько опередили своё время, что оказались в тот момент никому не нужны. И постигла их ужасающе печальная судьба быть купленным не то Ростелекомом, не то Роснано. Впрочем, возможно, история звучала совсем иначе :).<br/>
+</blockquote><br/>
+<blockquote>И прямо во время написания этой статьи 5-го марта 2х20 Intel <a href="https://newsroom.intel.com/news/intel-demonstrates-industry-first-co-packaged-optics-ethernet-switch/" target="_blank" rel="nofollow">опубликовал в своём блоге новость</a> о том, что они продемонстрировали первый свитч, в котором им удалось интегрировать свой интеловский silicon photonics в барефутовский Tofino2.<br/>
+<br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/intel_sp.jpg" width="600"/><br/>
+<i><a href="https://newsroom.intel.com/news/intel-demonstrates-industry-first-co-packaged-optics-ethernet-switch/" target="_blank" rel="nofollow">Источник</a>.</i><br/>
 </blockquote><hr/><br/>
 <br/>
 Теперь от вещей мирских к тому, сколько кругов пакет проходит в чипе.<br/>
@@ -766,38 +796,71 @@ NP позволяет делать более сложные штуки — на
 Если это VXLAN-терминатор, ему понадобится UDP и собственно заголовок VXLAN.<br/>
 Для целей ECMP и ACL, парсер заглянет в UDP/TCP.<br/>
 <br/>
-Строго говоря, на какие заголовки и какие поля в них надо смотреть, определяет фантазия разработчика. <br/>
+Строго говоря, на какие заголовки и какие поля в них надо смотреть, определяет фантазия разработчика.<br/>
+Сколько заголовков забрать? Как правило парсер вынимает фиксированное для чипа значение байтов от пакета и разделывает уже их. И это значение является одним из <a href="https://fs.linkmeup.ru/images/articles/buffers/crazyencap.jpg" target="_blank" rel="nofollow">ограничений чипа</a>.<br/>
+<br/>
+Почему парсинг заголовков задача нетривиальная рассказывается в совместном исследовании Стэнфорда и Майкрософта: <a href="http://klamath.stanford.edu/~nickm/papers/ancs48-gibb.pdf" target="_blank" rel="nofollow">Design Principles for Packet Parsers</a>.<br/>
+<br/>
+<a name="PREINGRESS_ANGINE" rel="nofollow"></a><br/>
+<h3>Pre-Ingress processing</h3><br/>
+Иногда логически выделяют этот блок, который совершает действия, не являющиеся ни парсингом, ни как таковым лукапом — он кладет пакет в нужный VRF, ставит внутренний Traffic Class итд.<br/>
 <br/>
 <a name="IMOCHACTION" rel="nofollow"></a><br/>
 <h3>Ingress Match-Action</h3><br/>
 Когда парсер, разобрался с чем он имеет дело, он передаёт заголовки дальше — в модули Match-Action.<br/>
 Здесь происходит lookup. Для L2 поищем MAC'и, для L3 — прошерстим FIB, для MPLS — просмотрим в LFIB.<br/>
-И здесь же принимается решение, что с пакетом делать дальше: пропустить/дропнуть, доложить CPU, в какой порт отправить, какие заголовки навесить, с каким приоритетом внутри чипа обработать, полисить ли/шейпить ли его итд.<br/>
+И здесь же принимается решение, что с пакетом делать дальше: доложить CPU, пропустить/дропнуть, побалансировать, в какой порт отправить, какие заголовки навесить, с каким приоритетом внутри чипа обработать, полисить ли/шейпить ли его итд.<br/>
 <br/>
 Собственно действие записано в той же таблице, в которой происходит lookup.<br/>
 <br/>
-<a name="TM" rel="nofollow"></a><br/>
-<h3>Traffic Manager</h3><br/>
+Это если коротко. <br/>
+А если чуть подлиннее, то:<br/>
 <br/>
+<h4>L2 short pipeline</h4>Приходящий L2-пакет всегда ассоциируется с VLAN. Тег VLAN проверяется через <b>VLAN Lookup Table</b>.<br/>
+Если VLAN lookup успешен, просматриваются таблицы: <b>VLAN STP</b>, <b>VLAN Port Bitmap</b>, <b>Port Filtering Mode</b> (PFM).<br/>
+Если же тег неверный, то пакет сбрасывается (или нет).<br/>
+После пакет проходит стандартную обработку: запомнить SRC MAC, посмотреть в таблице DST MAC, — но при этом могут быть применены дополнительные флаги, например, отправить на CPU unknown sender. <br/>
+<br/>
+<h4>L3 short pipeline</h4>Если DST MAC является MAC'ом самого устройства, то процессинг передается в L3 модуль.<br/>
+Следующий шаг — Destination Lookup. Сначала используется <b>L3 Table Lookup</b>, в этой таблице как правило directly attached хосты. <br/>
+Если адрес найден, то выдается index в <b>L3 Interface Table</b>, в котором выходной порт, MAC, VLAN.<br/>
+Если же в L3 table не найден адрес, то делается LPM поиск (Longest Prefix Match). Результат такого поиска — index в L3 Table Lookup таблице, который должен использоваться для форвардинга. После удачного поиска, чип поменяет SA/DA/VID пакета (L2), посчитает FCS, поменяет TTL и IP checksum. <br/>
+<br/>
+<a name="TM" rel="nofollow"></a><br/>
+<h3>Traffic Manager + MMU</h3><br/>
 В этом блоке происходят следующие операции:<br/>
 <ul><li>Постановка пакетов в очередь</li><li>Их хранение (буферизация)</li><li>Контроль перегрузок</li><li>Диспетчеризация </li><li>Репликация</li></ul><br/>
-То есть всё, что касается QoS и мультикаста.<br/>
-Это один из важнейших блоков ASIC'а (или внешний чип), который нам интересен в контексте этой статьи, потому что он отвечает за буферизацию пакетов.<br/>
+Он состоит из двух частей — MMU и TM. Первый отвечает за управление памятью и буферами, второй — за QoS и мультикаст.<br/>
+<br/>
+<b>MMU</b> — Memory Management Unit — компонент чипа, который управляет физической памятью. <br/>
+Одна из его функций аналогична MMU (блоку управления памятью) обычного компьютера — доступ приложений к физической памяти и её защита.<br/>
+Но список его обязанностей гораздо шире, поскольку заточен он на работу именно с пакетами. Он отслеживает как память распределяется между интерфейсами и насколько она занята в каждый момент времени, можно ли поместить пакет в буфер, если да, то в какой, как разбить его на более мелкие ячейки, ну и, конечно, как его оттуда забрать.<br/>
+<br/>
+<b>TM</b> — Traffic Manager — решает более высокоуровневые задачи — выделение очередей, помещение в них трафика, диспетчеризация, шейпинг, полисинг, управление перегрузками. В общем, всё, что относится к QoS, а так же к мультикасту.<br/>
+<blockquote>С мультикастом история, право, интересная (как всегда). Репликацией мультикастовых пакетов занимается блок TM. В модульных устройствах это происходит в два этапа: сначала на входном чипе создаётся столько копий, сколько выходных чипов должны получить этот пакет, а затем на выходных чипах ещё столько копий, сколько портов на этой плате должны его получить. Делается это для того, чтобы лишними копиями не загружать фабрику.<br/>
+Любопытный момент с буферизацией и контролем перегрузок: входной чип должен учитывать занятость выходного порта, прежде, чем отправлять пакет, потому что именно входная плата управляет <a href="#VOQ" rel="nofollow">VOQ</a>. Поскольку Traffic Manager оперирует не самими пакетами, а по сути информацией о них, то ему необязательно делать сразу копий по числу выходных портов, а достаточно записать об этом информацию в VOQ.<br/>
+</blockquote><br/>
+<br/>
+MMU — это не совсем часть TM — это, скорее, два взаимодействующих друг с другом блока.<br/>
+<br/>
+Память и буферизация на сетевых устройствах — это настолько масштабная тема, что ей я посвятил отдельную статью, которая выйдет на nag.ru прямо следом за этой. В ней мы разберёмся с устройством и архитектурой памяти, видами и расположением буферов, арбитражем и поднимем самый горячий вопрос современности — что лучше: большие и маленькие буферы.<br/>
+<br/>
+В разговорах о буферах связка TM+MMU — одни из важнейших блоков ASIC'а (или внешний чип), поэтому к ним мы ещё вернёмся <a href="#BUFERA" rel="nofollow">ниже</a>.<br/>
 <br/>
 <a name="EMOCHACTION" rel="nofollow"></a><br/>
 <h3>Egress Match-Action</h3><br/>
-Далее над заголовками пакетом могут быть совершены дополнительные акты — например, выходной ACL, туннельные инкапсуляции, сбор статистики итд.<br/>
+Далее над заголовками пакетов могут быть совершены дополнительные акты — например, выходной ACL, туннельные инкапсуляции, сбор статистики итд.<br/>
 <br/>
 <a name="DEPARSER" rel="nofollow"></a><br/>
 <h3>Deparser</h3><br/>
 К этому моменту на основе результатов обработки в блоках Match-Action сформирован список новых заголовков, и он может воссоединиться с телом пакета. <br/>
 Сам пакет теперь готов в последний путь внутри этого чипа, чтобы выйти через выходной интерфейс.<br/>
 <br/>
-Кроме этого здесь может собираться дополнительная статистика о длине пакетов и сообщаться блоку TM и зеркалироваться исходящий трафик.<br/>
+Кроме того, здесь может собираться дополнительная статистика о длине пакетов и сообщаться блоку TM и зеркалироваться исходящий трафик.<br/>
 <br/>
 Вышеуказанные стадии могут быть выполнены в пределах одного чипа, а могут быть и разнесены на разные.<br/>
-Так, в случае single-chip-коробки — все они скомпонованы в один кусочек силикона, площадью с большую печеньку.<br/>
-На модульных коробках Parser и Ingress Match-Action — это входной чип коммутации, Egress Match-Action и Deparser — выходной, TM стоит отдельно между чипом коммутации и фабрикой, и может быть разделён на Ingress и Egress. Кроме того в них могут существовать ещё и отдельные чипы сериализации, которые разбивают пакеты на ячейки одного размера и отправляют в фабрику.<br/>
+Так, в случае single-chip-коробки — все они скомпонованы в один кусочек силикона, площадью с фотку на документы.<br/>
+На модульных коробках Parser и Ingress Match-Action — это входной чип коммутации, Egress Match-Action и Deparser — выходной, TM стоит отдельно между чипом коммутации и фабрикой, и может быть разделён на Ingress и Egress. Кроме того в модульных устройствах могут существовать ещё и отдельные чипы Fabric Interface, которые разбивают пакеты на ячейки одного размера и отправляют в фабрику.<br/>
 <br/>
 <hr/><br/>
 <br/>
@@ -811,19 +874,25 @@ NP позволяет делать более сложные штуки — на
 <br/>
 Однако у таких трудностей есть как минимум три решения:<br/>
 1) Второй чип. Тогда можно и разнести невозможные прежде операции на два этапа. И история знает такие решения.<br/>
-2) Рециркуляция. Многие чипы позволяют закольцевать выход чипа на вход и прогнать пакет дважды. Тогда на второй итерации ему можно задать уже другой набор Match-Action. Но за это придётся заплатить — удвоенной задержкой и уменьшенной полосой пропускания чипа.<br/>
+2) Рециркуляция. Многие чипы позволяют закольцевать выход чипа на вход и прогнать пакет дважды. Тогда на второй итерации ему можно задать уже другой набор Match-Action. Но за это придётся заплатить — удвоенной задержкой и уменьшенной полосой пропускания чипа. А ещё можно упереться и в пропускную способность самого рециркулятора.<br/>
 3) Купить другой чип… Другой коммутатор… Поменять работу…<br/>
 <br/>
 <a name="PROGRAMMABLE_PIPELINE" rel="nofollow"></a><br/>
 <h2>Programmable Pipeline</h2><br/>
 В большинстве современных коммутаторов конвейер обработки пакетов запечён производителем в софт (если не в кремний) — он фиксирован и может быть изменён только вендором чипсета.<br/>
+<blockquote>Не путать с Programmable ASIC. Программируемые микросхемы — уже давно реальность. Многие сетевые чипы — это ASIC с возможность программирования. Но эта возможность есть только у производителя микросхемы.<br/>
+Порграммируемый конвейер же — это возможность изменять логику работы чипа в определённых пределах, которую предоставляет производитель микросхемы покупателям.<br/>
+</blockquote><br/>
 Не так давно появился Barefoot Tofino, у которого полностью программируемый Pipeline — с ним можно задавать совершенно любые условия для парсера, поля для Match и действия для Action — хоть калькулятор пишите, или распределённое хранилище на кластере коммутаторов.<br/>
 <br/>
-На сегодняшний день необходимость программируемого Pipeline'а стала понятна уже почти всем вендорам.<br/>
+На сегодняшний день выпускать сетевую микросхему на рынок без возможности программирования Pipeline'а, становиться плохим тоном.<br/>
 Так, последние чипы Broadcom тоже уже <a href="https://www.broadcom.com/blog/trident4-and-jericho2-offer-programmability-at-scale" target="_blank" rel="nofollow">программируемы</a>.<br/>
 <br/>
-Не то чтобы теперь каждый второй конечный потребитель кинется переписывать себе пайплайны, нанимая студентов для разработки под <a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.1-P4-Soft-Net-Pub/HC29.21.100-P4-Tutorial.pdf" rel="nofollow">P4</a> или <a href="https://nplang.org/" target="_blank" rel="nofollow">NPL</a>, но это возможность, которая позволяет вендорам железа и крупным потребителям вроде гугла быть гораздо более гибкими. <br/>
+Не то чтобы теперь каждый домовой оператор кинется переписывать себе пайплайны, нанимая студентов для разработки под <a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.1-P4-Soft-Net-Pub/HC29.21.100-P4-Tutorial.pdf" rel="nofollow">P4</a> или <a href="https://nplang.org/" target="_blank" rel="nofollow">NPL</a>, но это возможность, которая позволяет вендорам железа и крупным потребителям вроде гугла быть гораздо более гибкими. <br/>
 Так, например, если в вашей сети все линки p2p, то зачем вам Ethernet? тратить на него такты ASIC'а ещё — просто выкидываем его.<br/>
+<br/>
+Правда «можно всё запрограммировать» превращается в наших реалиях «придётся всё запрограммировать». На сегодняшний день готовых конструктивных блоков, вроде парсинга Ethernet, IP, подсчёта статистики итд — не существует — всё с нуля.<br/>
+Если не использовать вендорские бинари, то весь Pipeline <b>придётся</b> написать самому. А если использовать, то ничего за пределами SDK не запрограммируешь.<br/>
 <br/>
 Но на большинстве современных коммутаторов всё ещё фиксированный конвейер, который выглядит примерно так:<br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/single_pipeline_block.png" width="800"/><br/>
@@ -832,27 +901,36 @@ NP позволяет делать более сложные штуки — на
 Cisco всё ещё делает классную документацию, а презентации с Cisco Live — кладезь технических сокровищ. Например, они рассказывают о бродкомовских чипах больше, чем сам Бродком (если, конечно, вы не подписали NDA кровью): <a href="https://people.ucsc.edu/~warner/Bufs/BRKDCN-3734.pdf" rel="nofollow">Cisco Nexus 3000 Switch Architecture</a><br/>
 <br/>
 Вот у P4 есть неплохое описание конвейера и его программируемости: <a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.1-P4-Soft-Net-Pub/HC29.21.100-P4-Tutorial.pdf" rel="nofollow">P4 Tutorial, Hot Chips 2017</a>.<br/>
+<br/>
+Более фундаментальное и низкоуровневое описание <b>RMT</b> — Reconfigurable Match Tables, необходимых для возможности программирования: Forwarding Metamorphosis: <a href="https://www2.cs.duke.edu/courses/fall19/compsci514/papers/rmt-sigcomm2013.pdf" target="_blank" rel="nofollow">Fast Programmable Match-Action Processing in Hardware for SDN</a>.<br/>
 <hr/><br/>
 <br/>
 <a name="BUFERA" rel="nofollow"></a><br/>
 <h1>Память и буферы</h1><br/>
 Ну вот мы и добрались до ниточки, с которой клубок начал распутываться.<br/>
 <br/>
+<blockquote><i>Да, не удивляйтесь — впереди ещё две третьих статьи, и я всё оставшееся место посвящу только буферам — ради них ведь всё и затевалось.</i><br/>
+</blockquote><br/>
 Всё, что было выше, касалось заголовков пакетов — они отделялись и подвергались алгоритмическим экзекуциям в пайплайне.<br/>
 А где же прохлаждались их тела всё это время?<br/>
 <br/>
-<blockquote><i>Да, не удивляйтесь — впереди ещё две третьих статьи, и я всё оставшееся место посвящу только буферам — ради них ведь всё и затевалось.</i><br/>
+В сетевых чипсетах есть встроенная память (<b>on chip-OCB</b>) как раз для хранения тел. Её размер в силу физических ограничений очень мал (до 100Мб), но для большинства задач — это разумный компромисс.<br/>
+Лишь в редких сценариях этого не хватает и добавляется объёмная внешняя память — <b>off-chip</b>.<br/>
+<blockquote>Вообще про компромиссы мало-много памяти поговорим <a href="#SHALLOW_VS_DIPPER" rel="nofollow">отдельно</a>.<br/>
 </blockquote><br/>
-В сетевых чипсетах есть встроенная память (<b>on chip</b>) как раз для хранения тел. <br/>
-Управляет доступом к ней <b>MMU — Memory Management Unit</b>. Он довольно похож на MMU в компьютерах (по сути является <a href="https://en.wikipedia.org/wiki/Memory_management_unit" rel="nofollow">им</a>). Программа обращается к указателю, чтобы извлечь данные из памяти, MMU транслирует это в реальный адрес ячейки и возвращает данные. <br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/buffer_memory.png" width="500"/><br/>
 <br/>
-То есть на входе в чип парсер отделяет заголовки от тел, первые отдаёт на анализ в блок Match-Action, вторые — складывает в буфер.<br/>
+Таким образом на входе в чип парсер отделяет заголовки от тел, первые отдаёт на анализ в блок Match-Action, вторые — складывает в буфер.<br/>
 На выходе новые заголовки пришивают к извлечённым обратно телам и отправляют на выход.<br/>
-<blockquote>Помимо встроенной в чип памяти, бывает и внешняя. Об этом <a href="#SHALLOW_VS_DIPPER" rel="nofollow">ниже</a>.<br/>
-</blockquote><br/>
-За хранение пакетов в буферах и управление очередями отвечает <a href="#TM" rel="nofollow">рассмотренный выше</a> блок Traffic Manager (TM).<br/>
+Будучи неоднократно обвинённым при рецензировании этой статьи, чувстую необходимость ещё раз повторить это: внутри чипа коммутации заголовки отделяются от тела пакета. В то время, как изначальные заголовки анализируются, помогают сделать лукап, уничтожаются, формируются новые, тело находится в одном месте физической памяти, не перемещаясь. Даже в тот момент, когда Traffic Manager выстраивает пакеты в очередь согласно их приоритетам, производит их диспетчеризацию и Congestion Avoidance, фактически он работает со внутренними временными заголовками, не двигая пакеты по памяти. <br/>
 <br/>
-Есть два подхода к помещению тел в буферах: Store-and-Forward и Cut-Through.<br/>
+Управляет доступом к физической памяти <b>MMU — Memory Management Unit</b>. Он довольно похож на MMU в компьютерах (по сути является <a href="https://en.wikipedia.org/wiki/Memory_management_unit" rel="nofollow">им</a>). Программа обращается к указателю, чтобы извлечь данные из памяти, MMU транслирует это в реальный адрес ячейки и возвращает данные. <br/>
+<br/>
+MMU занимается размещением пакетов в буферах, их извлечением или отбрасыванием. Он же контролирует разделение памяти на области (dedicated, shared, headroom, voq) и их загрузку.<br/>
+<br/>
+За более верхнеуровневое управление очередями и перегрузками отвечает блок <b>TM — Traffic Manager</b>.<br/>
+<br/>
+Есть два подхода к размещению тел в буферах: <b>Store-and-Forward</b> и <b>Cut-Through</b>.<br/>
 <hr/><br/>
 <br/>
 <a name="SFVSCT" rel="nofollow"></a><br/>
@@ -893,7 +971,7 @@ Cisco всё ещё делает классную документацию, а �
 Самая простая — из высокоскоростного интерфейса трафик должен слиться в более низкоскоростной — из <b>10G в 1</b>, например.<br/>
 Другая причина, очень распространённая в сетях крупных ДЦ, особенно в тех, где развёрнуты кластеры Map-Reduce — это <b>Incast</b>. Это ситуация, в которой одна машина отправляет запрос на десятки/сотни/тысячи, а те все разом начинают отвечать, и пакеты стопорятся на узком интерфейсе в сторону машины-инициатора.<br/>
 Более общий случай — трафик с нескольких входящих портов должен влиться в один исходящий — <b>Backpressure</b>.<br/>
-Прочие типы всплесков трафика, которые ещё называют бёрстовыми или просто бёрстом (<b>Burst</b>).<br/>
+Прочие типы всплесков трафика, которые ещё называют бёрстовыми или просто бёрстами (<b>Bursts</b>).<br/>
 <br/>
 Поэтому однозначно нужно побольше памяти для буферизации. Но фактически это место, где пакеты обрастают задержкой.<br/>
 Так на заре 1G буферизация вызывала массу головной боли у трейдеров, чьи приложения получали свой бесценный трафик с задержкой и джиттером.<br/>
@@ -909,16 +987,20 @@ Cisco всё ещё делает классную документацию, а �
 <a name="CONGESTION_POINTS" rel="nofollow"></a><br/>
 <h3>Места возникновения перегрузок</h3><br/>
 Их по большому счёту 4: <br/>
-<ol><li><b>на входном чипе</b> — если со стороны интерфейсов на него поступает больше, чем он способен обработать.</li><li><b>на фабрике коммутации</b> (если коробка модульная) — если линейные карты пытаются отправить на фабрику больше, чем она способна обработать.</li><li><b>на выходной линейной карте</b>, если фабрика пытается передать на линейную карту больше, чем её чип способен обработать (это называется backpressure)</li><li><b>на выходном интерфейсе</b> — если чип шлёт в интерфейс больше, чем тот способен сериализовать.</li></ol><br/>
+<ol><li><b>на входном чипе</b> — если со стороны интерфейсов на него поступает больше, чем он способен обработать.</li><li><b>на фабрике коммутации</b> (если коробка модульная) — если линейные карты пытаются отправить на фабрику больше, чем она способна обработать.</li><li><b>на выходной линейной карте</b>, если фабрика пытается передать на линейную карту больше, чем её чип способен обработать</li><li><b>на выходном интерфейсе</b> — если чип шлёт в интерфейс больше, чем тот способен сериализовать.</li></ol><br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/congestion_points.svg" width="600"/><br/>
 <br/>
 Но никто не хочет бороться с перегрузками в четырёх местах.<br/>
 Поэтому обычно<br/>
 А) Чип делают такой производительности, чтобы он смог обработать весь трафик, даже если тот начал одновременно поступать со всех портов на этой линейной карте. Поэтому для устройства со 128 портами 100Гб/с используется чип с производительностью 12,8Тб/с.<br/>
 Очевидно бывают и исключения. Тогда или имеем непредсказуемые потери, или (чаще) невозможность использовать часть портов.<br/>
-Б) Фабрику так же делают без переподписки, чтобы она могла провернуть весь трафик, который пытаются в неё передать все линейные карты, даже если они делают это одновременно на полной скорости. Таким образом не нужно буферизировать трафик и перед отправкой на фабрику. <br/>
+Б) Фабрику так же делают без переподписки, чтобы она могла провернуть весь трафик, который пытаются в неё передать все линейные карты, даже если они делают это одновременно на полной скорости. Таким образом не нужно буферизировать трафик и перед отправкой на фабрику.<br/>
 В) Управление перегрузками на выходном чипе и выходном интерфейсе сводят в одно место.<br/>
 <br/>
+<blockquote>На самом деле фабрика без передподиски (или неблокируемая) — это та ещё спекуляция, к которой нередко прибегают маркетологи. <br/>
+Для некоторых сценариев, например, <a href="#CIOQ" rel="nofollow">CIOQ</a> даже со speedup фабрики в пару раз от необходимого есть строгие результаты, показывающие, при каких условиях она будет неблокируемой.<br/>
+Можно почитать у достопочтенных выпускников MIT и Стэнфорда: <a href="http://yuba.stanford.edu/~nickm/papers/CSL-TR-97-738.pdf" target="_blank" rel="nofollow">On the speedup required for combined input and output queued switching</a>.<br/>
+</blockquote><br/>
 <hr/><br/>
 <br/>
 <a name="BUFFER_ARCHITECTURE" rel="nofollow"></a><br/>
@@ -929,7 +1011,8 @@ Cisco всё ещё делает классную документацию, а �
 Буфер — это с некоторыми оговорками обычная память, используемая в компьютерах. В ней в определённой ячейке хранится пакет, который чип может извлечь, обратившись по адресу. <br/>
 <br/>
 Любой сетевой ASIC или NP обладает некоторым объёмом встроенной (on-chip) памяти (порядка десятков МБ).<br/>
-Так называемые Deep-Buffer свитчи имеют ещё внешнюю (off-chip) память, исчисляемую уже гигабайтами. И той и другой управляет модуль чипа — MMU.<br/>
+Так называемые Deep-Buffer свитчи имеют ещё внешнюю (off-chip) память, исчисляемую уже гигабайтами.<br/>
+И той и другой управляет модуль чипа — MMU.<br/>
 <br/>
 В целом для нас пока местонахождение не имеет значения — взглянем на это <a href="#SHALLOW_VS_DIPPER" rel="nofollow">попозже</a>. Важно то, как имеющейся памятью чип распоряжается, а именно, где и какие очереди он создаёт и какие <a href="https://en.wikipedia.org/wiki/Active_queue_management" target="_blank" rel="nofollow">AQM</a> использует. <br/>
 <br/>
@@ -942,7 +1025,7 @@ Cisco всё ещё делает классную документацию, а �
 Идея в том, чтобы для каждой пары (входной интерфейс — выходной интерфейс) выделить аппаратный буфер.<br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/crossbar.png" width="500"/><br/>
 <br/>
-Это, скорее, умозрительный эксперимент, потому что в плане сложности и стоимости реализации и эффективности это проигрышный вариант.<br/>
+Это, скорее, умозрительный эксперимент, потому что в плане сложности, стоимости реализации и эффективности это проигрышный вариант.<br/>
 <hr/><br/>
 <br/>
 <a name="SHARED_BUFFER" rel="nofollow"></a><br/>
@@ -951,18 +1034,21 @@ Cisco всё ещё делает классную документацию, а �
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/shared_buffer.png" width="500"/><br/>
 <br/>
-Используется он на немодульных устройствах без фабрики коммутации, в которых установлен один чип (обычно, но может быть больше).<br/>
+Используется Shared Buffer на немодульных устройствах без фабрики коммутации, в которых установлен один чип (обычно, но может быть больше).<br/>
 <br/>
 Аппаратно — это память (обычно SRAM), встроенная прямо в чип — она так и называется <b>on-chip</b> (OCB). Много туда не засунешь, поэтому объём до 100 МБ.<br/>
 Зачастую это единственная память, которая в одночиповых устройствах используется для буферизации.<br/>
 Пусть, однако, эта кажущаяся простота не вводит вас в заблуждение — для того, чтобы в десятки мегабайтов поместить трафик сотни портов 100Гб/с, да ещё и обеспечить отсутствие потерь, за ними должны скрываться годы разработок и нетривиальная архитектура.<br/>
+А так оно и есть — я чуть ниже неглубоко вас окуну.<br/>
 <br/>
 Итак, есть соблазн эту память взять и просто равномерно разделить между всеми портами. Такой статический дизайн имеет право на жизнь, но сводит на нет возможность динамически абсорбировать всплески трафика.<br/>
 <br/>
 Гораздо более привлекательным выглядит следующий вариант:<br/>
-Из доступной памяти каждому порту выделяется определённая небольшая часть — это <b>Dedicated Buffer</b>. За каждым портом кусочек памяти законодательно закреплён и не может быть использован другими портами. То есть при любых обстоятельствах у порта будет свой защищённый кусочек. Минимальный размер Dedicated Buffer зафиксирован и не настраивается.<br/>
+<br/>
+<a name="DEDICATED" rel="nofollow"></a><br/>
+<h4>Dedicated + Shared</h4>Из доступной памяти каждому порту выделяется определённая небольшая часть — это <b>Dedicated Buffer</b>. За каждым портом кусочек памяти законодательно закреплён и не может быть использован другими портами. То есть при любых обстоятельствах у порта будет свой защищённый кусочек. Минимальный размер Dedicated Buffer где-то настраивается, где-то нет. Но лучше без основательного понимания в дефолты не лезть.<br/>
 Доля каждого порта в абсолютных цифрах очень маленькая — порядка единиц кБ.<br/>
-Гарантируемый минимум выделяется как для хранения входящих пакетов, так и для выходящих.<br/>
+Гарантируемый минимум выделяется для хранения как входящих пакетов, так и выходящих.<br/>
 <br/>
 Остальная часть памяти как раз общая — <b>Shared Buffer</b> — может быть использована любым портом по мере необходимости. Из неё динамически выделяются куски для тех интерфейсов, которые испытывают перегрузку. <br/>
 Например, если чип пытается на один из интерфейсов передать больше трафика, чем тот способен отправлять в единицу времени, то эти пакеты сначала заполняют выделенный для этого порта буфер, а когда он заканчивается, автоматически начинают складываться в динамически выделенный буфер из общей памяти. Как только все пакеты обработаны, память освобождается.<br/>
@@ -970,21 +1056,24 @@ Cisco всё ещё делает классную документацию, а �
 <br/>
 Наличие Shared Buffer'а решает огромную проблему, позволяя сглаживать всплески трафика, когда перегрузку испытывает один или несколько интерфейсов.<br/>
 <br/>
-Однако одновременно с этим за общую память начинаются соревноваться разные порты одновременно. И серьёзная перегрузка на одном порту может вызвать потери на другом, которому нужно было всего лишь несколько килобайтов общей памяти, чтобы не дропнуть пакет.<br/>
+Однако вместе с тем за общую память начинаются соревноваться разные порты одновременно. И серьёзная перегрузка на одном порту может вызвать потери на другом, которому нужно было всего лишь несколько килобайтов общей памяти, чтобы не дропнуть пакет.<br/>
 Одним из способов облегчить эту ситуацию является увеличение выделенных буферов за счёт уменьшения общего.<br/>
 Но это всегда зона компромиссных решений — сокращая размер общей памяти, мы уменьшаем и объёмы всплесков, которые чип может сгладить.<br/>
 Кроме того <a href="#LLLL" rel="nofollow">Lossless трафик</a> требует к себе ещё более щепетильного отношения.<br/>
 <br/>
 Поэтому зачастую, помимо Dedicated и Shared буферов, резервируют ещё <b>Headroom buffers</b>.<br/>
-Это последний способ сохранить пакеты, когда даже общий буфер уже забит. Естественно, он тоже отрезается от общей памяти, поэтому на первый взгляд выглядит не очень логичным откусить от общей памяти кусок, назвать его по-другому и сказать, мол, мы всё оптимизировали.<br/>
+<br/>
+<a name="HEADROOM" rel="nofollow"></a><br/>
+<h4>Headroom buffers</h4>Это последний способ сохранить пакеты, когда даже общий буфер уже забит. Естественно, он тоже отрезается от общей памяти, поэтому на первый взгляд выглядит не очень логичным откусить от общей памяти кусок, назвать его по-другому и сказать, мол, мы всё оптимизировали.<br/>
 На самом деле Headroom буферы решают довольно специфическую задачу — помочь lossless приложениям с <b>PFC</b> — <a href="https://www.juniper.net/documentation/en_US/junos/topics/concept/cos-qfx-series-congestion-notification-understanding.html#jd0e554" target="_blank" rel="nofollow">Priority-based Flow Control</a>.<br/>
 <br/>
 PFC — это механизм Ethernet Pause, который умеет притормаживать не всю отправку, а только по конкретным приоритетам Ethernet CoS.<br/>
 Например, два приложения на отправителе: RoCE и репликация БД. Первое — чувствительная к задержкам и потерям вещь, второе — массивные данные.<br/>
-Коммутатор начал замечать заполнение общего буфера и отправил Pause для более низкого приоритета, тем самым притормозив репликацию, но не RoCE.<br/>
+Коммутатор, заметив заполнение общего буфера, отправляет Pause для более низкого приоритета, тем самым притормаживая репликацию, но не RoCE.<br/>
 Задача буфера Headroom здесь в том, чтобы сохранить те пакеты приоритетной очереди, что сейчас в кабеле, пока Pause летит к отправителю с просьбой притормозить.<br/>
 То есть пакеты репликации начнут дропаться, когда заполнится общий буфер, а пакеты RoCE будут складываться в Headroom. <br/>
-<br/>
+<blockquote>Помимо lossless headroom бывает и headroom для обычного трафика, чтобы помочь сохранить более приоритетный. Но это на домашнее задание.<br/>
+</blockquote><br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/buffer_types.svg" width="800"/><br/>
 <br/>
 При наступлении перегрузки буферы будут задействованы в следующем порядке.<br/>
@@ -998,20 +1087,45 @@ PFC — это механизм Ethernet Pause, который умеет при
 <br/>
 Например бродкомовские чипы (как минимум Trident и Tomahawk) имеют внутреннее разделение памяти по группам портов. Общая память делится на порт-группы по 4-8 портов, которые имеют свой собственный кусочек общего буфера. Порты из одной группы, соответственно буферизируют пакеты только в своём кусочке памяти и не могут занимать другие. Это тоже один из способов снизить влияние перегруженных портов друг на друга. Такой подход иногда называют <b>Segregated Buffer</b>.<br/>
 <br/>
-Mellanox выбирает другой подход — динамический контроль за использованием общего буфера. Вводится понятие регионов, каждый регион — это кортеж: (входной порт, Priority Group на входном порту, выходной порт, Traffic Class на выходном порту).<br/>
-Каждому региону назначается динамический порог, сколько памяти он может под себя подмять. При его превышении, очевидно, пакеты начинают дропаться, чтобы не влиять на другие регионы.<br/>
-Значение предела определяется коэффициентом <b>alpha</b> и рассчитывается по формуле. Далее я не буду углубляться. Но любознательному читателю стоит начать с <a href="https://community.mellanox.com/s/article/understanding-the-alpha-parameter-in-the-buffer-configuration-of-mellanox-spectrum-switches" target="_blank" rel="nofollow">документации Mellanox</a>.<br/>
+<a name="ADMISSION_CONTROL" rel="nofollow"></a><br/>
+<h4>Admission Control</h4>Admission Control — входной контроль — механизм, который следит за тем, можно ли пакет записывать в буфер. Он не является специфичным для Shared-буферов, просто в рамках статьи — это лучшее место, чтобы о нём рассказать.<br/>
 <br/>
-Кстати, чтобы показать своё превосходство над Broadcom, Mellanox заказал <a href="https://www.mellanox.com/related-docs/tolly/tolly-report-performance-evaluation-2016-march.pdf" target="_blank" rel="nofollow">независимые тесты у Tolly</a>.<br/>
-<img src="https://fs.linkmeup.ru/images/articles/buffers/mellanox_vs_spectrum.png" width="500"/><br/>
-<i>Выносить суждения не берусь.</i><br/>
+Формально Admission Control делится на Ingress и Egress.<br/>
+Задача <b>Ingress Admission Control</b> — во-первых, вообще убедиться, что в буфере есть место, а, во-вторых, обеспечить справедливое использование памяти.<br/>
+Это означает, что у каждого порта и очереди всегда должен быть гарантированный минимальный буфер. А ещё несколько входных портов не оккупируют целиком весь буфер, записывая в него всё новые и новые пакеты.<br/>
+<br/>
+Задача <b>Egress Admission Control</b> — помочь чипу абсорбировать всплески, не допустив того, чтобы один или несколько выходных портов забили целиком весь буфер, получая всё новые и новые пакеты с кучи входных портов.<br/>
+<br/>
+В случае Shared Buffer оба механизма срабатывают в момент первичного помещения пакета в буфер. То есть никакой двойной буферизации и проверки не происходит. <br/>
+<br/>
+Как именно понять, сколько буфера занято конкретным портом/очередью и главное, сколько ещё можно ему выдать?<br/>
+Это может быть статический порог, одинаковый для всех портов, а может быть и динамически меняющийся, регулируемый параметром <b>Alpha</b>.<br/>
+<br/>
+<a name="ALPHA" rel="nofollow"></a><br/>
+<h4>Alpha</h4>Итак, почти во всех современных чипах память распределяется динамически на основе информации о том, сколько общей памяти вообще свободно и сколько ещё можно выделить для данного порта/очереди.<br/>
+<br/>
+На самом деле минимальной единицей аккаунтинга является не порт/очередь, а регион (в терминологии Мелланокс). Регион — это кортеж: <i>(входной порт, Priority Group на входном порту, выходной порт, Traffic Class на выходном порту)</i>.<br/>
+<br/>
+Каждому региону назначается динамический порог, сколько памяти он может под себя подмять. При его превышении, очевидно, пакеты начинают дропаться, чтобы не влиять на другие регионы.<br/>
+Этот порог вычисляется по формуле, множителями которой являются объём свободной на данный момент памяти и параметр <b>alpha</b>, специфичный для региона и настраиваемый:<br/>
+<pre class="prettyprint"><code>Threshold [Bytes] = alpha * free_buffer [Bytes]</code></pre><br/>
+<br/>
+Его значение варьируется от 1/128 до примерно 8 с шагом х2. Чем больше эта цифра, тем больший объём свободной памяти доступен региону.<br/>
+Например, если на коммутаторе 32 региона, то: <br/>
+при alpha=1/64 каждому региону будет доступна 1/64 часть свободной памяти, и даже при максимальной утилизации они все смогут использовать только половину буфера.<br/>
+при alpha=1/32 вся память равномерно распределится между регионами, ни один из них не сможет влиять на другие, а при полной утилизации 100% памяти будет занято.<br/>
+при alpha=1/16 каждый регион может претендовать на больший объём памяти. И если все регионы разом начнут потреблять место, то им всем не хватит, потому что памяти потребовалось бы 200%. То есть это своего рода переподписка, позволяющая сглаживать всплески.<br/>
+<i>Предполагаем тут, что значение alpha одинаково для всех регионов, хотя оно может быть настроено отдельно для каждого.</i><br/>
+<br/>
+При получении каждого пакета, механизм Admission Control вычисляет актуальный порог для региона, которому принадлежит пакет. Если порог меньше размера пакета, тот отбрасывается.<br/>
+Если же больше, то он помещается в буфер и уже не будет отброшен никогда, даже если регион исчерпал все лимиты. Объём свободной памяти уменьшается на размер пакета.<br/>
+Это происходит для каждого приходящего на чип пакета.<br/>
 <hr/><br/>
 <br/>
-До недавних пор такая память была исключительно внутри чипа и исчислялась десятками МБ. Сегодня вендоры взяли за моду добавлять внешнюю память циклопических размеров, где можно схоронить хоть слона, но об этом <a href="#SHALLOW_VS_DIPPER" rel="nofollow">позже</a>.<br/>
+Написанное выше об Admission Control и Alpha может быть справедливо не только для Shared Buffers, но и для других архитектур, например, VoQ.<br/>
 <br/>
 <b>Дальнейшее чтиво:</b><br/>
-Если в жизни не хватает страданий: <a href="https://montazeri.iut.ac.ir/sites/montazeri.iut.ac.ir/files/file_pubwdet/32083_0.pdf" target="_blank" rel="nofollow">Design and Implementation of a Shared Memory Switch Fabric</a>.<br/>
-<hr/><br/>
+<ul><li>Если в жизни не хватает страданий: <a href="https://montazeri.iut.ac.ir/sites/montazeri.iut.ac.ir/files/file_pubwdet/32083_0.pdf" target="_blank" rel="nofollow">Design and Implementation of a Shared Memory Switch Fabric</a></li><li><a href="https://community.mellanox.com/s/article/understanding-the-alpha-parameter-in-the-buffer-configuration-of-mellanox-spectrum-switches" target="_blank" rel="nofollow">Understanding the Alpha Parameter in the Buffer Configuration of Mellanox Spectrum Switches</a></li><li>Programming Guide'ы коммерческих микросхем (NDA кровью, помним, да?).</li></ul><hr/><br/>
 <br/>
 Crossbar и Shared Buffer — это архитектуры, которые могут использоваться для устройств фиксированной конфигурации, но не подходят для модульных.<br/>
 Взглянем же теперь на них.<br/>
@@ -1031,7 +1145,7 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <img src="https://fs.linkmeup.ru/images/articles/buffers/oq.png" width="500"/><br/>
 <br/>
 И это правда так.<br/>
-Но есть одна фундаментальная проблема — в случае перегрузок пакеты будут приходить на Egress PFE, чтобы умирать. Они проделают весь огромный путь от входного интерфейса через фабрику коммутации до выходного буфера через фабрику для того, чтобы узнать, что мест нет и быть печально дропнутым. <br/>
+Но есть одна фундаментальная проблема — в случае перегрузок пакеты будут приходить на Egress PFE, чтобы умирать. Они проделают весь огромный путь от входного интерфейса через фабрику коммутации до выходного буфера через фабрику для того, чтобы узнать, что мест нет и быть печально дропнутыми.<br/>
 Это бессмысленная и бесполезная утилизация полосы пропускания фабрики.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/drop.svg" width="800"/><br/>
@@ -1046,12 +1160,12 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/iq.png" width="500"/><br/>
 <br/>
-Постойте! Как же входной чип узнает, что выходной интерфейс занят? <br/>
+Постойте! Как же входной чип узнает, что выходной интерфейс не занят? <br/>
 <br/>
 С точки зрения Data Plane никакой обратной связи, от выходного чипа входному, очевидно, нет. Распространение между ними информации, необходимой для лукапа (некстхопы, интерфейсы, заголовки) производится средствами медленного Control Plane — тоже не подойдёт. <br/>
 Так вот для сигнализации такой информации между линейными платами появляется арбитр. У разных вендоров он может быть реализован по-разному, но суть его в следующем — входной чип регулярно запрашивает у выходного разрешение на отправку нового блока данных. И пока он его не получит — держит пакеты в своём буфере, не отправляя их в фабрику.<br/>
-Соответственно выходной чип, получив такой запрос, смотрит на утилизацию выходного интерфейса и решает, готов ли он принять пакет. Если да — отправляет разрешение.<br/>
-Это на первый взгляд контринтуитивное поведение — каковы же накладные расходы на такой арбитраж, насколько это увеличивает задержки, если на отправку пакета данных нужно дождаться RTT в пределах коробки — пока запрос улетит на выходной чип и вернётся назад.<br/>
+Соответственно выходной чип, получив такой запрос, смотрит на утилизацию выходного интерфейса и решает, готов ли он принять пакет. Если да — отправляет разрешение (<b>Grant</b>).<br/>
+Это на первый взгляд контринтуитивное поведение — каковы же накладные расходы на такой арбитраж, насколько это увеличивает задержки, если на отправку пакета данных нужно дождаться RTT в пределах коробки — пока запрос улетит на выходной чип, пока тот обработает, пока ответ вернётся назад.<br/>
 Тут для меня начинается область магического искусства, но вендоры эту революцию успели совершить и есть масса платформ, на которых арбитр прекрасно со своей задачей справляется. <br/>
 Хотя обычно он применяется не для Input Queueing в описанном виде.<br/>
 Дело в том, что эффективность Input Queueing не очень высокая — очень часто придётся ждать, пока интерфейс освободится. Эх, прям вспоминается старый добрый Ethernet CSMA/CD.<br/>
@@ -1060,7 +1174,7 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <a name="CIOQ" rel="nofollow"></a><br/>
 <h3>Combined Input and Output Queueing</h3><br/>
 Гораздо выгоднее в этом плане разрешить буферизацию и на выходе.<br/>
-Тогда арбитр будет проверять не занятость интерфейса, а степень заполненности выходного буфера — а вероятность, что в нём есть место, гораздо выше.<br/>
+Тогда арбитр будет проверять не занятость интерфейса, а степень заполненности выходного буфера — вероятность, что в нём есть место, гораздо выше.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/cioq.png" width="700"/><br/>
 <br/>
@@ -1117,7 +1231,7 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <br/>
 Чуть позже мы поговорим о том, что такое хорошо, а что такое плохо. А пока посмотрим на реализации. <br/>
 <br/>
-<b>Shallow</b> — неглубокие — это буферы размером до 100МБ. Обычно это встроенная <b>on-chip</b> память — <b>OCB</b> — On-Chip Buffer.<br/>
+<b>Shallow</b> — неглубокие — это буферы размером до 100МБ. Обычно это встроенная в кристалл <b>on-chip</b> память — <b>OCB</b> — On-Chip Buffer.<br/>
 <b>Deep</b> — счёт уже идёт на гигабайты. Обычно <b>off-chip</b> и подключается к чипу по отдельной шине.<br/>
 И нет ничего посередине.<br/>
 <br/>
@@ -1132,7 +1246,7 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/trident4_memory.png" width="400"/><br/>
 <br/>
-Очевидно, что далеко не для всех задач такие маленькие буферы подходят. В частности модульные коробки с VOQ явно не могут позволить себе дробить 64 Мб на несколько тысяч очередей.<br/>
+Очевидно, что не для всех задач такие маленькие буферы подходят. В частности модульные коробки с VOQ явно не могут позволить себе дробить 64 Мб на несколько тысяч очередей (на самом деле <a href="#HYBRID_BUFFERING" rel="nofollow">могут</a>).<br/>
 <br/>
 Поэтому рынок предлагает решения с большой внешней памятью (Deep Buffers), размер которой начинается от 1ГБ (обычно от 4ГБ).<br/>
 Согласно <a href="https://people.ucsc.edu/~warner/buffer.html" target="_blank" rel="nofollow">этой таблице</a> существуют коммутаторы (Arista 7280QR-C48) с фантастическими 32-хгигабайтовыми буферами — это уже все сезоны Рика и Морти в неплохом качестве. Но это уже история про VOQ — всё-таки это память не одного чипа. На моём первом ПК такого объёма был жёсткий диск. <br/>
@@ -1150,14 +1264,18 @@ Crossbar и Shared Buffer — это архитектуры, которые мо
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/chipset_die.png" width="800"/><br/>
 <br/>
-А вот и фото:<br/>
-<img src="https://fs.linkmeup.ru/images/articles/buffers/hbm_photo.png" width="800"/><br/>
+А вот и фото Jericho2:<br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/hbm_photo.png" width="400"/><br/>
 <i><a href="https://people.ucsc.edu/~warner/Bufs/CSG-DNX-Switching-J2%20Feb%2016%202018.pdf" rel="nofollow">Источник</a>.</i><br/>
 <br/>
-Juniper QFX10000 использует чип <b>Q5</b> собственного производства с внешней памятью собственной разработки — <b>HMC</b> — Hybrid Memory Cube — в размере 4ГБ.<br/>
+Juniper QFX10000 использует чип <b>Q5</b> собственного производства с внешней памятью — <b>HMC</b> — Hybrid Memory Cube — в размере 4ГБ. HMC — это коммерческая память производства Micron, от которой ныне отказались в пользу HBM и GDDR6.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/juniper_hmc.png" width="500"/><br/>
 <i><a href="https://forums.juniper.net/t5/Enterprise-Cloud-and/Not-all-deep-buffer-switches-are-created-equal/ba-p/318393" target="_blank" rel="nofollow">Источник</a></i>.<br/>
+<br/>
+Фото чипа ZX EXPRESS:<br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/zx_asic.png" width="500"/><br/>
+<i><a href="https://senetsy.ru/upload/juniper-summit-2019/New_in_Routing_and_%20Switching_Andrey_Pinaev_Juniper.pdf" target="_blank" rel="nofollow">Источник</a>.</i><br/>
 <br/>
 А вот так выглядит сетевой процессор Cisco с внешней памятью:<br/>
 <br/>
@@ -1185,11 +1303,6 @@ Juniper QFX10000 использует чип <b>Q5</b> собственного 
 <blockquote>Данный параграф отменяет сказанное выше о том, что on-chip памяти не хватит для VOQ. Фактически в случае гибридной буферизации она всё же дробится на тысячи очередей очень маленькой длины, чтобы обеспечить VOQ. Просто в нормальных условиях этой длины хватает, чтобы пропускать трафик мимо внешней памяти. <br/>
 При этом в первую очередь начнёт офлоадиться на внешнюю память массивный трафик, идущий в низкоприоритетных очередях, а требовательный к задержками будет по-прежнему пролетать фаст-пасом.<br/>
 </blockquote><br/>
-Кстати, показательная таблица типичных задержек:<br/>
-<br/>
-<img src="https://fs.linkmeup.ru/images/articles/buffers/latencies.png" width="630"/><br/>
-<i><a href="https://people.ucsc.edu/~warner/Bufs/Buffering-WP_August_2017.pdf" target="_blank" rel="nofollow">Источник</a></i>.<br/>
-<br/>
 <hr/><br/>
 <br/>
 <a name="TRUE_EVIL" rel="nofollow"></a><br/>
@@ -1213,7 +1326,7 @@ Juniper QFX10000 использует чип <b>Q5</b> собственного 
 Википедия иронично замечает:<br/>
 <blockquote>Проект <a href="http://www.bufferbloat.net" rel="nofollow">www.bufferbloat.net</a> иронично определил этот термин, как «ухудшение производительности Интернета, вызванное предыдущими попытками её улучшения»<br/>
 </blockquote><br/>
-Отбросы — санитары сети. Ко всеобщему удивлению, уменьшение очереди до одного пакета зачастую может кардинально улучшить ситуацию, особенно в условиях датацентра (только не сочтите это за хороший совет).<br/>
+Отбросы — санитары сети. Ко всеобщему удивлению, уменьшение очереди до одного пакета зачастую может кардинально улучшить ситуацию, особенно в условиях датацентра (только не сочтите это за дельный совет).<br/>
 <br/>
 <blockquote>Справедливости ради следует заметить, что современные реализации TCP — BBR2, TIMELY ориентируются не только и не столько на потери, сколько на RTT и <a href="https://en.wikipedia.org/wiki/Bandwidth-delay_product" target="_blank" rel="nofollow">BDP</a>.<br/>
 Гугловый QUIC — надстройку над UDP — следует отнести сюда же. <br/>
@@ -1231,7 +1344,7 @@ Juniper QFX10000 использует чип <b>Q5</b> собственного 
 <br/>
 Итак, устройства с большим объёмом памяти годятся в места где заложена переподписка или могут появиться заторы.<br/>
 <br/>
-Что стоит отметить, так это то, что в датацентрах тоже есть ситуации, в которых 16/64 МБ буферов может не хватить, даже несмотря на отсутствие переподписки.<br/>
+Что стоит отметить, так это то, что в датацентрах тоже есть ситуации, в которых 16-64 МБ буферов может не хватить, даже несмотря на отсутствие переподписки.<br/>
 Два типичных примера — это обработка Big Data и Storage. <br/>
 <br/>
 <b>Анализ Big Data</b>. Кластера Map-Reduce — это сотни и тысячи машин, которые перемалывают параллельно огромные массивы данных по заданию Master-узла, заканчивают примерно одинаково и все разом начинают возвращать ответы на Master-узел. Ситуация называется <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.447.1375&rep=rep1&type=pdf" rel="nofollow">Incast</a>. Длится она порядка нескольких десятков миллисекунд и потом исчезает. <br/>
@@ -1250,39 +1363,55 @@ On-chip память неспособна вместить эти данные �
 <ul><li><a href="https://packetpushers.net/aristas-big-buffer-b-s/" target="_blank" rel="nofollow">Arista’s Big Buffer B.S.</a><br/>
 </li><li><a href="https://people.ucsc.edu/~warner/Bufs/incast.html" target="_blank" rel="nofollow">Incast</a><br/>
 </li><li><a href="http://miercom.com/pdf/reports/20160210.pdf" target="_blank" rel="nofollow">Speeding Applications in Data Center Networks. The Interaction of Buffer Size and TCP Protocol Handling and its Impact on Data-Mining and Large Enterprise IT Traffic Flows</a><br/>
-</li></ul><br/>
+</li></ul><hr/><br/>
+Кстати, показательная таблица типичных задержек:<br/>
+<br/>
+<img src="https://fs.linkmeup.ru/images/articles/buffers/latencies.png" width="630"/><br/>
+<i><a href="https://people.ucsc.edu/~warner/Bufs/Buffering-WP_August_2017.pdf" target="_blank" rel="nofollow">Источник</a></i>.<br/>
+<br/>
 <hr/><br/>
 <br/>
 <a name="LLLL" rel="nofollow"></a><br/>
 <h1>Low-latency lossless сети</h1><br/>
-С развитием RoCE, RDMA, nVME over Fabric к сети стали появляться другие, неслыханные доселе требования: и каждый пакет ценен и времени терять нельзя. Одновременно.<br/>
-И они оправданы — осуждать их мы здесь не будем.<br/>
+С развитием RoCE, RDMA, nVME over Fabric к сети стали появляться другие, неслыханные доселе требования: и каждый пакет ценен и времени терять нельзя. Одновременно. И хуже того, мы хотим по максимуму утилизировать имеющиеся линки, чтобы они не простаивали.<br/>
+И все требования оправданы — осуждать их мы здесь не будем.<br/>
 <br/>
 Так что же можно сделать? На самом деле, как я уже говорил выше, условия сети датацентра хороши тем, что информация о перегрузке очень быстро доносится до отправителей. Поэтому и реакция на потерянный пакет не заставит себя долго ждать.<br/>
 <br/>
-Но что если нам не отбрасывать пакет? Ведь прозорливые инженеры заложили в IP целых 8 бит под QoS, и только 6 мы задействовали по DSCP, а 2 бита были зарезервированы для целей <b>ECN — Explicit Congestion Notification</b>.<br/>
+Но что если нам не отбрасывать пакет, а каким-то другим способом сообщить отправителю, что нужно замедлиться? <br/>
+Здесь есть несколько конкурирующих подходов.<br/>
 <br/>
-Надолго забытый механизм сегодня извлекают из ящика стола, сдувают с него пыль, и вставляют в механизм, на котором нацарапано <a href="https://tools.ietf.org/html/rfc8257" target="_blank" rel="nofollow">DCTCP</a>.<br/>
-При этом классический TCP может обнаружить только уже существующую перегрузку, а DCTCP, используя ECN, узнаёт о том, что она только приближается и пробует её избежать. <br/>
+ECN-Based<br/>
+Bandwidth-Delay Product Based<br/>
+RTT-BASED<br/>
 <br/>
-Как это работает? И чем DCTCP отличается от обычного TCP?<br/>
+<h2>ECN-Based</h2><br/>
+Транзитное устройство, говтовящееся испытать перегрузку, явным образом сообщает отправителям о том, что нужно охладить свою страсть.<br/>
 <br/>
-Для начала все участники процесса должны поддерживать работу с ECN-полем в IP-заголовке.<br/>
+Прозорливые инженеры заложили в IP целых 8 бит под QoS, и только 6 мы задействовали под DSCP, а 2 бита были зарезервированы для целей <b>ECN — Explicit Congestion Notification</b>.<br/>
 <br/>
-Свитч/рутер фиксирует приближение перегрузки, выставляет флаг <b>CE</b> (<b>Congestion Encountered</b>) в поле ECN и отправляет пакет дальше.<br/>
-Получатель, увидев в пришедшем пакете этот флаг, начинает помечать всех исходящие TCP-сегменты этой сессии флагом <b>ECE</b> (<b>ECN-Echo</b>) в заголовке <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure" target="_blank" rel="nofollow">TCP</a>.<br/>
-Отправитель, получив ответный сегмент с флагом ECE, уменьшает своё окно перегрузки, выставляет в заголовок TCP флаг <b>CWR</b> (<b>Congestion Window Reduced</b>).<br/>
-Как только получатель видит в приходящих сегментах CWR, он перестаёт устанавливать ECE в каждый сегмент этой сессии.<br/>
+Надолго забытый механизм сегодня извлекают из ящика стола, сдувают с него пыль, и вставляют в шкатулку, на которой нацарапано или <a href="https://tools.ietf.org/html/rfc8257" target="_blank" rel="nofollow">DCTCP</a><br/>
 <br/>
-Как свитчу понять, что он близок к перегрузке? Да в общем-то так же, как и раньше — по заполненности очереди. Просто выставляются более строгие границы — например, при заполненности очереди на 20% начинать выставлять CE-бит тем же WRED'ом. То есть до перегрузки ещё далеко, но предпосылки уже есть.<br/>
+Транзитное устройство при заполнении буфера больше, чем до определённого порога, выставляет в заголовках IP обрабатываемых пакетов бит CE (Congestion Encountered) и отправляет пакет дальше.<br/>
+Получатель, увидев в пришедшем пакете этот флаг, сообщает отправителю о перегрузке и о том, что нужно снизить скорость.<br/>
 <br/>
-При этом как отправитель, так и получатель, очевидно, должны иметь реализацию TCP, которая умеет и в ECN, и в новые флаги TCP, и уменьшать окно перегрузки на нужное значение, и ко всему прочему в классические механизмы TCP, вроде детектирования перегрузок по потерям, Fast Retransmission, Fast Recovery итд — ведь не все получатели, и не все сетевые устройства умеют в DCTCP.<br/>
+Классический TCP может обнаружить только уже существующую перегрузку, а DCTCP, используя ECN, узнаёт о том, что она только приближается, и пробует её избежать. <br/>
 <br/>
-DCTCP — это не убийца TCP, он не призван занять место своего отца, ни в коей мере — у него очень узкое предназначение — работать в пределах датацентра, где и требуется low-latency lossless. При выходе на магистральные сети и уж тем более в публичные он уже практически неприменим и его использование, скорее, натворит бред.<br/>
-А это означает, что в настройках DCTCP нужно каким-то образом (например, по IP-префиксам) указать, с кем надо флиртовать через ECN, а от кого можно и кулаком получить.<br/>
+Есть и другие реализации TCP, поддерживающие ECN, например, HTCP.<br/>
 <br/>
-Что же до уменьшения окна перегрузки, то классический подход к использованию ECN никаким образом не регламентирует и не сигнализирует на сколько нужно уменьшить окно. Поэтому в DCTCP есть для этого дополнительный хитрый механизм, который даже не буду пытаться до читателя донести, потому что сам не читал — но вы дерзайте — всё в <a href="https://tools.ietf.org/html/rfc8257#section-4.2" rel="nofollow">RFC</a>.<br/>
+Нюанс с ECN-based Congestion Control механизмами в том, что до поры до времени они ничего не знают о надвигающейся перегрузке, а потом должен пройти ещё целый RTT, чтобы отправитель узнал, что какое-то транзитное устройство к ней близко. К тому времени, как отправители начнут снижать скорость, перегрузка уже может или рассосаться или наоборот дойти до уровня, когда начнутся дропы. <br/>
 <br/>
+<h2>Bandwidth-Delay Product Based</h2><br/>
+Другие реализации замеряют эффективную полосу сети совместно с RTT, то есть сколько можно ещё напихать в трубу до того, как это создаст затор и увеличит задержку.<br/>
+<br/>
+Примерами таких протоколов являются <a href="https://habr.com/ru/post/322430/" target="_blank" rel="nofollow">BBR</a> и <a href="https://www.hamilton.ie/net/draft-leith-tcp-htcp-00.txt" target="_blank" rel="nofollow">H-TCP</a>.<br/>
+<br/>
+<h2>RTT-BASED</h2><br/>
+В конце концов есть элегантные механизмы, которые замеряют время прохода трафика туда-обратно.<br/>
+Идея провальная для MAN/WAN-сегментов, и, честно говоря, при попытке программной вычисления RTT тоже.<br/>
+TIMELY от Google с аппаратным offload'ом вычисления RTT один из наиболее удачных примеров.<br/>
+<br/>
+На самом деле, если бы не видео с прекрасной девушкой, рассказывающей про технические детали TIMELY, не знаю даже стал ли бы я упоминать про него. Наслаждайтесь, но берегите уши: <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2829988.2787510&file=p537-mittal.webm&download=true" target="_blank" rel="nofollow">TIMELY: RTT-based Congestion Control for the Datacenter</a>.<br/>
 <hr/><br/>
 <br/>
 <a name="CHIPS_AND_DALES" rel="nofollow"></a><br/>
@@ -1317,9 +1446,6 @@ Broadcom делает уйму разных чипов уже тыщу лет.<b
 По назначению, грубо говоря, делятся они примерно так:<br/>
 Trident'ы на роль ToR'ов, где нужно немного интеллекта: EVPN, VXLAN, пожирнее FIB, побольше ACL.<br/>
 Tomahawk'и на роль Spine'ов — быстро перекладывать много пакетиков из одного интерфейса в другой.<br/>
-<br/>
-<img src="https://fs.linkmeup.ru/images/articles/buffers/tomahawk4.png" width="500"/><br/>
-<br/>
 Jericho — граница датацентра, где выход во внешний мир и DCI. Обычно тут не требуются сверхвысокие скорости, потому что основной трафик — это East-West в пределах ДЦ. Зато что здесь требуется, так это весь стек сетевых технологий, большие таблицы и глубокие буферы. VXLAN, MPLS, SR, L3VPN, различные Option'ы и всё прочее, что уже основательно забылось после <a href="https://linkmeup.ru/sdsm" rel="nofollow">СДСМ</a>.<br/>
 <br/>
 <img src="https://fs.linkmeup.ru/images/articles/buffers/jericho2.png" width="500"/><br/>
@@ -1331,9 +1457,8 @@ Jericho — граница датацентра, где выход во внеш
 </li><li><a href="https://www.youtube.com/watch?v=2HvxxK39BXM" target="_blank" rel="nofollow">Broadcom Trident4: Disrupting the Enterprise Data Center & Campus</a><br/>
 </li><li><a href="https://www.youtube.com/watch?v=B-COGMbaUg4" target="_blank" rel="nofollow">Broadcom Tomahawk4: Industry's Highest Bandwidth Chip</a><br/>
 </li><li><a href="https://www.youtube.com/watch?v=JUgyaSoErlQ" target="_blank" rel="nofollow">Jericho2: Driving Merchant Silicon Revolution</a><br/>
+</li><li><i>Хотел бы я, пожалуй, быть таким седовласым дедком, бегущим по лезвию современных технологий.</i><br/>
 </li></ul><br/>
-<blockquote>Хотел бы я, пожалуй, быть таким седовласым дедком, бегущим по лезвию современных технологий.<br/>
-</blockquote><br/>
 Кстати, будут у нас в гостях!<br/>
 <br/>
 <a name="MELLANOX" rel="nofollow"></a><br/>
@@ -1366,10 +1491,12 @@ Jericho — граница датацентра, где выход во внеш
 Чипы так же shallow-buffer и рассчитаны на спайны и лифы.<br/>
 <br/>
 Однако сегодня нельзя просто выйти на рынок и сказать «я лучше Бродкома, купите меня». Нужно что-то предложить.<br/>
-Barefoot предлагает программируемый Pipeline. Это позволяет, используя специальный язык программирования P4, полностью определять, что будет происходить с пакетом в коммутаторе. Можно написать свою логику без оглядки на существующие стандарты — выбросить Ethernet вообще, заглядывать на любую глубину заголовков, выискивать какие угодно флаги итд. Грубо говоря: если 4 бита со сдвигом от начала пакета в 16 бит равны 0110, то нужно поменять 8 бит со сдвигом 32 бита на 01001001 и отправить в интерфейс 100GE1/0.<br/>
+Barefoot предлагает <a href="#PROGRAMMABLE_PIPELINE" rel="nofollow">программируемый Pipeline</a>. Это позволяет, используя специальный язык программирования P4, полностью определять, что будет происходить с пакетом в коммутаторе. Можно написать свою логику без оглядки на существующие стандарты — выбросить Ethernet вообще, заглядывать на любую глубину заголовков, выискивать какие угодно флаги итд. Грубо говоря: если 4 бита со сдвигом от начала пакета в 16 бит равны 0110, то нужно поменять 8 бит со сдвигом 32 бита на 01001001 и отправить в интерфейс 100GE1/0.<br/>
 <br/>
 Эта гибкость позволяет как вендорам, так и (теоретически) конечным клиентам встраивать в ASIC свою логику, а не довольствоваться встроенными правилами. <br/>
 Впрочем programmable pipeline — это уже совсем <a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.1-P4-Soft-Net-Pub/HC29.21.100-P4-Tutorial.pdf" rel="nofollow">другая история</a>. <br/>
+<br/>
+Но сегодня программируемым конвейером хвастаются со сцен своих маркетинговых конференций уже почти все.<br/>
 <br/>
 К слову, в 2019-м Барефут был куплен Intel'ом.<br/>
 Кстати, <a href="https://linkmeup.ru/blog/452.html" rel="nofollow">были у нас в гостях</a>.<br/>
@@ -1389,16 +1516,16 @@ Barefoot предлагает программируемый Pipeline. Это п
 <br/>
 <a name="OTHER_VENDORS" rel="nofollow"></a><br/>
 <h3>Другие</h3><br/>
-Есть и другие игроки, не снискавште успеха среди гиперскейлеров.<br/>
+Есть и другие игроки, не снискавшие успеха среди гиперскейлеров.<br/>
 <br/>
 Один из примеров — это <b>Cavium</b>. Приходилось слышать? Это вендор, купленный не так давно Marvell'ом и производящий NP для энтерпрайз-маршрутизаторов и (!!) базовых станций.<br/>
 <br/>
 Буквально в феврале, кстати, появилась крайне любопытная новость: <a href="https://www.servethehome.com/ubiquiti-unifi-usw-leaf-overview-not-review-48x-25gbe-6x-100gbe-switch/" rel="nofollow">Ubiquiti UniFi USW-Leaf Overview 48x 25GbE and 6x 100GbE Switch</a>.<br/>
 Современный Leaf-коммутатор с 30ГБ SSD за $2000.<br/>
-Немного пораскрутив публикацию, я обнаружил, что внутри бьётся некий Taurus, разработанный <b>Nephos</b> — дочерней компанией MediaTek. И у них даже вполне любопытное <a href="http://www.nephosinc.com/nps/products/" rel="nofollow">портфолио</a>.<br/>
+Немного пораскрутив публикацию, я обнаружил, что внутри сокрыт некий Taurus, разработанный <b>Nephos</b> — дочерней компанией MediaTek. И у них даже вполне любопытное <a href="http://www.nephosinc.com/nps/products/" rel="nofollow">портфолио</a>.<br/>
 С такой ценой, возможно, появляется новый игрок на рынке.<br/>
 <br/>
-Для полноты картины приведу так же парчоку малоизвестных компаний, которые производят низкоскоростные чипы коммутации на FPGA:<br/>
+Для полноты картины приведу так же парочку малоизвестных компаний, которые производят низкоскоростные чипы коммутации на FPGA:<br/>
 <ul><li><a href="https://www.ethernitynet.com/products/socs/network-co-processors/" target="_blank" rel="nofollow">Ethernity Networks</a></li><li><a href="https://www.arrivetechnologies.com/ipcorecarrierethernet" target="_blank" rel="nofollow">Arrive Technologies</a></li></ul><br/>
 Нашлось, кстати, тут место и для отечественных разработок.<br/>
 Например, вот такого малыша вместе с отладочным комплектом можно приобрести себе для доморощенного L2-коммутатора:<br/>
@@ -1425,31 +1552,30 @@ Barefoot предлагает программируемый Pipeline. Это п
 В первую очередь это, конечно, легендарный <b><a href="https://www.juniper.net/us/en/local/pdf/whitepapers/2000331-en.pdf" target="_blank" rel="nofollow">ASIC Trio</a></b>, который бьётся внутри всех маршрутизаторов MX и коммутаторов EX.<br/>
 Марат Бабаян в своё время написал <a href="https://habr.com/ru/post/307696/" target="_blank" rel="nofollow">прекрасную статью</a> о его работе.<br/>
 <br/>
-Внутри их магистральных коробок — <b>ASIC Express</b>.<br/>
+Внутри их магистральных коробок — <b>ASIC Express</b> (ZX, TRITON).<br/>
 А датацентровые коммутаторы, вроде QFX 10000, заряжены чипом <b>Q5</b>.<br/>
 <br/>
 <a name="AHUWEI" rel="nofollow"></a><br/>
 <h3>Huawei</h3><br/>
 У этих ребят тоже давняя история разработки своих чипов.<br/>
-Когда-то начиналось с интеловских асиков, потом были эксперименты с чипом Marvell, а потом карта пошла. И новые поколения сетевых процессоров стали появляться один за другим.<br/>
+Когда-то начиналось с интеловских асиков, потом были эксперименты с чипом Marvell, а потом масть пошла. И новые поколения сетевых процессоров стали появляться один за другим.<br/>
 Они отличаются от поколения к поколению, от класса к классу, от серии к серии.<br/>
-Но для внешней людей их объединили в два класса: <br/>
+Но для внешней людей их объединили в две линейки: <br/>
 <ul><li><b>Ascend</b> для датацентров</li><li><b>Solar</b> для провайдеров и операторов</li></ul><br/>
 <a name="SISCO" rel="nofollow"></a><br/>
 <h3>Cisco</h3><br/>
 Можно сказать, что новейшие линейки программируемых чипов это:<br/>
-<b>Cisco Silicon One</b>, установленный в линейку <a href="https://www.cisco.com/c/en/us/products/routers/8000-series-routers/index.html#~services" target="_blank" rel="nofollow">Cisco 8000</a>.<br/>
-<ul><li><b>UADP</b> — Unified Access Data Plane — программируемый ASIC для каталист и некоторых нексусов</li><li><b>QFP</b> — Quantum Flow Processor — для ASR и ESP</li></ul><br/>
+<ul><li><b>Cisco Silicon One</b>, установленный в линейку <a href="https://www.cisco.com/c/en/us/products/routers/8000-series-routers/index.html#~services" target="_blank" rel="nofollow">Cisco 8000</a>.</li><li><b>UADP</b> — Unified Access Data Plane — программируемый ASIC для каталист и некоторых нексусов</li><li><b>QFP</b> — Quantum Flow Processor — для ASR и ESP</li></ul><br/>
 А в глубине веков начинается такой, зоопарк, что я просто кину несколько, даже не пытаясь докопаться до глубин:<br/>
 <ul><li>Sasquatch, Strider — каталисты 29хх и 3ххх</li><li>K1, K2, K5, K10 — каталисты 4000 и 4500</li><li>EARL1&gt;EARL8 — ещё разнообразные каталисты и Nexus 7000</li><li>Monticello — Nexus 3548</li><li>Big Sur — Nexus 6000</li><li>F3 — Nexus 7000/7700</li><li>nPower X1 — сетевой процессор для NCS.</li></ul><br/>
-<a href="https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2016/pdf/BRKARC-3467.pdf" target="_blank" rel="nofollow">Замечательные слайды</a>, кстати, о производстве чипов и их устройстве.<br/>
+<a href="https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2016/pdf/BRKARC-3467.pdf" target="_blank" rel="nofollow">Замечательные слайды</a>, кстати, о производстве цискиных чипов и их устройстве.<br/>
 <br/>
 И <a href="https://people.ucsc.edu/~warner/Bufs/BRKDCN-3734.pdf" target="_blank" rel="nofollow">слайды</a> про использование рыночных чипов в нексусах и их (чипов) архитектуру.<br/>
 <br/>
 <a name="OURS" rel="nofollow"></a><br/>
 <h3>Отечественная микроэлектроника</h3><br/>
 Похвастаться терабитами, увы не можем, но вот есть 88Гб/с L3-коммутатор от «Цифровых решений» с поддержкой 1Гб/с, 10 Гб/с портов на собственном FPGA: <a href="https://dsol.ru/telecommunication/switches/" target="_blank" rel="nofollow">Феникс-1/10G</a>.<br/>
-Обещали на базе этого FPGA потом выпусить ASIC, но чем история закончилась неисзвестно.<br/>
+Обещали на базе этого FPGA потом выпустить ASIC, но чем история закончилась неизвестно.<br/>
 <br/>
 <hr/><br/>
 <a name="MERCHANTS_VS_CUSTOMERS" rel="nofollow"></a><br/>
@@ -1483,7 +1609,7 @@ Juniper QFX5xxx и Huawei Cloud Engine — бродкомовские.<br/>
 В общем, хорошо, что мы находимся сейчас в ситуации высококонкурентного рынка, и мы каждые полтора-два года можем получать ещё более мощные коммутаторы по ещё более низким ценам. <br/>
 <br/>
 <hr/><br/>
-Ну а если вдруг вам надоели все эти наши Клозы и масс-маркет-силиконы, и душа просит чего-то совсем экзотического, то вот почитайте, как строятся <a href="https://fuse.wikichip.org/news/3293/inside-rosetta-the-engine-behind-crays-slingshot-exascale-era-interconnect/" target="_blank" rel="nofollow">суперкомьютеры для High Performance Computing'а</a>.<br/>
+Ну а если вдруг вам надоели все эти наши Клозы и масс-маркет-силиконы, и душа просит чего-то совсем экзотического, то вот почитайте, как строятся <a href="https://fuse.wikichip.org/news/3293/inside-rosetta-the-engine-behind-crays-slingshot-exascale-era-interconnect/" target="_blank" rel="nofollow">суперкомпьютеры для High Performance Computing'а</a>.<br/>
 <br/>
 <hr/><br/>
 <br/>
@@ -1505,6 +1631,10 @@ Juniper QFX5xxx и Huawei Cloud Engine — бродкомовские.<br/>
 </li><li><a href="https://www.nextplatform.com/2019/12/12/broadcom-launches-another-tomahawk-into-the-datacenter/" target="_blank" rel="nofollow">Broadcom Launches Another Tomahawk Into The Datacenter</a><br/>
 </li><li><a href="https://platformlab.stanford.edu/Seminar%20Talks/programming_line_rate_switches.pdf" target="_blank" rel="nofollow">Programmable Pipeline</a><br/>
 </li><li><a href="https://seekingalpha.com/article/4276568-important-development-of-this-century" target="_blank" rel="nofollow">The Most Important Development Of This Century</a><br/>
+</li></ul></li><li><b>Программируемость</b><br/>
+<ul><li><a href="http://klamath.stanford.edu/~nickm/papers/ancs48-gibb.pdf" target="_blank" rel="nofollow">Design Principles for Packet Parsers</a>.<br/>
+</li><li><a href="https://www2.cs.duke.edu/courses/fall19/compsci514/papers/rmt-sigcomm2013.pdf" target="_blank" rel="nofollow">Fast Programmable Match-Action Processing in Hardware for SDN</a><br/>
+</li><li><a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.1-P4-Soft-Net-Pub/HC29.21.100-P4-Tutorial.pdf" rel="nofollow">P4 Tutorial, Hot Chips 2017</a><br/>
 </li></ul></li><li><b>Архитектура памяти</b><br/>
 <ul><li><a href="https://people.ucsc.edu/~warner/buffer.html" target="_blank" rel="nofollow">Packet Buffers</a>. Отсюда по ссылкам разворачиваются разнообразные материалы очень глубоко<br/>
 </li><li><a href="https://people.ucsc.edu/~warner/Bufs/Buffering-WP_August_2017.pdf" target="_blank" rel="nofollow">An Update on Router Buffering</a><br/>
@@ -1531,15 +1661,14 @@ Juniper QFX5xxx и Huawei Cloud Engine — бродкомовские.<br/>
 </li></ul></li></ul><hr/><br/>
 <br/>
 <h1>Заключение</h1><br/>
-Что ещё сказать после полутора тысяч строк? Только то, что многое из того, что вы прочитали в этот раз — частные случаи, которые могут быть (и будут) несправедливых в других ситуациях.<br/>
+Что ещё сказать после ста двадцати трёх тысяч символов? Только то, что многое из того, что вы прочитали в этот раз — частные случаи, которые могут быть (и будут) несправедливых в других ситуациях.<br/>
 Как только сетевой инженер смещает свой фокус со стандартизированных протоколов в область обработки пакетов, он падает в пропасть бесконечных компромиссов, где нет универсальных ответов, нет RFC, нет исчерпывающих мануалов. И чем <a href="https://pikabu.ru/story/naskolko_gluboka_yeta_peshchera_7041398" target="_blank" rel="nofollow">глубже</a> он падает, тем страшнее становится разнообразие деталей и нюансов.<br/>
 <br/>
 Эта статья планировалась небольшой заметкой о буферах — хотелось копнуть неглубокую ямку и выяснить, чем отличаются Shallow Buffer от Deep. Всё началось с небольшой <a href="https://people.ucsc.edu/~warner/buffer.html" target="_blank" rel="nofollow">странички</a>, подбивающей информацию о размерах буферов. А потом ссылочка за ссылочкой и размотался клубок. Стало понятно, что без разбора типов чипов не обойтись, дальше пришлось углубиться в архитектуру. Здесь бы и тормознуть, но верёвка уже оборвалась. <br/>
-<br/>
 <hr/><br/>
 <br/>
 <h1>Спасибы</h1><br/>
-<ul><li>Андрею Глазкову за рецензию и дельные замечания о SerDes, Shared Buffers и коммерческих чипах</li><li>Михаилу Соколову за разъяснения об устройстве чипов, SerDes и Silicon Photonics</li><li>Артёму Чернобаю за главную иллюстрацию</li></ul><br/>
+<ul><li>Андрею Глазкову (glazgoo) за рецензию и дельные замечания о коммерческих чипах</li><li>Михаилу Соколову (insektazz) за ликбез по устройству чипов, SerDes и Silicon Photonics</li><li>Александру Клименко (v0lk) за обнаружение точек роста в вопросах Pipeline'ов</li><li>Александру Азимову (mitradir) за комментарии о Lossless Ethernet</li><li>Дмитрию Афанасьеву (fl0w) за дополнения ко всем частям статьи</li><li>Артёму Чернобаю за КДПВ</li></ul><br/>
 <blockquote>Особо благодарных просим задержаться и пройти на <a href="https://www.patreon.com/linkmeup?ty=h" target="_blank" rel="nofollow">Патреон</a>.<br/>
 <a href="https://www.patreon.com/linkmeup?ty=h" target="_blank" rel="nofollow"><img src="https://fs.linkmeup.ru/images/patreon.jpg" width="400"/></a><br/>
 </blockquote>
@@ -1592,7 +1721,6 @@ Juniper QFX5xxx и Huawei Cloud Engine — бродкомовские.<br/>
                                                                                                                                         
                                                                                                                                             vote-nobuttons
                                                                                                                                         
-                                                                                                                                            vote-not-expired
                                                                     
                                                                     js-infobox-vote-topic">
                     <div class="vote-item vote-down" onclick="return ls.vote.vote(537,this,-1,'topic');"><span><i></i></span></div>
@@ -1810,15 +1938,15 @@ Juniper QFX5xxx и Huawei Cloud Engine — бродкомовские.<br/>
                 </td>
                 <td>
                     <h4>Cache</h4>
-                    query: <strong>53</strong><br />
-                    &mdash; set: <strong>8</strong><br />
+                    query: <strong>54</strong><br />
+                    &mdash; set: <strong>9</strong><br />
                     &mdash; get: <strong>27</strong><br />
-                    time: <strong>0,08044</strong>
+                    time: <strong>0,08496</strong>
                 </td>
                 <td>
                     <h4>PHP</h4>    
-                    time load modules: <strong>0,009</strong><br />
-                    full time: <strong>0,122</strong>
+                    time load modules: <strong>0,011</strong><br />
+                    full time: <strong>0,13</strong>
                 </td>
                 
             </tr>
