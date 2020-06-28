@@ -1,2 +1,0 @@
-# GRE over IPSec
-
