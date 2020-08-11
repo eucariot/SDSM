@@ -4,9 +4,30 @@
 
 Итак, переходим к практике. Для начала внесем некоторые изменения в топологию — добавим избыточные линки. Учитывая сказанное в самом начале, вполне логично было бы сделать это в московском офисе в районе серверов — там у нас свич msk-arbat-asw2 доступен только через asw1, что не есть гуд. Мы отбираем \(пока, позже возместим эту потерю\) гигабитный линк, который идет от msk-arbat-dsw1 к msk-arbat-asw3, и подключаем через него asw2. Asw3 пока подключаем в порт Fa0/2 dsw1. Перенастраиваем транки:
 
-> msk-arbat-dsw1\(config\)\#interface gi1/2 msk-arbat-dsw1\(config-if\)\#description msk-arbat-asw2 msk-arbat-dsw1\(config-if\)\#switchport trunk allowed vlan 2,3 msk-arbat-dsw1\(config-if\)\#int fa0/2 msk-arbat-dsw1\(config-if\)\#description msk-arbat-asw3 msk-arbat-dsw1\(config-if\)\#switchport mode trunk msk-arbat-dsw1\(config-if\)\#switchport trunk allowed vlan 2,101-104
->
-> msk-arbat-asw2\(config\)\#int gi1/2 msk-arbat-asw2\(config-if\)\#description msk-arbat-dsw1 msk-arbat-asw2\(config-if\)\#switchport mode trunk msk-arbat-asw2\(config-if\)\#switchport trunk allowed vlan 2,3 msk-arbat-asw2\(config-if\)\#no shutdown
+> msk-arbat-dsw1\(config\)\#interface gi1/2 
+
+> msk-arbat-dsw1\(config-if\)\#description msk-arbat-asw2 
+
+> msk-arbat-dsw1\(config-if\)\#switchport trunk allowed vlan 2,3 
+
+> msk-arbat-dsw1\(config-if\)\#int fa0/2 
+
+> msk-arbat-dsw1\(config-if\)\#description msk-arbat-asw3 
+
+> msk-arbat-dsw1\(config-if\)\#switchport mode trunk 
+
+> msk-arbat-dsw1\(config-if\)\#switchport trunk allowed vlan 2,101-104
+
+
+> msk-arbat-asw2\(config\)\#int gi1/2 
+
+> msk-arbat-asw2\(config-if\)\#description msk-arbat-dsw1 
+
+> msk-arbat-asw2\(config-if\)\#switchport mode trunk 
+
+> msk-arbat-asw2\(config-if\)\#switchport trunk allowed vlan 2,3 
+
+> msk-arbat-asw2\(config-if\)\#no shutdown
 
 Не забываем вносить все изменения в документацию!
 
