@@ -112,7 +112,7 @@
     * [NAT-Traversal](7.-vpn/5.-dmvpn/3.-nat-traversal.md)
     * [Задача 6](7.-vpn/5.-dmvpn/zadacha-6.md)
   * [TShoot IPSec](7.-vpn/6.-tshoot-ipsec.md)
-  * [MTY](7.-vpn/7.-mtu.md)
+  * [MTU](7.-vpn/7.-mtu.md)
   * [Материалы выпуска](7.-vpn/8.-materialy.md)
   * [Полезные ссылки](7.-vpn/9.-links.md)
 * [8. BGP и IP SLA](8.-bgp-i-ip-sla/README.md)
