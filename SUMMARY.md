@@ -117,7 +117,7 @@
   * [Полезные ссылки](7.-vpn/9.-links.md)
 * [8. BGP и IP SLA](8.-bgp-i-ip-sla/README.md)
   * [Автономные системы](8.-bgp-i-ip-sla/0.-as.md)
-  * [PI и PA адреса](8.-bgp-i-ip-sla/pi-i-pa-adresa.md)
+  * [PI и PA адреса](8.-bgp-i-ip-sla/1.-pi-i-pa-adresa.md)
   * [BGP](8.-bgp-i-ip-sla/2.-bgp/README.md)
     * [Теория](8.-bgp-i-ip-sla/2.-bgp/0.-bgp.md)
     * [Установление BGP-сессии и процедура обмена маршрутами](8.-bgp-i-ip-sla/2.-bgp/1.-ystanovlenie-bgp-sessii-procedura-obmena-marshrutami.md)
