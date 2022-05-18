@@ -42,7 +42,7 @@
 > Keepalive not set  
 > **Tunnel source 100.0.0.1, destination 200.0.0.1**
 
-3\) Понимая, что это GRE-туннель, добавляет к пакету заголове GRE:
+3\) Понимая, что это GRE-туннель, добавляет к пакету заголовок GRE:
 
 ![](http://img-fotki.yandex.ru/get/6424/83739833.23/0_abb48_253de2d4_L.jpg)
 
