@@ -14,7 +14,7 @@
 * [Протокол PIM](https://github.com/eucariot/SDSM/tree/3980ebc949c706312c92a0770d22501121795c27/9.-multicast/9.-multicast.md#PIM)
   * [PIM Dense Mode](2.-pim/0.-pim-dense-mode.md)
   * [Pim Sparse Mode](2.-pim/1.-pim-sparse-mode.md)
-  * [SPT Switchover — переключение RPT-SPT](2.-pim/razbor-polyotov/spt-switchover-pereklyuchenie-rpt-spt.md)
+  * [SPT Switchover — переключение RPT-SPT](2.-pim/3.-razbor-poletov/2.-spt-switchover-perekluchenie-rpt-spt.md)
   * [DR, Assert, Forwarder](2.-pim/dr-assert-forwarder.md)
   * [Автоматический выбор RP](2.-pim/vybor-rp.md)
   * [SSM](3.-ssm.md)
