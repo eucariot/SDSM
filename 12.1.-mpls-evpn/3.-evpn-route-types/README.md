@@ -2,20 +2,17 @@
 
 В данный момент времени еще обмена пакетами между CE маршрутизаторами не производилось (естественно, CDP и прочие радости отключены, дабы в сеть не улетало что то лишнее), поэтому ни один из PE маршрутизаторов не изучил ни одного MAC-адреса. Это можно проверить:
 
-{% code overflow="wrap" %}
 ```
 bormoglotx@RZN-PE-1> show evpn instance RZN-VPN-1 brief
                             Intfs       IRB intfs         MH      MAC addresses
 Instance                    Total   Up  Total   Up  Nbrs  ESIs    Local  Remote
 RZN-VPN-1                       1    1      0    0     2     0        0       0
 ```
-{% endcode %}
 
 Из данного вывода мы можем узнать, что всего в данном routing-instance 1 интерфейс и он в активном состоянии, IRB интерфейсов у нас нет (о них позже). Мы видим двух соседей (по нашей схеме это PE2 и PE3), а также что нами еще не изучен ни один MAC-адрес (local — это MAC-адреса, локальные для данного PE маршрутизатора, а remote — это MAC-адреса, полученные от соседних PE маршрутизаторов).
 
 Теперь посмотрим, какие маршруты у нас есть в таблице маршрутизации данной routing-instance:
 
-{% code overflow="wrap" %}
 ```
 bormoglotx@RZN-PE-1> show route table RZN-VPN-1.evpn.0
 
@@ -34,7 +31,6 @@ RZN-VPN-1.evpn.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
                       AS path: I, validation-state: unverified
                     > to 10.62.0.1 via ge-0/0/0.0, Push 299776
 ```
-{% endcode %}
 
 У нас всего три маршрута, причем первый локальный для PE1. Что же это за маршруты и зачем они нужны? Давайте разбираться. В EVPN существует всего 5 типов маршрутов:
 
