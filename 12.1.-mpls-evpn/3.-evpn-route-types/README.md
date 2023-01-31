@@ -2,7 +2,7 @@
 
 В данный момент времени еще обмена пакетами между CE маршрутизаторами не производилось (естественно, CDP и прочие радости отключены, дабы в сеть не улетало что то лишнее), поэтому ни один из PE маршрутизаторов не изучил ни одного MAC-адреса. Это можно проверить:
 
-```
+```code
 bormoglotx@RZN-PE-1> show evpn instance RZN-VPN-1 brief
                             Intfs       IRB intfs         MH      MAC addresses
 Instance                    Total   Up  Total   Up  Nbrs  ESIs    Local  Remote
@@ -13,7 +13,7 @@ RZN-VPN-1                       1    1      0    0     2     0        0       0
 
 Теперь посмотрим, какие маршруты у нас есть в таблице маршрутизации данной routing-instance:
 
-```
+```code
 bormoglotx@RZN-PE-1> show route table RZN-VPN-1.evpn.0
 
 RZN-VPN-1.evpn.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
